@@ -1,0 +1,880 @@
+{
+    "s3_url": "https://d35q6xank26gdf.cloudfront.net/e525b742-d002-4d87-a4b8-1496a002e715/Pedigree%20Day2_31.jpg",
+    "original_json": {
+        "json": [
+            {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "1",
+            "level": 0,
+            "center": [
+                1627,
+                999
+            ],
+            "status": 1,
+            "partners": [
+                "2"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "top_level": true,
+            "coordinates": [
+                1549,
+                929,
+                1705,
+                1069
+            ],
+            "display_name": "Anjali"
+        },
+        {
+            "sex": "F",
+            "name": "2",
+            "level": 0,
+            "center": [
+                1975,
+                1000.5
+            ],
+            "carrier": true,
+            "divorced": [
+                "3"
+            ],
+            "partners": [
+                "1",
+                "3"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "top_level": true,
+            "coordinates": [
+                1912,
+                936,
+                2038,
+                1065
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "3",
+            "level": 0,
+            "center": [
+                2387.5,
+                1010.5
+            ],
+            "shading": [
+                "top-half-filled"
+            ],
+            "diseases": [],
+            "divorced": [
+                "2"
+            ],
+            "partners": [
+                "4",
+                "2"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "top_level": true,
+            "coordinates": [
+                2312,
+                939,
+                2463,
+                1082
+            ],
+            "display_name": "Ajay"
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "4",
+            "level": 0,
+            "center": [
+                2819,
+                1020.5
+            ],
+            "shading": [
+                "filled female"
+            ],
+            "diseases": [],
+            "partners": [
+                "3"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "top_level": true,
+            "coordinates": [
+                2760,
+                962,
+                2878,
+                1079
+            ],
+            "display_name": "Aarti"
+        },
+        {
+            "age": "",
+            "dob": "17-09-1943",
+            "sex": "M",
+            "name": "5",
+            "level": 1,
+            "center": [
+                1270,
+                1429.5
+            ],
+            "father": "1",
+            "mother": "2",
+            "proband": false,
+            "shading": [
+                "diagonal-checkered"
+            ],
+            "diseases": [],
+            "partners": [
+                "6"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": true,
+            "coordinates": [
+                1219,
+                1371,
+                1321,
+                1488
+            ],
+            "display_name": "Asun"
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "6",
+            "level": 1,
+            "center": [
+                1537,
+                1415.5
+            ],
+            "father": "1",
+            "mother": "2",
+            "partners": [
+                "5"
+            ],
+            "siblings": [
+                "8",
+                "9"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                1492,
+                1365,
+                1582,
+                1466
+            ],
+            "display_name": "Rani"
+        },
+        {
+            "sex": "M",
+            "name": "7",
+            "level": 1,
+            "center": [
+                1791.5,
+                1436.5
+            ],
+            "father": "1",
+            "mother": "2",
+            "status": 1,
+            "partners": [],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                1735,
+                1380,
+                1848,
+                1493
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "8",
+            "level": 1,
+            "center": [
+                2006,
+                1427
+            ],
+            "father": "1",
+            "mother": "2",
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "6",
+                "9"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                1955,
+                1368,
+                2057,
+                1486
+            ],
+            "display_name": "Megha"
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "9",
+            "level": 1,
+            "center": [
+                2265,
+                1452
+            ],
+            "father": "1",
+            "mother": "2",
+            "shading": [
+                "top-half-strokes"
+            ],
+            "diseases": [],
+            "partners": [
+                "10"
+            ],
+            "siblings": [
+                "6",
+                "8"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                2206,
+                1393,
+                2324,
+                1511
+            ],
+            "display_name": "Rohan"
+        },
+        {
+            "age": "",
+            "dob": "23/11/1971",
+            "sex": "F",
+            "name": "10",
+            "level": 1,
+            "center": [
+                2519,
+                1457
+            ],
+            "father": "3",
+            "mother": "4",
+            "carrier": true,
+            "shading": [],
+            "diseases": [],
+            "partners": [
+                "9"
+            ],
+            "siblings": [
+                "11"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "stillbirth": false,
+            "coordinates": [
+                2468,
+                1399,
+                2570,
+                1515
+            ],
+            "termination": false,
+            "display_name": "Ruhir",
+            "ongoing_pregnancy": false
+        },
+        {
+            "name": "11",
+            "level": 1,
+            "center": [
+                2878.5,
+                1463.5
+            ],
+            "father": "3",
+            "mother": "4",
+            "partners": [],
+            "siblings": [
+                "10"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                2810,
+                1407,
+                2947,
+                1520
+            ],
+            "miscarriage": true
+        },
+        {
+            "sex": "F",
+            "name": "12",
+            "level": 2,
+            "center": [
+                926.5,
+                1906
+            ],
+            "father": "5",
+            "mother": "6",
+            "partners": [
+                "13"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": true,
+            "coordinates": [
+                865,
+                1839,
+                988,
+                1973
+            ]
+        },
+        {
+            "age": "",
+            "dob": "23/01/1991",
+            "sex": "M",
+            "name": "13",
+            "level": 2,
+            "center": [
+                1262,
+                1916
+            ],
+            "father": "5",
+            "mother": "6",
+            "shading": [
+                "top-half-filled"
+            ],
+            "diseases": [],
+            "partners": [
+                "12"
+            ],
+            "siblings": [
+                "14",
+                "15",
+                "16"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                1199,
+                1853,
+                1325,
+                1979
+            ],
+            "display_name": "Amar"
+        },
+        {
+            "sex": "F",
+            "name": "14",
+            "level": 2,
+            "center": [
+                1430,
+                1905
+            ],
+            "father": "5",
+            "mother": "6",
+            "partners": [],
+            "siblings": [
+                "13",
+                "15",
+                "16"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                1375,
+                1847,
+                1485,
+                1963
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "15",
+            "level": 2,
+            "center": [
+                1621.5,
+                1907.5
+            ],
+            "father": "5",
+            "mother": "6",
+            "shading": [
+                "filled female"
+            ],
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "13",
+                "14",
+                "16"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                1567,
+                1851,
+                1676,
+                1964
+            ],
+            "display_name": ""
+        },
+        {
+            "sex": "M",
+            "name": "16",
+            "level": 2,
+            "center": [
+                1829,
+                1933.5
+            ],
+            "father": "5",
+            "mother": "6",
+            "partners": [
+                "17"
+            ],
+            "siblings": [
+                "13",
+                "14",
+                "15"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                1764,
+                1865,
+                1894,
+                2002
+            ]
+        },
+        {
+            "age": "",
+            "dob": "11-12-1992",
+            "sex": "F",
+            "name": "17",
+            "level": 2,
+            "center": [
+                2248.5,
+                1927.5
+            ],
+            "father": "9",
+            "mother": "10",
+            "proband": true,
+            "diseases": [],
+            "partners": [
+                "16"
+            ],
+            "siblings": [
+                "18"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                2197,
+                1868,
+                2300,
+                1987
+            ],
+            "display_name": "Rakhi"
+        },
+        {
+            "sex": "U",
+            "name": "18",
+            "level": 2,
+            "center": [
+                2455,
+                1939
+            ],
+            "father": "9",
+            "mother": "10",
+            "partners": [],
+            "siblings": [
+                "17"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                2390,
+                1865,
+                2520,
+                2013
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "19",
+            "level": 2,
+            "center": [
+                2688,
+                1952.5
+            ],
+            "father": "9",
+            "mother": "10",
+            "shading": [
+                "top-half-filled"
+            ],
+            "diseases": [],
+            "partners": [
+                "20"
+            ],
+            "siblings": [
+                "20"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "adopted_in": true,
+            "coordinates": [
+                2627,
+                1897,
+                2749,
+                2008
+            ],
+            "display_name": "Karan"
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "20",
+            "level": 2,
+            "center": [
+                2958,
+                1954.5
+            ],
+            "father": "9",
+            "mother": "10",
+            "carrier": true,
+            "diseases": [],
+            "partners": [
+                "19"
+            ],
+            "siblings": [
+                "19"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": true,
+            "coordinates": [
+                2900,
+                1887,
+                3016,
+                2022
+            ],
+            "display_name": ""
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "21",
+            "level": 3,
+            "center": [
+                845,
+                2420
+            ],
+            "father": "13",
+            "mother": "12",
+            "shading": [
+                "top-half-filled"
+            ],
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "22",
+                "23"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                783,
+                2361,
+                907,
+                2479
+            ],
+            "display_name": "Tarun"
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "22",
+            "level": 3,
+            "center": [
+                1039.5,
+                2410.5
+            ],
+            "father": "13",
+            "mother": "12",
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "21",
+                "23"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                990,
+                2352,
+                1089,
+                2469
+            ],
+            "display_name": "Meet"
+        },
+        {
+            "sex": "M",
+            "name": "23",
+            "level": 3,
+            "center": [
+                1334.5,
+                2471
+            ],
+            "father": "13",
+            "mother": "12",
+            "partners": [],
+            "siblings": [
+                "21",
+                "22"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "adopted_out": true,
+            "coordinates": [
+                1283,
+                2414,
+                1386,
+                2528
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "U",
+            "name": "24",
+            "level": 3,
+            "center": [
+                1909.5,
+                2477
+            ],
+            "father": "16",
+            "mother": "17",
+            "partners": [],
+            "siblings": [
+                "25"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                1841,
+                2403,
+                1978,
+                2551
+            ],
+            "display_name": ""
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "F",
+            "name": "25",
+            "level": 3,
+            "center": [
+                2198.5,
+                2447.5
+            ],
+            "father": "16",
+            "mother": "17",
+            "shading": [
+                "filled female"
+            ],
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "24"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "coordinates": [
+                2154,
+                2392,
+                2243,
+                2503
+            ],
+            "display_name": "Ruchi"
+        },
+        {
+            "sex": "F",
+            "name": "26",
+            "level": 3,
+            "center": [
+                2691,
+                2465.5
+            ],
+            "father": "19",
+            "mother": "20",
+            "partners": [],
+            "siblings": [
+                "28"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "adopted_in": true,
+            "coordinates": [
+                2644,
+                2410,
+                2738,
+                2521
+            ]
+        },
+        {
+            "age": "",
+            "dob": "",
+            "sex": "M",
+            "name": "27",
+            "level": 3,
+            "center": [
+                2963.5,
+                2450
+            ],
+            "father": "19",
+            "mother": "20",
+            "shading": [
+                "top-half-filled"
+            ],
+            "diseases": [],
+            "partners": [],
+            "siblings": [
+                "28"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "noparents": false,
+            "coordinates": [
+                2902,
+                2392,
+                3025,
+                2508
+            ],
+            "display_name": "Amit"
+        },
+        {
+            "name": "28",
+            "level": 3,
+            "father": "19",
+            "mother": "20",
+            "partners": [],
+            "siblings": [
+                "26",
+                "27"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "miscarriage": true
+        },
+        {
+            "name": "28",
+            "level": 3,
+            "father": "19",
+            "mother": "20",
+            "partners": [],
+            "siblings": [
+                "26",
+                "27"
+            ],
+            "imageData": {
+                "userId": "test0608",
+                "currentImageId": "268"
+            },
+            "miscarriage": true
+        }
+    ],
+    "metdata": {
+        "MGNo": "",
+        "date": "",
+        "dateAmended": "",
+        "consanguinity": "",
+        "consultantName": "",
+        "pedigreeTakenBy": "",
+        "pedigreeAmendedBy": "",
+        "informationProvidedBy": "",
+        "pedigreeInfoProvidedBy": ""
+    }
+},
+"image_status": "completed"
+}
