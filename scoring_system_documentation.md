@@ -167,11 +167,11 @@ final_score = max(0.0, 100 - total_deductions)
 
 | Score Range | Grade | Description | Typical Issues |
 |-------------|-------|-------------|----------------|
-| **90-100** | 🟢 EXCELLENT | Minor issues only | Small attribute differences |
-| **80-89** | 🟡 GOOD | Some relationship/attribute errors | Missing partnerships, minor medical data |
-| **70-79** | 🟠 ACCEPTABLE | Foundation mostly correct | Some structural issues, relationship gaps |
-| **60-69** | 🔴 POOR | Significant structural problems | Generation errors, major relationship issues |
-| **0-59** | ❌ FAILING | Major structural failures | Fundamental structural breakdown |
+| **90-100** | EXCELLENT | Minor issues only | Small attribute differences |
+| **80-89** | GOOD | Some relationship/attribute errors | Missing partnerships, minor medical data |
+| **70-79** | ACCEPTABLE | Foundation mostly correct | Some structural issues, relationship gaps |
+| **60-69** | POOR | Significant structural problems | Generation errors, major relationship issues |
+| **0-59** | FAILING | Major structural failures | Fundamental structural breakdown |
 
 ## How to Use This System
 

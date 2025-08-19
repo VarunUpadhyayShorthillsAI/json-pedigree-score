@@ -568,9 +568,9 @@ def calculate_comprehensive_score(golden_metrics: Dict[str, int], test_metrics: 
 
 def print_score_breakdown(score_data: Dict[str, float]) -> None:
     """Print detailed score breakdown"""
-    print("🎯 COMPREHENSIVE SCORE BREAKDOWN")
+    print("COMPREHENSIVE SCORE BREAKDOWN")
     print("=" * 50)
-    print(f"📊 FINAL SCORE: {score_data['final_score']:.1f}/100")
+    print(f"FINAL SCORE: {score_data['final_score']:.1f}/100")
     print("")
     
     # Score interpretation
@@ -584,9 +584,9 @@ def print_score_breakdown(score_data: Dict[str, float]) -> None:
     elif score >= 60:
         interpretation = "🔴 POOR - Significant structural problems"
     else:
-        interpretation = "❌ FAILING - Major structural failures"
+        interpretation = "FAILING - Major structural failures"
     
-    print(f"📈 Interpretation: {interpretation}")
+    print(f"Interpretation: {interpretation}")
     print("")
     
     print("📋 TIER BREAKDOWN:")
@@ -626,9 +626,9 @@ def export_metrics_to_excel(golden: Dict[str, int], test: Dict[str, int], excel_
                             pass
                     adjusted_width = min(max_length + 2, 50)
                     worksheet.column_dimensions[column[0].column_letter].width = adjusted_width
-        print(f"✅ Excel report exported to: {excel_file}")
+        print(f"Excel report exported to: {excel_file}")
     except Exception as e:
-        print(f"❌ Error exporting to Excel: {e}")
+        print(f"Error exporting to Excel: {e}")
 
 
 def export_extended_to_excel(excel_file: str, golden_ext: Dict[str, Any], test_ext: Dict[str, Any], 
@@ -733,9 +733,9 @@ def export_extended_to_excel(excel_file: str, golden_ext: Dict[str, Any], test_e
                             pass
                     adjusted_width = min(max_length + 2, 50)
                     worksheet.column_dimensions[column[0].column_letter].width = adjusted_width
-        print(f"✅ Excel extended sheets appended to: {excel_file}")
+        print(f"Excel extended sheets appended to: {excel_file}")
     except Exception as e:
-        print(f"❌ Error exporting extended Excel: {e}")
+        print(f"Error exporting extended Excel: {e}")
 
 
 def main() -> None:
@@ -743,10 +743,10 @@ def main() -> None:
     test_file = "test.json"
     
     if not os.path.exists(golden_file):
-        print(f"❌ Error: {golden_file} not found")
+        print(f"Error: {golden_file} not found")
         sys.exit(1)
     if not os.path.exists(test_file):
-        print(f"❌ Error: {test_file} not found")  
+        print(f"Error: {test_file} not found")  
         sys.exit(1)
         
     try:
@@ -772,7 +772,7 @@ def main() -> None:
         # Export to Excel with score
         export_extended_to_excel("comparison_results.xlsx", golden_ext, test_ext, golden_metrics, test_metrics, score_data)
     except (FileNotFoundError, ValueError) as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
         sys.exit(1)
 
 

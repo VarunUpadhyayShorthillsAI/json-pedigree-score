@@ -132,6 +132,6 @@ def export_extended_to_excel(excel_file: str, golden_ext: Dict[str, Any], test_e
                             pass
                     adjusted_width = min(max_length + 2, 50)
                     worksheet.column_dimensions[column[0].column_letter].width = adjusted_width
-        print(f"✅ Excel extended sheets appended to: {excel_file}")
+        print(f"Excel extended sheets appended to: {excel_file}")
     except Exception as e:
-        print(f"❌ Error exporting extended Excel: {e}") 
+        print(f"Error exporting extended Excel: {e}") 

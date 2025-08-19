@@ -131,8 +131,6 @@ def _unique_sorted_pairs(pairs: List[List[str]]) -> Set[tuple]:
 
 def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Compute comprehensive extended metrics for pedigree analysis"""
-    name_to_node: Dict[str, Dict[str, Any]] = {n.get("name"): n for n in nodes}
-
     # Levels and basic distributions
     level_dist: Counter = Counter()
     for n in nodes:
@@ -142,25 +140,14 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
             level_dist[n.get("level")] += 1
     generations_count = len(level_dist)
     level_counts = dict(sorted(level_dist.items(), key=lambda kv: (kv[0] is None, kv[0])))
-    per_level_sizes = list(level_dist.values())
-    per_level_min = min(per_level_sizes) if per_level_sizes else 0
-    per_level_max = max(per_level_sizes) if per_level_sizes else 0
-    per_level_avg = (sum(per_level_sizes) / len(per_level_sizes)) if per_level_sizes else 0.0
 
-    # Parent-child relations
+    # Parent-child relations (needed for other calculations)
     parent_to_children: Dict[str, List[str]] = {}
-    all_children: Set[str] = set()
-    parent_names: Set[str] = set()
     for n in nodes:
         child_name = n.get("name")
         for p in (n.get("father"), n.get("mother")):
             if p:
-                parent_names.add(p)
                 parent_to_children.setdefault(p, []).append(child_name)
-                all_children.add(child_name)
-
-    root_nodes_count = sum(1 for n in nodes if not n.get("father") and not n.get("mother"))
-    leaf_nodes_count = sum(1 for n in nodes if n.get("name") not in parent_names)
 
     # Gender and naming - updated for new node types
     gender_dist: Counter = Counter()
@@ -192,9 +179,6 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
             if a and b and a != b:
                 partnership_pairs.add(tuple(sorted((a, b))))
 
-    avg_partners_per_node = sum(len(s) for s in partners_map.values()) / max(len(nodes), 1)
-    max_partners_for_single_node = max((len(s) for s in partners_map.values()), default=0)
-
     divorces_pairs: Set[tuple] = set()
     for n in nodes:
         name = n.get("name")
@@ -203,9 +187,6 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
             for d in divs:
                 if d and d != name:
                     divorces_pairs.add(tuple(sorted((name, d))))
-
-    partnered_nodes_count = sum(1 for s in partners_map.values() if len(s) > 0)
-    divorce_rate = (len(divorces_pairs) / max(len(partnership_pairs), 1)) * 100.0 if partnership_pairs else 0.0
 
     # Parents completeness and children distribution
     zero_parents = one_parent = two_parents = 0
@@ -218,27 +199,9 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
         else:
             two_parents += 1
 
-    children_counts = [len(children) for children in parent_to_children.values()]
-    min_children = min(children_counts) if children_counts else 0
-    max_children = max(children_counts) if children_counts else 0
-    avg_children = (sum(children_counts) / len(children_counts)) if children_counts else 0.0
+    # Note: Children distribution metrics removed as they are not used in scoring
 
-    # Sibling groups
-    sibling_groups: List[Set[str]] = []
-    for n in nodes:
-        name = n.get("name")
-        sibs = n.get("siblings") or []
-        if sibs:
-            group = set([name] + [s for s in sibs if s])
-            if len(group) > 1:
-                fg = frozenset(group)
-                if fg not in [frozenset(g) for g in sibling_groups]:
-                    sibling_groups.append(group)
-    sibling_group_sizes = [len(g) for g in sibling_groups]
-    sibling_groups_count = len(sibling_groups)
-    sibling_min = min(sibling_group_sizes) if sibling_group_sizes else 0
-    sibling_max = max(sibling_group_sizes) if sibling_group_sizes else 0
-    sibling_avg = (sum(sibling_group_sizes) / len(sibling_group_sizes)) if sibling_group_sizes else 0.0
+    # Note: Sibling groups metrics removed as they are not used in scoring
 
     # Diseases and Symbols
     # Model disease patterns (UPPERCASE_WITH_UNDERSCORES format)
@@ -299,128 +262,26 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
             symbol_counts["Patient"] += 1
         # Note: Carrier would need specific field in JSON to detect
 
-    # Consistency checks
-    issues_self_ref: List[str] = []
-    issues_duplicates: List[str] = []
-    issues_contradictions: List[str] = []
-    issues_partner_asym: List[str] = []
-    issues_sibling_asym: List[str] = []
-
-    # Duplicate names
-    name_counts: Counter = Counter(n.get("name") for n in nodes)
-    for nm, c in name_counts.items():
-        if c > 1:
-            issues_duplicates.append(f"Duplicate name '{nm}' appears {c} times")
-
-    # Self-refs and contradictions
-    for n in nodes:
-        name = n.get("name")
-        father = n.get("father")
-        mother = n.get("mother")
-        if father:
-            if father == name:
-                issues_self_ref.append(f"{name}: self-referenced as father")
-        if mother:
-            if mother == name:
-                issues_self_ref.append(f"{name}: self-referenced as mother")
-        partners = n.get("partners") or []
-        if isinstance(partners, list) and name in partners:
-            issues_self_ref.append(f"{name}: self-referenced as partner")
-        sibs = n.get("siblings") or []
-        if isinstance(sibs, list) and name in sibs:
-            issues_self_ref.append(f"{name}: self-referenced as sibling")
-        if bool(n.get("noparents")) and (father or mother):
-            issues_contradictions.append(f"{name}: noparents==true but has parents listed")
-        if bool(n.get("top_level")) and (father or mother):
-            issues_contradictions.append(f"{name}: top_level==true but has parents listed")
-
-    # Partner symmetry
-    for a, partners in partners_map.items():
-        for b in partners:
-            if b not in partners_map or a not in partners_map.get(b, set()):
-                issues_partner_asym.append(f"Partner asymmetry: {a} lists {b}, but not vice versa")
-
-    # Sibling symmetry
-    siblings_map: Dict[str, Set[str]] = {}
-    for n in nodes:
-        siblings_map[n.get("name")] = set(n.get("siblings") or [])
-    for a, sibs in siblings_map.items():
-        for b in sibs:
-            if a not in siblings_map.get(b, set()):
-                issues_sibling_asym.append(f"Sibling asymmetry: {a} lists {b}, but not vice versa")
-
-    # Spatial metrics
-    coords_list = [n.get("coordinates") for n in nodes if isinstance(n.get("coordinates"), list) and len(n.get("coordinates")) == 4]
-    min_x = min((min(c[0], c[2]) for c in coords_list), default=None)
-    max_x = max((max(c[0], c[2]) for c in coords_list), default=None)
-    min_y = min((min(c[1], c[3]) for c in coords_list), default=None)
-    max_y = max((max(c[1], c[3]) for c in coords_list), default=None)
-
-    # avg center y per level
-    level_to_center_ys: Dict[Any, List[float]] = {}
-    for n in nodes:
-        center = n.get("center")
-        if isinstance(center, list) and len(center) == 2:
-            level_to_center_ys.setdefault(n.get("level"), []).append(float(center[1]))
-    avg_center_y_per_level = {lvl: (sum(vals) / len(vals)) for lvl, vals in level_to_center_ys.items() if vals}
-
-    # Overlapping boxes detection (naive O(n^2))
-    def rect_from_coords(c: List[float]):
-        x1, y1, x2, y2 = c
-        left, right = min(x1, x2), max(x1, x2)
-        top, bottom = min(y1, y2), max(y1, y2)
-        return left, top, right, bottom
-
-    def overlap(a: List[float], b: List[float]) -> bool:
-        al, at, ar, ab = rect_from_coords(a)
-        bl, bt, br, bb = rect_from_coords(b)
-        return not (ar < bl or br < al or ab < bt or bb < at)
-
-    overlapping_pairs: List[tuple] = []
-    with_coords = [(n.get("name"), n.get("coordinates")) for n in nodes if isinstance(n.get("coordinates"), list) and len(n.get("coordinates")) == 4]
-    for i in range(len(with_coords)):
-        for j in range(i + 1, len(with_coords)):
-            (na, ca), (nb, cb) = with_coords[i], with_coords[j]
-            if overlap(ca, cb):
-                overlapping_pairs.append((na, nb))
+    # Note: Consistency checks removed as they are not used in scoring
 
     return {
         "structural": {
             "generations_count": generations_count,
-            "nodes_per_level": level_counts,
-            "per_level_min": per_level_min,
-            "per_level_max": per_level_max,
-            "per_level_avg": per_level_avg,
-            "root_nodes_count": root_nodes_count,
-            "leaf_nodes_count": leaf_nodes_count,
+            "nodes_per_level": level_counts
         },
         "gender_and_naming": {
             "gender_distribution": dict(gender_dist),
         },
         "partnerships": {
             "partnerships_count": len(partnership_pairs),
-            "avg_partners_per_node": avg_partners_per_node,
-            "max_partners_for_single_node": max_partners_for_single_node,
-            "divorces_count": len(divorces_pairs),
-            "divorce_rate_percent": divorce_rate,
+            "divorces_count": len(divorces_pairs)
         },
         "parent_child_and_siblings": {
             "parents_completeness": {
                 "zero_parents": zero_parents,
                 "one_parent": one_parent,
                 "two_parents": two_parents,
-            },
-            "children_distribution": {
-                "min": min_children,
-                "max": max_children,
-                "avg": avg_children,
-            },
-            "sibling_groups_count": sibling_groups_count,
-            "sibling_group_sizes": {
-                "min": sibling_min,
-                "max": sibling_max,
-                "avg": sibling_avg,
-            },
+            }
         },
         "shading": {
             "disease_counts": dict(disease_counts),
@@ -431,23 +292,5 @@ def compute_extended_metrics(nodes: List[Dict[str, Any]]) -> Dict[str, Any]:
         "edges": {
             "dztwin_count": sum(1 for n in nodes if n.get("dztwin") == 1),
             "mztwin_count": sum(1 for n in nodes if n.get("mztwin") == 1),
-        },
-        "consistency_checks": {
-            "self_references": issues_self_ref,
-            "duplicate_names": issues_duplicates,
-            "contradictions": issues_contradictions,
-            "partner_asymmetry": issues_partner_asym,
-            "sibling_asymmetry": issues_sibling_asym,
-        },
-        "spatial": {
-            "canvas_bounds": {
-                "min_x": min_x,
-                "max_x": max_x,
-                "min_y": min_y,
-                "max_y": max_y,
-            },
-            "avg_center_y_per_level": avg_center_y_per_level,
-            "overlapping_boxes_count": len(overlapping_pairs),
-            "overlapping_pairs": overlapping_pairs,
-        },
+        }
     } 

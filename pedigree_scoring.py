@@ -143,9 +143,9 @@ def calculate_comprehensive_score(golden_metrics: Dict[str, int], test_metrics: 
 
 def print_score_breakdown(score_data: Dict[str, float]) -> None:
     """Print detailed score breakdown"""
-    print("🎯 COMPREHENSIVE SCORE BREAKDOWN")
+    print("COMPREHENSIVE SCORE BREAKDOWN")
     print("=" * 50)
-    print(f"📊 FINAL SCORE: {score_data['final_score']:.1f}/100")
+    print(f"FINAL SCORE: {score_data['final_score']:.1f}/100")
     print("")
     
     # Score interpretation
@@ -159,9 +159,9 @@ def print_score_breakdown(score_data: Dict[str, float]) -> None:
     elif score >= 60:
         interpretation = "🔴 POOR - Significant structural problems"
     else:
-        interpretation = "❌ FAILING - Major structural failures"
+        interpretation = "FAILING - Major structural failures"
     
-    print(f"📈 Interpretation: {interpretation}")
+    print(f"Interpretation: {interpretation}")
     print("")
     
     print("📋 TIER BREAKDOWN:")
