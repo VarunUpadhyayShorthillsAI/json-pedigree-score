@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedigree JSON Scoring System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .score-overview {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 3px solid #e9ecef;
+        }
+        
+        .base-score {
+            display: inline-block;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-size: 2em;
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+        }
+        
+        .tiers-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+        
+        .tier {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .tier:hover {
+            transform: translateY(-5px);
+        }
+        
+        .tier-header {
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        
+        .tier1-header { background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); }
+        .tier2-header { background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); }
+        .tier3-header { background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); }
+        
+        .tier-content {
+            padding: 20px;
+        }
+        
+        .metric {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .metric h4 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        
+        .metric p {
+            color: #6c757d;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        
+        .penalty {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .score-interpretation {
+            background: #e9ecef;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .interpretation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .score-range {
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .excellent { background: linear-gradient(135deg, #28a745 0%, #20c997 100%); }
+        .good { background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%); }
+        .acceptable { background: linear-gradient(135deg, #fd7e14 0%, #e83e8c 100%); }
+        .poor { background: linear-gradient(135deg, #dc3545 0%, #c82333 100%); }
+        .failing { background: linear-gradient(135deg, #6f42c1 0%, #5a2d82 100%); }
+        
+        .formula-section {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .formula {
+            background: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+        }
+        
+        .weight-breakdown {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .weight-item {
+            background: #34495e;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .weight-percentage {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+        }
+        
+        @media (max-width: 768px) {
+            .tiers-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .weight-breakdown {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pedigree JSON Scoring System</h1>
+            <p>Comprehensive evaluation framework for pedigree accuracy assessment</p>
+        </div>
+        
+        <div class="score-overview">
+            <h2>Starting Point</h2>
+            <div class="base-score">100 POINTS</div>
+            <p style="margin-top: 15px; color: #6c757d;">Deductions are applied based on discrepancies between golden and test JSONs</p>
+        </div>
+        
+        <div class="tiers-container">
+            <div class="tier">
+                <div class="tier-header tier1-header">
+                    TIER 1: FOUNDATION (50% Weight)
+                </div>
+                <div class="tier-content">
+                    <div class="metric">
+                        <h4>Generation Structure <span class="penalty">-5 to -15 pts</span></h4>
+                        <p>• 1 generation difference: -5 points<br>
+                        • 2+ generation differences: -15 points</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Nodes per Level Distribution <span class="penalty">-2 pts × weight</span></h4>
+                        <p>• Generation-weighted penalties<br>
+                        • Higher generations get more weight<br>
+                        • Exponential decay: 1.0/(1.2^level)</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Core People Detection <span class="penalty">-5 pts each</span></h4>
+                        <p>• Male/Female count differences<br>
+                        • Each discrepancy penalized</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Miscarriage Detection <span class="penalty">-1 pt each</span></h4>
+                        <p>• Reduced weight for miscarriage nodes<br>
+                        • Less critical than core people</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tier">
+                <div class="tier-header tier2-header">
+                    TIER 2: RELATIONSHIPS (40% Weight)
+                </div>
+                <div class="tier-content">
+                    <div class="metric">
+                        <h4>Parent Relationships <span class="penalty">-4 pts each</span></h4>
+                        <p>• Nodes marked as having no parents (no_parents flag)<br>
+                        • Nodes that should/shouldn't have parents<br>
+                        • Accuracy of parent-child connections</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Partner Relationships <span class="penalty">-4 pts each</span></h4>
+                        <p>• Nodes with exactly one partner<br>
+                        • Nodes with multiple partners</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Sibling Relationships <span class="penalty">-4 pts each</span></h4>
+                        <p>• Total nodes with siblings<br>
+                        • Distribution of siblings (1, 2, 3, 4, 5+ siblings)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tier">
+                <div class="tier-header tier3-header">
+                    TIER 3: ATTRIBUTES (10% Weight)
+                </div>
+                <div class="tier-content">
+                    <div class="metric">
+                        <h4>Disease Patterns <span class="penalty">-1 pt each</span></h4>
+                        <p>• Medical condition symbols<br>
+                        • Shading pattern differences<br>
+                        • Disease inheritance markers</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Important Symbols <span class="penalty">-2 pts each</span></h4>
+                        <p>• Deceased status<br>
+                        • Adopted_in/Adopted_out<br>
+                        • Critical family markers</p>
+                    </div>
+                    
+                    <div class="metric">
+                        <h4>Twin Relationships <span class="penalty">-1 pt each</span></h4>
+                        <p>• DZ twin (dizygotic) differences<br>
+                        • MZ twin (monozygotic) differences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="formula-section">
+            <h2>Score Calculation Formula</h2>
+            <div class="formula">
+                total_deductions = (tier1_deductions × 0.50) + 
+                                  (tier2_deductions × 0.40) + 
+                                  (tier3_deductions × 0.10)
+                
+                final_score = max(0.0, 100 - total_deductions)
+            </div>
+            
+            <div class="weight-breakdown">
+                <div class="weight-item">
+                    <div class="weight-percentage">50%</div>
+                    <div>Tier 1: Foundation</div>
+                </div>
+                <div class="weight-item">
+                    <div class="weight-percentage">40%</div>
+                    <div>Tier 2: Relationships</div>
+                </div>
+                <div class="weight-item">
+                    <div class="weight-percentage">10%</div>
+                    <div>Tier 3: Attributes</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="score-interpretation">
+            <h2>Score Interpretation Guide</h2>
+            <div class="interpretation-grid">
+                <div class="score-range excellent">
+                    <div style="font-size: 1.5em;">90-100</div>
+                    <div>EXCELLENT</div>
+                    <div style="font-size: 0.8em; margin-top: 5px;">Minor issues only</div>
+                </div>
+                <div class="score-range good">
+                    <div style="font-size: 1.5em;">80-89</div>
+                    <div>GOOD</div>
+                    <div style="font-size: 0.8em; margin-top: 5px;">Some relationship/attribute errors</div>
+                </div>
+                <div class="score-range acceptable">
+                    <div style="font-size: 1.5em;">70-79</div>
+                    <div>ACCEPTABLE</div>
+                    <div style="font-size: 0.8em; margin-top: 5px;">Foundation mostly correct</div>
+                </div>
+                <div class="score-range poor">
+                    <div style="font-size: 1.5em;">60-69</div>
+                    <div>POOR</div>
+                    <div style="font-size: 0.8em; margin-top: 5px;">Significant structural problems</div>
+                </div>
+                <div class="score-range failing">
+                    <div style="font-size: 1.5em;">0-59</div>
+                    <div>FAILING</div>
+                    <div style="font-size: 0.8em; margin-top: 5px;">Major structural failures</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
