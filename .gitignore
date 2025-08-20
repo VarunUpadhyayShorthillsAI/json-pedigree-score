@@ -27,31 +27,4 @@ ENV/
 .env
 .venv
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-.project
-.pydevproject
-.settings/
-
-# Project specific
-comparison_results.xlsx
-.~lock.comparison_results.xlsx#
-*.log
-test_outputs/
-*.bak
-
-# OS specific
-.DS_Store
-Thumbs.db
-*.db
-*.sqlite3
-*.log
-.directory
-
-# Temporary files
-*.tmp
-*.temp
-*~
+json_score
