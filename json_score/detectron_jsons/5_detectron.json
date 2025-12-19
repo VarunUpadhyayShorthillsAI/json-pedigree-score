@@ -1,0 +1,609 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          291.5,
+          325.5
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          280,
+          311,
+          303,
+          340
+        ],
+        "display_name": "Reema"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          353.5,
+          326.0
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          340,
+          310,
+          367,
+          342
+        ],
+        "display_name": "Varun"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          549.5,
+          330.0
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          538,
+          315,
+          561,
+          345
+        ],
+        "display_name": "Sara"
+      },
+      {
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          621.0,
+          330.0
+        ],
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          607,
+          312,
+          635,
+          348
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "5",
+        "level": 1,
+        "center": [
+          188.0,
+          431.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "6"
+        ],
+        "noparents": true,
+        "coordinates": [
+          173,
+          412,
+          203,
+          450
+        ],
+        "display_name": "Vivek"
+      },
+      {
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          263.0,
+          429.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "5"
+        ],
+        "siblings": [
+          "8",
+          "7"
+        ],
+        "coordinates": [
+          252,
+          416,
+          274,
+          442
+        ]
+      },
+      {
+        "name": "7",
+        "level": 1,
+        "center": [
+          321.0,
+          429.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "siblings": [
+          "8",
+          "6"
+        ],
+        "coordinates": [
+          306,
+          415,
+          336,
+          444
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          389.5,
+          429.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          378,
+          416,
+          401,
+          443
+        ],
+        "display_name": "Anjali"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "9",
+        "level": 1,
+        "center": [
+          461.5,
+          430.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "8"
+        ],
+        "siblings": [
+          "10",
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          450,
+          415,
+          473,
+          446
+        ],
+        "display_name": "Arjun"
+      },
+      {
+        "sex": "F",
+        "name": "10",
+        "level": 1,
+        "center": [
+          536.0,
+          433.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "9",
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          524,
+          419,
+          548,
+          447
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "11",
+        "level": 1,
+        "center": [
+          590.0,
+          432.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "9",
+          "10",
+          "12"
+        ],
+        "coordinates": [
+          579,
+          418,
+          601,
+          446
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "12",
+        "level": 1,
+        "center": [
+          664.0,
+          440.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "9",
+          "10",
+          "11"
+        ],
+        "adopted_out": true,
+        "coordinates": [
+          655,
+          429,
+          673,
+          452
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          193.5,
+          538.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "siblings": [
+          "14"
+        ],
+        "coordinates": [
+          182,
+          523,
+          205,
+          553
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "14",
+        "level": 2,
+        "center": [
+          263.5,
+          538.5
+        ],
+        "father": "5",
+        "mother": "6",
+        "siblings": [
+          "13"
+        ],
+        "coordinates": [
+          251,
+          524,
+          276,
+          553
+        ],
+        "display_name": "Varun"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 2,
+        "center": [
+          338.5,
+          537.0
+        ],
+        "father": "9",
+        "mother": "8",
+        "partners": [
+          "16"
+        ],
+        "noparents": true,
+        "coordinates": [
+          329,
+          525,
+          348,
+          549
+        ],
+        "display_name": "Priya"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "16",
+        "level": 2,
+        "center": [
+          403.5,
+          539.5
+        ],
+        "father": "9",
+        "mother": "8",
+        "partners": [
+          "15"
+        ],
+        "coordinates": [
+          391,
+          527,
+          416,
+          552
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "17",
+        "level": 2,
+        "center": [
+          449.5,
+          549.5
+        ],
+        "father": "9",
+        "mother": "8",
+        "divorced": [
+          "18"
+        ],
+        "partners": [
+          "18"
+        ],
+        "siblings": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          441,
+          538,
+          458,
+          561
+        ],
+        "display_name": "Seema"
+      },
+      {
+        "sex": "M",
+        "name": "18",
+        "level": 2,
+        "center": [
+          516.5,
+          552.5
+        ],
+        "father": "9",
+        "mother": "8",
+        "divorced": [
+          "17"
+        ],
+        "partners": [
+          "17"
+        ],
+        "siblings": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          502,
+          537,
+          531,
+          568
+        ]
+      },
+      {
+        "age": null,
+        "dob": null,
+        "sex": "M",
+        "name": "19",
+        "level": 2,
+        "center": [
+          589.0,
+          560.0
+        ],
+        "mother": "11",
+        "adopted_in": true,
+        "coordinates": [
+          575,
+          544,
+          603,
+          576
+        ],
+        "display_name": null
+      },
+      {
+        "sex": "F",
+        "name": "20",
+        "level": 3,
+        "center": [
+          186.0,
+          691.0
+        ],
+        "mother": "13",
+        "adopted_in": true,
+        "coordinates": [
+          177,
+          679,
+          195,
+          703
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "21",
+        "level": 3,
+        "center": [
+          338.0,
+          701.5
+        ],
+        "dztwin": 1,
+        "father": "16",
+        "mother": "15",
+        "siblings": [
+          "22"
+        ],
+        "coordinates": [
+          325,
+          685,
+          351,
+          718
+        ],
+        "display_name": "Karan"
+      },
+      {
+        "sex": "M",
+        "name": "22",
+        "level": 3,
+        "center": [
+          383.5,
+          701.0
+        ],
+        "dztwin": 1,
+        "father": "16",
+        "mother": "15",
+        "partners": [
+          "23"
+        ],
+        "siblings": [
+          "21"
+        ],
+        "coordinates": [
+          370,
+          686,
+          397,
+          716
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "23",
+        "level": 3,
+        "center": [
+          462.0,
+          700.5
+        ],
+        "father": "16",
+        "mother": "15",
+        "partners": [
+          "22"
+        ],
+        "noparents": true,
+        "coordinates": [
+          448,
+          684,
+          476,
+          717
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "24",
+        "level": 3,
+        "center": [
+          519.5,
+          700.5
+        ],
+        "father": "18",
+        "mother": "17",
+        "adopted_in": true,
+        "coordinates": [
+          509,
+          688,
+          530,
+          713
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "25",
+        "level": 4,
+        "center": [
+          404.0,
+          776.0
+        ],
+        "father": "22",
+        "mother": "23",
+        "mztwin": 1,
+        "siblings": [
+          "26"
+        ],
+        "coordinates": [
+          393,
+          762,
+          415,
+          790
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "26",
+        "level": 4,
+        "center": [
+          443.0,
+          780.5
+        ],
+        "father": "22",
+        "mother": "23",
+        "mztwin": 1,
+        "siblings": [
+          "25"
+        ],
+        "coordinates": [
+          431,
+          766,
+          455,
+          795
+        ],
+        "display_name": "Bojanka"
+      }
+    ],
+    "metdata": {
+      "MGNo": "",
+      "date": "",
+      "dateAmended": "",
+      "consanguinity": "No",
+      "consultantName": "",
+      "pedigreeTakenBy": "",
+      "pedigreeAmendedBy": "",
+      "informationProvidedBy": "",
+      "pedigreeInfoProvidedBy": ""
+    }
+  }
+}

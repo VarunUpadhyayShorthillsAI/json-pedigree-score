@@ -1,697 +1,709 @@
 {
-"json": [
-    {
-        "age": "",
+  "original_json": {
+    "json": [
+      {
+        "age": null,
         "dob": "",
         "sex": "F",
         "name": "1",
         "level": 0,
         "center": [
-            783.5,
-            733.5
+          783.5,
+          733.5
         ],
         "partners": [
-            "2"
+          "2"
         ],
         "top_level": true,
         "coordinates": [
-            751,
-            698,
-            816,
-            769
+          751,
+          698,
+          816,
+          769
         ],
         "display_name": "Ethan Lewis"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "19/08/1932",
         "sex": "M",
         "name": "2",
         "level": 0,
         "center": [
-            973.5,
-            727
+          973.5,
+          727.0
         ],
         "shading": [
-            "top-right-quarter-filled"
+          "top-right-quarter-filled"
         ],
         "partners": [
-            "1"
+          "1"
         ],
         "top_level": true,
         "coordinates": [
-            934,
-            689,
-            1013,
-            765
+          934,
+          689,
+          1013,
+          765
         ],
         "display_name": "Mohan"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "F",
         "name": "3",
         "level": 0,
         "center": [
-            1260.5,
-            727
+          1260.5,
+          727.0
         ],
         "partners": [
-            "4"
+          "4"
         ],
         "top_level": true,
         "coordinates": [
-            1230,
-            694,
-            1291,
-            760
+          1230,
+          694,
+          1291,
+          760
         ],
         "display_name": "Anjali"
-    },
-    {
-        "age": "",
-        "dob": "09-04-1980",
+      },
+      {
+        "age": null,
+        "dob": "09-04-1970",
         "sex": "M",
         "name": "4",
         "level": 0,
         "center": [
-            1496.5,
-            726.5
+          1496.5,
+          726.5
         ],
         "shading": [
-            "top-right-quarter-filled"
+          "top-right-quarter-filled"
         ],
         "partners": [
-            "3"
+          "3"
         ],
         "top_level": true,
         "coordinates": [
-            1460,
-            691,
-            1533,
-            762
+          1460,
+          691,
+          1533,
+          762
         ],
         "display_name": "Vijay"
-    },
-    {
-        "sex": "U",
+      },
+      {
         "name": "5",
         "level": 1,
         "center": [
-            760.5,
-            910.5
+          760.5,
+          910.5
         ],
         "father": "2",
         "mother": "1",
         "siblings": [
-            "6"
+          "6"
         ],
         "coordinates": [
-            723,
-            879,
-            798,
-            942
+          723,
+          879,
+          798,
+          942
         ],
         "miscarriage": true
-    },
-    {
+      },
+      {
         "sex": "F",
         "name": "6",
         "level": 1,
         "center": [
-            970.5,
-            920
+          970.5,
+          920.0
         ],
         "father": "2",
         "mother": "1",
         "partners": [
-            "7"
+          "7"
         ],
         "siblings": [
-            "5"
+          "5"
         ],
         "coordinates": [
-            942,
-            889,
-            999,
-            951
+          942,
+          889,
+          999,
+          951
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "23-03-1956",
         "sex": "M",
         "name": "7",
         "level": 1,
         "center": [
-            1131.5,
-            916.5
+          1131.5,
+          916.5
         ],
         "father": "4",
         "mother": "3",
         "status": 1,
         "shading": [
-            "top-half-strokes"
+          "top-half-strokes"
         ],
         "partners": [
-            "6"
+          "6"
         ],
         "siblings": [
-            "8",
-            "9"
+          "8"
         ],
         "coordinates": [
-            1093,
-            884,
-            1170,
-            949
+          1093,
+          884,
+          1170,
+          949
         ],
         "display_name": "Sanjay Bawela"
-    },
-    {
+      },
+      {
         "sex": "U",
         "name": "8",
         "level": 1,
         "center": [
-            1348.5,
-            919.5
+          1348.5,
+          919.5
         ],
         "father": "4",
         "mother": "3",
         "siblings": [
-            "9",
-            "7"
+          "7"
         ],
         "coordinates": [
-            1313,
-            882,
-            1384,
-            957
+          1313,
+          882,
+          1384,
+          957
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "M",
         "name": "9",
         "level": 1,
         "center": [
-            1592,
-            921.5
+          1592.0,
+          921.5
         ],
         "father": "4",
         "mother": "3",
         "diseases": [],
         "divorced": [
-            "10"
+          "10"
         ],
         "partners": [
-            "10"
+          "10"
         ],
-        "siblings": [
-            "8",
-            "7"
-        ],
+        "noparents": true,
         "coordinates": [
-            1553,
-            879,
-            1631,
-            964
+          1553,
+          879,
+          1631,
+          964
         ],
         "display_name": "Mayank"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "28/01/1953",
         "sex": "F",
         "name": "10",
         "level": 1,
         "center": [
-            1775.5,
-            926.5
+          1775.5,
+          926.5
         ],
+        "father": "4",
+        "mother": "3",
         "divorced": [
-            "9"
+          "9"
         ],
         "partners": [
-            "9"
+          "9"
         ],
+        "noparents": true,
         "coordinates": [
-            1742,
-            894,
-            1809,
-            959
+          1742,
+          894,
+          1809,
+          959
         ],
         "display_name": "Meera"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "31-05-1983",
         "sex": "F",
         "name": "11",
         "level": 2,
         "center": [
-            786,
-            1189
+          786.0,
+          1189.0
         ],
+        "father": "7",
+        "mother": "6",
         "partners": [
-            "12"
+          "12"
         ],
+        "noparents": true,
         "coordinates": [
-            755,
-            1155,
-            817,
-            1223
+          755,
+          1155,
+          817,
+          1223
         ],
-        "display_name": "Maya Chhoss"
-    },
-    {
-        "age": "",
+        "display_name": "Maya"
+      },
+      {
+        "age": null,
         "dob": "28-01-1983",
         "sex": "M",
         "name": "12",
         "level": 2,
         "center": [
-            927.5,
-            1191
+          927.5,
+          1191.0
         ],
         "father": "7",
         "mother": "6",
         "diseases": [],
         "partners": [
-            "11"
+          "11"
         ],
         "siblings": [
-            "13"
+          "13"
         ],
         "coordinates": [
-            890,
-            1150,
-            965,
-            1232
+          890,
+          1150,
+          965,
+          1232
         ],
         "display_name": "Ajay"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "21-03-1970",
         "sex": "F",
         "name": "13",
         "level": 2,
         "center": [
-            1184,
-            1188
+          1184.0,
+          1188.0
         ],
         "father": "7",
         "mother": "6",
         "proband": true,
         "diseases": [],
         "partners": [
-            "14"
+          "14"
         ],
         "siblings": [
-            "12"
+          "12"
         ],
         "coordinates": [
-            1153,
-            1158,
-            1215,
-            1218
+          1153,
+          1158,
+          1215,
+          1218
         ],
         "display_name": ""
-    },
-    {
-        "age": "",
-        "dob": "22/01/1937",
+      },
+      {
+        "age": null,
+        "dob": "22/01/1934",
         "sex": "M",
         "name": "14",
         "level": 2,
         "center": [
-            1356,
-            1200.5
+          1356.0,
+          1200.5
         ],
         "father": "9",
         "mother": "10",
         "diseases": [],
         "partners": [
-            "13"
+          "13"
         ],
         "siblings": [
-            "16",
-            "17",
-            "15"
+          "16",
+          "17",
+          "15"
         ],
         "coordinates": [
-            1321,
-            1162,
-            1391,
-            1239
+          1321,
+          1162,
+          1391,
+          1239
         ],
         "display_name": "Raj"
-    },
-    {
+      },
+      {
         "sex": "M",
         "name": "15",
         "level": 2,
         "center": [
-            1529,
-            1203.5
+          1529.0,
+          1203.5
         ],
         "father": "9",
         "mother": "10",
         "siblings": [
-            "16",
-            "17",
-            "14"
+          "16",
+          "17",
+          "14"
         ],
         "coordinates": [
-            1491,
-            1167,
-            1567,
-            1240
+          1491,
+          1167,
+          1567,
+          1240
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "M",
         "name": "16",
         "level": 2,
         "center": [
-            1714,
-            1206
+          1714.0,
+          1206.0
         ],
         "father": "9",
         "mother": "10",
         "siblings": [
-            "17",
-            "14",
-            "15"
+          "17",
+          "14",
+          "15"
         ],
         "coordinates": [
-            1676,
-            1169,
-            1752,
-            1243
+          1676,
+          1169,
+          1752,
+          1243
         ],
         "display_name": "Melvin Powell"
-    },
-    {
+      },
+      {
         "sex": "F",
         "name": "17",
         "level": 2,
         "center": [
-            1858,
-            1205.5
+          1858.0,
+          1205.5
         ],
         "father": "9",
         "mother": "10",
         "partners": [
-            "18"
+          "18"
         ],
         "siblings": [
-            "16",
-            "14",
-            "15"
+          "16",
+          "14",
+          "15"
         ],
         "coordinates": [
-            1827,
-            1173,
-            1889,
-            1238
+          1827,
+          1173,
+          1889,
+          1238
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "M",
         "name": "18",
         "level": 2,
         "center": [
-            2036.5,
-            1210
+          2036.5,
+          1210.0
         ],
+        "father": "9",
+        "mother": "10",
         "partners": [
-            "17"
+          "17"
         ],
+        "noparents": true,
         "coordinates": [
-            2002,
-            1172,
-            2071,
-            1248
+          2002,
+          1172,
+          2071,
+          1248
         ],
         "display_name": "Ravi"
-    },
-    {
+      },
+      {
         "sex": "F",
         "name": "19",
         "level": 3,
         "center": [
-            771.5,
-            1376
+          771.5,
+          1376.0
         ],
         "dztwin": 1,
         "father": "12",
         "mother": "11",
         "siblings": [
-            "20"
+          "20"
         ],
         "coordinates": [
-            743,
-            1347,
-            800,
-            1405
+          743,
+          1347,
+          800,
+          1405
         ]
-    },
-    {
+      },
+      {
         "sex": "M",
         "name": "20",
         "level": 3,
         "center": [
-            910.5,
-            1383.5
+          910.5,
+          1383.5
         ],
         "dztwin": 1,
         "father": "12",
         "mother": "11",
         "partners": [
-            "21"
+          "21"
         ],
         "siblings": [
-            "19"
+          "19"
         ],
         "coordinates": [
-            876,
-            1351,
-            945,
-            1416
+          876,
+          1351,
+          945,
+          1416
         ]
-    },
-    {
+      },
+      {
         "sex": "F",
         "name": "21",
         "level": 3,
         "center": [
-            1087.5,
-            1376.5
+          1087.5,
+          1376.5
         ],
+        "father": "12",
+        "mother": "11",
         "partners": [
-            "20"
+          "20"
         ],
+        "noparents": true,
         "coordinates": [
-            1055,
-            1341,
-            1120,
-            1412
+          1055,
+          1341,
+          1120,
+          1412
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "31/08/1956",
         "sex": "F",
         "name": "22",
         "level": 3,
         "center": [
-            1284.5,
-            1395.5
+          1284.5,
+          1395.5
         ],
         "father": "14",
         "mother": "13",
         "shading": [
-            "left-half-filled female"
+          "left-half-filled female"
         ],
         "diseases": [],
         "coordinates": [
-            1250,
-            1362,
-            1319,
-            1429
+          1250,
+          1362,
+          1319,
+          1429
         ],
         "display_name": "Rocha"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "F",
         "name": "23",
         "level": 3,
         "center": [
-            1518,
-            1386.5
+          1518.0,
+          1386.5
         ],
         "father": "15",
         "diseases": [],
-        "noparents": false,
         "adopted_in": true,
         "coordinates": [
-            1492,
-            1360,
-            1544,
-            1413
+          1492,
+          1360,
+          1544,
+          1413
         ],
         "display_name": "Pooja"
-    },
-    {
+      },
+      {
         "sex": "F",
         "name": "24",
         "level": 3,
         "center": [
-            1720,
-            1384
+          1720.0,
+          1384.0
         ],
-        "father": "16",
-        "noparents": false,
+        "father": "18",
+        "mother": "17",
+        "noparents": true,
         "coordinates": [
-            1696,
-            1356,
-            1744,
-            1412
+          1696,
+          1356,
+          1744,
+          1412
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "M",
         "name": "25",
         "level": 3,
         "center": [
-            1872.5,
-            1397
+          1872.5,
+          1397.0
         ],
         "father": "18",
         "mother": "17",
         "siblings": [
-            "26",
-            "27"
+          "26",
+          "27"
         ],
         "coordinates": [
-            1836,
-            1362,
-            1909,
-            1432
+          1836,
+          1362,
+          1909,
+          1432
         ],
         "display_name": "Amit"
-    },
-    {
+      },
+      {
         "sex": "M",
         "name": "26",
         "level": 3,
         "center": [
-            2029,
-            1407.5
+          2029.0,
+          1407.5
         ],
         "father": "18",
         "mother": "17",
         "siblings": [
-            "25",
-            "27"
+          "25",
+          "27"
         ],
         "coordinates": [
-            1990,
-            1373,
-            2068,
-            1442
+          1990,
+          1373,
+          2068,
+          1442
         ]
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "M",
         "name": "27",
         "level": 3,
         "center": [
-            2192.5,
-            1407.5
+          2192.5,
+          1407.5
         ],
         "father": "18",
         "mother": "17",
         "shading": [
-            "top-right-quarter-filled"
+          "top-right-quarter-filled"
         ],
         "diseases": [],
         "siblings": [
-            "25",
-            "26"
+          "25",
+          "26"
         ],
         "coordinates": [
-            2151,
-            1370,
-            2234,
-            1445
+          2151,
+          1370,
+          2234,
+          1445
         ],
         "display_name": "Anil"
-    },
-    {
-        "age": "",
+      },
+      {
+        "age": null,
         "dob": "",
         "sex": "F",
         "name": "28",
         "level": 4,
         "center": [
-            1076,
-            1558.5
+          1076.0,
+          1558.5
         ],
         "father": "20",
         "mother": "21",
         "shading": [
-            "bottom-half-filled female"
+          "bottom-half-filled female"
         ],
         "diseases": [],
         "coordinates": [
-            1036,
-            1521,
-            1116,
-            1596
+          1036,
+          1521,
+          1116,
+          1596
         ],
         "display_name": "Tara"
-    },
-    {
+      },
+      {
         "sex": "U",
         "name": "29",
         "level": 5,
         "center": [
-            904.5,
-            1565.5
+          904.5,
+          1565.5
         ],
         "mother": "28",
         "coordinates": [
-            864,
-            1524,
-            945,
-            1607
+          864,
+          1524,
+          945,
+          1607
         ]
+      }
+    ],
+    "metdata": {
+      "MGNo": "47963 33333",
+      "date": "07/02/1977",
+      "dateAmended": "24/12/1995",
+      "consanguinity": "yes",
+      "consultantName": "Chloe Lewis",
+      "pedigreeTakenBy": "Chloe Lewis",
+      "pedigreeAmendedBy": "Sophia White",
+      "informationProvidedBy": "Sophia White",
+      "pedigreeInfoProvidedBy": "Ethan"
     }
-],
-"metdata": {
-    "MGNo": "47963 33333",
-    "date": "07/02/1977",
-    "dateAmended": "24/12/1995",
-    "consanguinity": "yes",
-    "consultantName": "Chloe Lewis",
-    "pedigreeTakenBy": "Chloe Lewis",
-    "pedigreeAmendedBy": "Sophia White",
-    "informationProvidedBy": "Sophia White",
-    "pedigreeInfoProvidedBy": "Ethan"
-}
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/9f33ce3f-baf7-45ef-85d6-e6bc7e45e429/detectron_image_1.jpg"
 }

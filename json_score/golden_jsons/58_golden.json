@@ -1,0 +1,643 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "1",
+          "level": 0,
+          "center": [
+              806.5,
+              733.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "2"
+          ],
+          "top_level": true,
+          "coordinates": [
+              774,
+              696,
+              839,
+              771
+          ],
+          "display_name": "Ada Garcia"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "2",
+          "level": 0,
+          "center": [
+              1012,
+              733.5
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "diseases": [],
+          "partners": [
+              "1"
+          ],
+          "top_level": true,
+          "coordinates": [
+              974,
+              695,
+              1050,
+              772
+          ],
+          "display_name": "Jai"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "3",
+          "level": 0,
+          "center": [
+              1286,
+              716
+          ],
+          "status": 1,
+          "partners": [
+              "4"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1248,
+              678,
+              1324,
+              754
+          ],
+          "display_name": "Ayaan"
+      },
+      {
+          "age": "",
+          "dob": "26-01-1937",
+          "sex": "F",
+          "name": "4",
+          "level": 0,
+          "center": [
+              1526.5,
+              701
+          ],
+          "status": 1,
+          "partners": [
+              "3"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1491,
+              663,
+              1562,
+              739
+          ],
+          "display_name": "Luna"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              614,
+              1072
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "6"
+          ],
+          "coordinates": [
+              573,
+              1029,
+              655,
+              1115
+          ],
+          "display_name": "Ishwar"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "6",
+          "level": 1,
+          "center": [
+              780.5,
+              1061
+          ],
+          "dztwin": 1,
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "diseases": [],
+          "partners": [
+              "5"
+          ],
+          "siblings": [
+              "7"
+          ],
+          "coordinates": [
+              749,
+              1023,
+              812,
+              1099
+          ],
+          "display_name": "Lexi"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "7",
+          "level": 1,
+          "center": [
+              1053,
+              1058
+          ],
+          "dztwin": 1,
+          "father": "2",
+          "mother": "1",
+          "proband": true,
+          "diseases": [],
+          "divorced": [
+              "8"
+          ],
+          "partners": [
+              "8"
+          ],
+          "siblings": [
+              "6"
+          ],
+          "coordinates": [
+              1018,
+              1018,
+              1088,
+              1098
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1193.5,
+              1047.5
+          ],
+          "father": "3",
+          "mother": "4",
+          "shading": [
+              "top-half-strokes"
+          ],
+          "divorced": [
+              "7"
+          ],
+          "partners": [
+              "7"
+          ],
+          "siblings": [
+              "9",
+              "10"
+          ],
+          "coordinates": [
+              1157,
+              1010,
+              1230,
+              1085
+          ],
+          "display_name": "Dev"
+      },
+      {
+          "sex": "F",
+          "name": "9",
+          "level": 1,
+          "center": [
+              1362.5,
+              1037.5
+          ],
+          "father": "3",
+          "mother": "4",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "siblings": [
+              "8",
+              "10"
+          ],
+          "coordinates": [
+              1327,
+              1001,
+              1398,
+              1074
+          ]
+      },
+      {
+          "age": "",
+          "dob": "21/12/1971",
+          "sex": "F",
+          "name": "10",
+          "level": 1,
+          "center": [
+              1570.5,
+              1025
+          ],
+          "father": "3",
+          "mother": "4",
+          "shading": [
+              "top-half-filled female"
+          ],
+          "partners": [
+              "11"
+          ],
+          "siblings": [
+              "8",
+              "9"
+          ],
+          "coordinates": [
+              1534,
+              986,
+              1607,
+              1064
+          ],
+          "display_name": "Lucy Lily"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "11",
+          "level": 1,
+          "center": [
+              1739.5,
+              1023
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "diseases": [],
+          "partners": [
+              "10"
+          ],
+          "coordinates": [
+              1698,
+              981,
+              1781,
+              1065
+          ],
+          "display_name": "Aman"
+      },
+      {
+          "age": "",
+          "dob": "23-07-1992",
+          "sex": "M",
+          "name": "12",
+          "level": 2,
+          "center": [
+              485,
+              1300
+          ],
+          "partners": [
+              "13"
+          ],
+          "coordinates": [
+              446,
+              1257,
+              524,
+              1343
+          ],
+          "display_name": "Deepak Adine"
+      },
+      {
+          "age": "",
+          "dob": "22-03-1989",
+          "sex": "F",
+          "name": "13",
+          "level": 2,
+          "center": [
+              615.5,
+              1295
+          ],
+          "father": "5",
+          "mother": "6",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "diseases": [],
+          "partners": [
+              "12"
+          ],
+          "noparents": false,
+          "coordinates": [
+              580,
+              1261,
+              651,
+              1329
+          ],
+          "display_name": "Neva"
+      },
+      {
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              841.5,
+              1298
+          ],
+          "father": "5",
+          "mother": "6",
+          "shading": [
+              "top-half-filled female"
+          ],
+          "coordinates": [
+              804,
+              1260,
+              879,
+              1336
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "15",
+          "level": 2,
+          "center": [
+              1037.5,
+              1375.5
+          ],
+          "father": "8",
+          "mother": "7",
+          "mztwin": 1,
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "siblings": [
+              "16"
+          ],
+          "coordinates": [
+              1003,
+              1340,
+              1072,
+              1411
+          ],
+          "display_name": "Tessa Bouella"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "16",
+          "level": 2,
+          "center": [
+              1237.5,
+              1378
+          ],
+          "father": "8",
+          "mother": "7",
+          "mztwin": 1,
+          "partners": [
+              "17"
+          ],
+          "siblings": [
+              "15"
+          ],
+          "coordinates": [
+              1197,
+              1341,
+              1278,
+              1415
+          ],
+          "display_name": "Manav"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "17",
+          "level": 2,
+          "center": [
+              1401,
+              1375.5
+          ],
+          "partners": [
+              "16"
+          ],
+          "coordinates": [
+              1361,
+              1337,
+              1441,
+              1414
+          ],
+          "display_name": "Zwi"
+      },
+      {
+          "age": "",
+          "dob": "08-08-1996",
+          "sex": "M",
+          "name": "18",
+          "level": 2,
+          "center": [
+              1594.5,
+              1370.5
+          ],
+          "father": "11",
+          "mother": "10",
+          "diseases": [],
+          "siblings": [
+              "19"
+          ],
+          "adopted_in": true,
+          "coordinates": [
+              1561,
+              1334,
+              1628,
+              1407
+          ],
+          "display_name": "Chitra"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "19",
+          "level": 2,
+          "center": [
+              1873,
+              1351
+          ],
+          "father": "11",
+          "mother": "10",
+          "partners": [
+              "20"
+          ],
+          "siblings": [
+              "18"
+          ],
+          "adopted_in": true,
+          "coordinates": [
+              1843,
+              1318,
+              1903,
+              1384
+          ],
+          "display_name": "Ruby"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "20",
+          "level": 2,
+          "center": [
+              2085.5,
+              1346
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "partners": [
+              "19"
+          ],
+          "coordinates": [
+              2047,
+              1303,
+              2124,
+              1389
+          ],
+          "display_name": "Sam"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "21",
+          "level": 3,
+          "center": [
+              548.5,
+              1530.5
+          ],
+          "father": "12",
+          "mother": "13",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "diseases": [],
+          "coordinates": [
+              513,
+              1494,
+              584,
+              1567
+          ],
+          "display_name": "Jada"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "22",
+          "level": 3,
+          "center": [
+              845,
+              1593.5
+          ],
+          "mother": "15",
+          "noparents": false,
+          "adopted_in": true,
+          "coordinates": [
+              811,
+              1558,
+              879,
+              1629
+          ],
+          "display_name": "Arijun"
+      },
+      {
+          "sex": "U",
+          "name": "23",
+          "level": 3,
+          "center": [
+              1315.5,
+              1536.5
+          ],
+          "father": "16",
+          "mother": "17",
+          "coordinates": [
+              1267,
+              1492,
+              1364,
+              1581
+          ],
+          "miscarriage": true
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "24",
+          "level": 3,
+          "center": [
+              1869.5,
+              1631.5
+          ],
+          "dztwin": 2,
+          "father": "20",
+          "mother": "19",
+          "siblings": [
+              "25"
+          ],
+          "coordinates": [
+              1833,
+              1596,
+              1906,
+              1667
+          ],
+          "display_name": "Zoe"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "25",
+          "level": 3,
+          "center": [
+              2151.5,
+              1616.5
+          ],
+          "dztwin": 2,
+          "father": "20",
+          "mother": "19",
+          "status": 1,
+          "siblings": [
+              "24"
+          ],
+          "coordinates": [
+              2115,
+              1578,
+              2188,
+              1655
+          ],
+          "display_name": "Taylor Stoke"
+      }
+  ],
+  "metdata": {
+      "MGNo": "40030 50050",
+      "date": "1967-07-10",
+      "dateAmended": "1997-08-11",
+      "consanguinity": "Yes",
+      "consultantName": "Luis Garcia",
+      "pedigreeTakenBy": "Luis Garcia",
+      "pedigreeAmendedBy": "Audrey Cook",
+      "informationProvidedBy": "Audrey Cook",
+      "pedigreeInfoProvidedBy": "Ellie Wood"
+  }
+}
+}

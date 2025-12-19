@@ -1,0 +1,755 @@
+{
+  "updated_json": {
+    "json": [
+      {
+        "sex": "M",
+        "name": "1",
+        "level": 0,
+        "center": [
+          155.5,
+          274.5
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          139,
+          255,
+          172,
+          294
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "2",
+        "level": 0,
+        "center": [
+          223.5,
+          275
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          209,
+          257,
+          238,
+          293
+        ],
+        "display_name": "Kashish"
+      },
+      {
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          287,
+          278
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          274,
+          261,
+          300,
+          295
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          352.5,
+          280
+        ],
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          338,
+          261,
+          367,
+          299
+        ],
+        "display_name": "Chetan"
+      },
+      {
+        "sex": "M",
+        "name": "5",
+        "level": 0,
+        "center": [
+          416.5,
+          280.5
+        ],
+        "partners": [
+          "6"
+        ],
+        "top_level": true,
+        "coordinates": [
+          401,
+          262,
+          432,
+          299
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "6",
+        "level": 0,
+        "center": [
+          478.5,
+          278.5
+        ],
+        "partners": [
+          "5"
+        ],
+        "top_level": true,
+        "coordinates": [
+          465,
+          260,
+          492,
+          297
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "7",
+        "level": 0,
+        "center": [
+          542,
+          280.5
+        ],
+        "partners": [
+          "8"
+        ],
+        "top_level": true,
+        "coordinates": [
+          526,
+          260,
+          558,
+          301
+        ],
+        "display_name": "Chirag"
+      },
+      {
+        "sex": "F",
+        "name": "8",
+        "level": 0,
+        "center": [
+          613.5,
+          280
+        ],
+        "partners": [
+          "7"
+        ],
+        "top_level": true,
+        "coordinates": [
+          597,
+          259,
+          630,
+          301
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "9",
+        "level": 0,
+        "center": [
+          679.5,
+          284.5
+        ],
+        "partners": [
+          "10"
+        ],
+        "top_level": true,
+        "coordinates": [
+          666,
+          266,
+          693,
+          303
+        ],
+        "display_name": "Keerthi"
+      },
+      {
+        "sex": "M",
+        "name": "10",
+        "level": 0,
+        "center": [
+          755,
+          285
+        ],
+        "partners": [
+          "9"
+        ],
+        "top_level": true,
+        "coordinates": [
+          739,
+          266,
+          771,
+          304
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "11",
+        "level": 1,
+        "center": [
+          153.5,
+          424
+        ],
+        "father": "1",
+        "mother": "2",
+        "siblings": [
+          "12"
+        ],
+        "coordinates": [
+          139,
+          406,
+          168,
+          442
+        ],
+        "display_name": "Kanishka"
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "12",
+        "level": 1,
+        "center": [
+          250,
+          418
+        ],
+        "father": "1",
+        "mother": "2",
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "11"
+        ],
+        "coordinates": [
+          236,
+          401,
+          264,
+          435
+        ],
+        "display_name": "Mechak"
+      },
+      {
+        "sex": "M",
+        "name": "13",
+        "level": 1,
+        "center": [
+          286,
+          418.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "14"
+        ],
+        "coordinates": [
+          273,
+          402,
+          299,
+          435
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "14",
+        "level": 1,
+        "center": [
+          342.5,
+          419.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "15"
+        ],
+        "siblings": [
+          "16",
+          "13",
+          "15"
+        ],
+        "coordinates": [
+          327,
+          399,
+          358,
+          440
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 1,
+        "center": [
+          395,
+          426
+        ],
+        "father": "5",
+        "mother": "6",
+        "partners": [
+          "14"
+        ],
+        "siblings": [
+          "16",
+          "14"
+        ],
+        "coordinates": [
+          380,
+          408,
+          410,
+          444
+        ],
+        "display_name": "Lakshita"
+      },
+      {
+        "sex": "F",
+        "name": "16",
+        "level": 1,
+        "center": [
+          464.5,
+          423
+        ],
+        "father": "5",
+        "mother": "6",
+        "partners": [
+          "17"
+        ],
+        "siblings": [
+          "14",
+          "15"
+        ],
+        "coordinates": [
+          450,
+          403,
+          479,
+          443
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "17",
+        "level": 1,
+        "center": [
+          527,
+          429
+        ],
+        "father": "7",
+        "mother": "8",
+        "partners": [
+          "16"
+        ],
+        "siblings": [
+          "18"
+        ],
+        "coordinates": [
+          513,
+          411,
+          541,
+          447
+        ],
+        "display_name": "Lakshya"
+      },
+      {
+        "sex": "M",
+        "name": "18",
+        "level": 1,
+        "center": [
+          588.5,
+          428.5
+        ],
+        "father": "7",
+        "mother": "8",
+        "partners": [
+          "19"
+        ],
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          573,
+          410,
+          604,
+          447
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "19",
+        "level": 1,
+        "center": [
+          658.5,
+          429
+        ],
+        "father": "10",
+        "mother": "9",
+        "partners": [
+          "18"
+        ],
+        "siblings": [
+          "20"
+        ],
+        "coordinates": [
+          646,
+          412,
+          671,
+          446
+        ],
+        "display_name": "Amrita"
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "20",
+        "level": 1,
+        "center": [
+          739.5,
+          431.5
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "19"
+        ],
+        "coordinates": [
+          723,
+          411,
+          756,
+          452
+        ],
+        "display_name": "Deepti"
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "21",
+        "level": 2,
+        "center": [
+          231,
+          565.5
+        ],
+        "father": "13",
+        "mother": "12",
+        "partners": [
+          "23"
+        ],
+        "coordinates": [
+          216,
+          544,
+          246,
+          587
+        ],
+        "display_name": "Isha"
+      },
+      {
+        "sex": "M",
+        "name": "23",
+        "level": 2,
+        "center": [
+          335,
+          561
+        ],
+        "father": "14",
+        "mother": "15",
+        "partners": [
+          "21"
+        ],
+        "siblings": [
+          "24",
+          "25"
+        ],
+        "coordinates": [
+          321,
+          544,
+          349,
+          578
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "24",
+        "level": 2,
+        "center": [
+          405,
+          568
+        ],
+        "father": "14",
+        "mother": "15",
+        "partners": [
+          "25"
+        ],
+        "siblings": [
+          "25",
+          "23"
+        ],
+        "coordinates": [
+          389,
+          548,
+          421,
+          588
+        ],
+        "display_name": "Dev"
+      },
+      {
+        "sex": "F",
+        "name": "25",
+        "level": 2,
+        "center": [
+          458.5,
+          574
+        ],
+        "father": "17",
+        "mother": "16",
+        "proband": true,
+        "partners": [
+          "24"
+        ],
+        "siblings": [
+          "24",
+          "23"
+        ],
+        "noparents": false,
+        "coordinates": [
+          445,
+          556,
+          472,
+          592
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "26",
+        "level": 2,
+        "center": [
+          508.5,
+          572.5
+        ],
+        "father": "17",
+        "mother": "16",
+        "partners": [
+          "27"
+        ],
+        "coordinates": [
+          496,
+          557,
+          521,
+          588
+        ],
+        "display_name": "Megha"
+      },
+      {
+        "sex": "M",
+        "name": "27",
+        "level": 2,
+        "center": [
+          575.5,
+          576
+        ],
+        "father": "18",
+        "mother": "19",
+        "partners": [
+          "26"
+        ],
+        "siblings": [
+          "28"
+        ],
+        "coordinates": [
+          559,
+          557,
+          592,
+          595
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "28",
+        "level": 2,
+        "center": [
+          630,
+          582
+        ],
+        "father": "18",
+        "mother": "19",
+        "siblings": [
+          "27"
+        ],
+        "coordinates": [
+          614,
+          564,
+          646,
+          600
+        ],
+        "display_name": "Deepesh"
+      },
+      {
+        "sex": "F",
+        "name": "29",
+        "level": 3,
+        "center": [
+          278.5,
+          709
+        ],
+        "father": "23",
+        "mother": "21",
+        "noparents": false,
+        "coordinates": [
+          264,
+          690,
+          293,
+          728
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "30",
+        "level": 3,
+        "center": [
+          352.5,
+          712
+        ],
+        "father": "23",
+        "mother": "21",
+        "noparents": false,
+        "coordinates": [
+          337,
+          693,
+          368,
+          731
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "31",
+        "level": 3,
+        "center": [
+          393.5,
+          713
+        ],
+        "father": "24",
+        "mother": "25",
+        "noparents": false,
+        "coordinates": [
+          378,
+          694,
+          409,
+          732
+        ],
+        "display_name": ""
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "M",
+        "name": "32",
+        "level": 3,
+        "center": [
+          458,
+          710
+        ],
+        "father": "24",
+        "mother": "25",
+        "noparents": false,
+        "coordinates": [
+          445,
+          693,
+          471,
+          727
+        ],
+        "display_name": "Dilip"
+      },
+      {
+        "sex": "F",
+        "name": "33",
+        "level": 3,
+        "center": [
+          515.5,
+          722
+        ],
+        "father": "27",
+        "mother": "26",
+        "siblings": [
+          "34"
+        ],
+        "coordinates": [
+          501,
+          702,
+          530,
+          742
+        ]
+      },
+      {
+        "age": "",
+        "dob": "",
+        "sex": "F",
+        "name": "34",
+        "level": 3,
+        "center": [
+          573,
+          722.5
+        ],
+        "father": "27",
+        "mother": "26",
+        "siblings": [
+          "33"
+        ],
+        "coordinates": [
+          556,
+          699,
+          590,
+          746
+        ],
+        "display_name": "Divya"
+      }
+    ],
+    "metdata": {
+      "MGNo": "",
+      "date": "",
+      "dateAmended": "",
+      "consanguinity": "No",
+      "consultantName": "",
+      "pedigreeTakenBy": "",
+      "pedigreeAmendedBy": "",
+      "informationProvidedBy": "",
+      "pedigreeInfoProvidedBy": ""
+    }
+  }
+}

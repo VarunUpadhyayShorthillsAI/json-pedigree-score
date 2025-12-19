@@ -1,0 +1,541 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          1094.0,
+          737.0
+        ],
+        "status": 1,
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1062,
+          703,
+          1126,
+          771
+        ],
+        "display_name": "Sanya Patel"
+      },
+      {
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1364.0,
+          731.0
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1323,
+          687,
+          1405,
+          775
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 1,
+        "center": [
+          868.0,
+          925.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "4"
+        ],
+        "noparents": true,
+        "coordinates": [
+          832,
+          890,
+          904,
+          961
+        ],
+        "display_name": "Kavya Smith"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "4",
+        "level": 1,
+        "center": [
+          1055.5,
+          920.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "partners": [
+          "3"
+        ],
+        "siblings": [
+          "5",
+          "6"
+        ],
+        "coordinates": [
+          1013,
+          889,
+          1098,
+          951
+        ],
+        "display_name": "Arun"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "5",
+        "level": 1,
+        "center": [
+          1218.0,
+          917.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "filled female"
+        ],
+        "diseases": [],
+        "siblings": [
+          "4",
+          "6"
+        ],
+        "coordinates": [
+          1188,
+          884,
+          1248,
+          950
+        ],
+        "display_name": "Priya"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1437.0,
+          914.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "bottom-half-filled female"
+        ],
+        "diseases": [],
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "4",
+          "5"
+        ],
+        "coordinates": [
+          1408,
+          883,
+          1466,
+          946
+        ],
+        "display_name": "Neha"
+      },
+      {
+        "age": null,
+        "dob": "18-01-1962",
+        "sex": "M",
+        "name": "7",
+        "level": 1,
+        "center": [
+          1608.5,
+          936.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "diseases": [],
+        "divorced": [
+          "8"
+        ],
+        "partners": [
+          "8",
+          "6"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1571,
+          901,
+          1646,
+          972
+        ],
+        "display_name": "Swresh"
+      },
+      {
+        "age": null,
+        "dob": "19-08-1969",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          1822.5,
+          942.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "cross-filled female"
+        ],
+        "diseases": [],
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "7"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1786,
+          906,
+          1859,
+          979
+        ],
+        "display_name": "Aditi"
+      },
+      {
+        "age": null,
+        "dob": "01-01-1969",
+        "sex": "F",
+        "name": "9",
+        "level": 2,
+        "center": [
+          797.5,
+          1194.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "diseases": [],
+        "siblings": [
+          "10"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          771,
+          1168,
+          824,
+          1221
+        ],
+        "display_name": "Leela"
+      },
+      {
+        "sex": "M",
+        "name": "10",
+        "level": 2,
+        "center": [
+          941.0,
+          1213.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "9"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          897,
+          1176,
+          985,
+          1251
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "11",
+        "level": 2,
+        "center": [
+          1080.5,
+          1194.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "status": 1,
+        "noparents": true,
+        "coordinates": [
+          1038,
+          1156,
+          1123,
+          1233
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          1222.5,
+          1268.5
+        ],
+        "father": "7",
+        "mother": "6",
+        "divorced": [
+          "13"
+        ],
+        "partners": [
+          "13"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1166,
+          1229,
+          1279,
+          1308
+        ]
+      },
+      {
+        "age": null,
+        "dob": "27-01-1978",
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1392.0,
+          1267.0
+        ],
+        "father": "7",
+        "mother": "6",
+        "proband": true,
+        "shading": [
+          "right-half-filled female"
+        ],
+        "diseases": [],
+        "divorced": [
+          "12"
+        ],
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "14",
+          "15"
+        ],
+        "coordinates": [
+          1358,
+          1232,
+          1426,
+          1302
+        ],
+        "display_name": "Sneha"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1653.0,
+          1236.0
+        ],
+        "father": "7",
+        "mother": "6",
+        "diseases": [],
+        "divorced": [
+          "15"
+        ],
+        "siblings": [
+          "13",
+          "15"
+        ],
+        "coordinates": [
+          1615,
+          1200,
+          1691,
+          1272
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1814.0,
+          1247.0
+        ],
+        "father": "7",
+        "mother": "6",
+        "shading": [
+          "top-left-quarter-filled female"
+        ],
+        "diseases": [],
+        "divorced": [
+          "14"
+        ],
+        "siblings": [
+          "13",
+          "14"
+        ],
+        "coordinates": [
+          1779,
+          1213,
+          1849,
+          1281
+        ],
+        "display_name": "Anouye"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "16",
+        "level": 3,
+        "center": [
+          692.0,
+          1518.5
+        ],
+        "mother": "9",
+        "mztwin": 1,
+        "diseases": [],
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          641,
+          1476,
+          743,
+          1561
+        ],
+        "display_name": "Karan"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "17",
+        "level": 3,
+        "center": [
+          823.0,
+          1529.5
+        ],
+        "mother": "9",
+        "mztwin": 1,
+        "diseases": [],
+        "siblings": [
+          "16"
+        ],
+        "coordinates": [
+          784,
+          1487,
+          862,
+          1572
+        ],
+        "display_name": "Vikas"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "18",
+        "level": 3,
+        "center": [
+          1291.0,
+          1487.0
+        ],
+        "father": "12",
+        "mother": "13",
+        "diseases": [],
+        "siblings": [
+          "19"
+        ],
+        "noparents": true,
+        "adopted_out": true,
+        "coordinates": [
+          1275,
+          1467,
+          1307,
+          1507
+        ],
+        "display_name": "Tanvi"
+      },
+      {
+        "sex": "U",
+        "name": "19",
+        "level": 3,
+        "center": [
+          1493.5,
+          1500.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "siblings": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1446,
+          1456,
+          1541,
+          1545
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "U",
+        "name": "20",
+        "level": 3,
+        "center": [
+          1728.0,
+          1501.0
+        ],
+        "father": "12",
+        "mother": "13",
+        "carrier": true,
+        "diseases": [],
+        "noparents": true,
+        "coordinates": [
+          1683,
+          1451,
+          1773,
+          1551
+        ],
+        "display_name": "Isha"
+      }
+    ],
+    "metdata": {
+      "MGNo": "93455 56789",
+      "date": "04/02/1337",
+      "dateAmended": "05/11/1437",
+      "consanguinity": "No",
+      "consultantName": "Olivia Ross",
+      "pedigreeTakenBy": "Olivia Ross",
+      "pedigreeAmendedBy": "William Ross",
+      "informationProvidedBy": "William Ross",
+      "pedigreeInfoProvidedBy": "Charlotte"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/a3fe03e4-b49d-490f-aa7e-e9c57f488596/detectron_image_21.jpg"
+}

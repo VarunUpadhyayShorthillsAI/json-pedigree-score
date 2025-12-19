@@ -1,0 +1,533 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "1",
+          "level": 0,
+          "center": [
+              1012,
+              671.5
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "partners": [
+              "2"
+          ],
+          "top_level": true,
+          "coordinates": [
+              944,
+              625,
+              1080,
+              718
+          ],
+          "display_name": "Arman Bowelca"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "2",
+          "level": 0,
+          "center": [
+              1337,
+              677
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "1"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1282,
+              632,
+              1392,
+              722
+          ],
+          "display_name": "Rubi"
+      },
+      {
+          "sex": "M",
+          "name": "3",
+          "level": 1,
+          "center": [
+              584.5,
+              963.5
+          ],
+          "status": 1,
+          "partners": [
+              "4"
+          ],
+          "coordinates": [
+              521,
+              918,
+              648,
+              1009
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "4",
+          "level": 1,
+          "center": [
+              847.5,
+              953
+          ],
+          "father": "1",
+          "mother": "2",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "diseases": [],
+          "partners": [
+              "3"
+          ],
+          "siblings": [
+              "5",
+              "6",
+              "7"
+          ],
+          "coordinates": [
+              807,
+              917,
+              888,
+              989
+          ],
+          "display_name": "Tanya"
+      },
+      {
+          "age": "",
+          "dob": "21-06-1972",
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              1076,
+              959
+          ],
+          "father": "1",
+          "mother": "2",
+          "siblings": [
+              "4",
+              "6",
+              "7"
+          ],
+          "coordinates": [
+              1029,
+              922,
+              1123,
+              996
+          ],
+          "display_name": "Vivian Bowella"
+      },
+      {
+          "sex": "U",
+          "name": "6",
+          "level": 1,
+          "center": [
+              1263,
+              935
+          ],
+          "father": "1",
+          "mother": "2",
+          "siblings": [
+              "4",
+              "5",
+              "7"
+          ],
+          "coordinates": [
+              1210,
+              908,
+              1316,
+              962
+          ],
+          "miscarriage": true
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "7",
+          "level": 1,
+          "center": [
+              1464,
+              956
+          ],
+          "father": "1",
+          "mother": "2",
+          "divorced": [
+              "8"
+          ],
+          "partners": [
+              "8"
+          ],
+          "siblings": [
+              "4",
+              "5",
+              "6"
+          ],
+          "coordinates": [
+              1417,
+              913,
+              1511,
+              999
+          ],
+          "display_name": "Raj Bawelca"
+      },
+      {
+          "age": "",
+          "dob": "21-02-2027",
+          "sex": "F",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1723.5,
+              957.5
+          ],
+          "diseases": [],
+          "divorced": [
+              "7"
+          ],
+          "partners": [
+              "7"
+          ],
+          "coordinates": [
+              1678,
+              916,
+              1769,
+              999
+          ],
+          "display_name": "Ella Verma"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "9",
+          "level": 2,
+          "center": [
+              558,
+              1135.5
+          ],
+          "father": "3",
+          "mother": "4",
+          "mztwin": 1,
+          "siblings": [
+              "10"
+          ],
+          "coordinates": [
+              521,
+              1101,
+              595,
+              1170
+          ],
+          "display_name": "Maria Piles"
+      },
+      {
+          "sex": "F",
+          "name": "10",
+          "level": 2,
+          "center": [
+              819,
+              1147
+          ],
+          "father": "3",
+          "mother": "4",
+          "mztwin": 1,
+          "divorced": [
+              "11"
+          ],
+          "partners": [
+              "11"
+          ],
+          "siblings": [
+              "9"
+          ],
+          "coordinates": [
+              783,
+              1114,
+              855,
+              1180
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "11",
+          "level": 2,
+          "center": [
+              998.5,
+              1160.5
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "diseases": [],
+          "divorced": [
+              "10"
+          ],
+          "partners": [
+              "10"
+          ],
+          "coordinates": [
+              958,
+              1124,
+              1039,
+              1197
+          ],
+          "display_name": "Ram"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "12",
+          "level": 2,
+          "center": [
+              1415,
+              1274
+          ],
+          "father": "7",
+          "mother": "8",
+          "shading": [
+              "top-half-filled"
+          ],
+          "siblings": [
+              "13",
+              "14"
+          ],
+          "coordinates": [
+              1376,
+              1238,
+              1454,
+              1310
+          ],
+          "display_name": "Rohit Bowllca"
+      },
+      {
+          "sex": "F",
+          "name": "13",
+          "level": 2,
+          "center": [
+              1606.5,
+              1291
+          ],
+          "father": "7",
+          "mother": "8",
+          "siblings": [
+              "12",
+              "14"
+          ],
+          "adopted_in": true,
+          "coordinates": [
+              1582,
+              1265,
+              1631,
+              1317
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              1765,
+              1280
+          ],
+          "father": "7",
+          "mother": "8",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "partners": [
+              "15"
+          ],
+          "siblings": [
+              "12",
+              "13"
+          ],
+          "coordinates": [
+              1719,
+              1244,
+              1811,
+              1316
+          ],
+          "display_name": "Zia Bescle"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "15",
+          "level": 2,
+          "center": [
+              2068,
+              1282.5
+          ],
+          "carrier": true,
+          "partners": [
+              "14"
+          ],
+          "coordinates": [
+              2018,
+              1235,
+              2118,
+              1330
+          ],
+          "display_name": "Arun Bises"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "16",
+          "level": 3,
+          "center": [
+              735.5,
+              1425.5
+          ],
+          "father": "11",
+          "mother": "10",
+          "diseases": [],
+          "siblings": [
+              "18",
+              "21"
+          ],
+          "coordinates": [
+              709,
+              1399,
+              762,
+              1452
+          ],
+          "display_name": "Vishakha"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "18",
+          "level": 3,
+          "center": [
+              1027.5,
+              1446.5
+          ],
+          "father": "11",
+          "mother": "10",
+          "diseases": [],
+          "siblings": [
+              "16",
+              "21"
+          ],
+          "coordinates": [
+              990,
+              1405,
+              1065,
+              1488
+          ],
+          "display_name": "Arun"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "19",
+          "level": 3,
+          "center": [
+              1752.5,
+              1500.5
+          ],
+          "father": "15",
+          "mother": "14",
+          "partners": [
+              "20"
+          ],
+          "siblings": [
+              "20"
+          ],
+          "coordinates": [
+              1707,
+              1460,
+              1798,
+              1541
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "20",
+          "level": 3,
+          "center": [
+              2019,
+              1503
+          ],
+          "father": "15",
+          "mother": "14",
+          "partners": [
+              "19"
+          ],
+          "siblings": [
+              "19"
+          ],
+          "coordinates": [
+              1971,
+              1460,
+              2067,
+              1546
+          ],
+          "display_name": "Aman"
+      },
+      {
+          "name": "21",
+          "level": 3,
+          "center": [
+              0,
+              0
+          ],
+          "dztwin": 0,
+          "father": "11",
+          "mother": "10",
+          "mztwin": 0,
+          "carrier": false,
+          "proband": false,
+          "shading": [],
+          "partners": [],
+          "siblings": [
+              "16",
+              "18"
+          ],
+          "adopted_in": false,
+          "stillbirth": false,
+          "adopted_out": false,
+          "coordinates": [
+              0,
+              0
+          ],
+          "miscarriage": true,
+          "termination": false,
+          "additional_info": ""
+      }
+  ],
+  "metdata": {
+      "MGNo": "49576 21354",
+      "date": "08/02/2025",
+      "dateAmended": "08/12/2027",
+      "consanguinity": "Yes",
+      "consultantName": "Grace Scott",
+      "pedigreeTakenBy": "Grace Scott",
+      "pedigreeAmendedBy": "Ella Verma",
+      "informationProvidedBy": "Ella Verma",
+      "pedigreeInfoProvidedBy": "Sebastian"
+  }
+}
+}

@@ -1,0 +1,485 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "19-08-1928",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          1150.5,
+          758.5
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1120,
+          722,
+          1181,
+          795
+        ],
+        "display_name": "Riya Mason Parker"
+      },
+      {
+        "age": null,
+        "dob": "28-09-1932",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1361.5,
+          752.5
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1323,
+          714,
+          1400,
+          791
+        ],
+        "display_name": "Sanjay"
+      },
+      {
+        "age": null,
+        "dob": "19/03/1956",
+        "sex": "M",
+        "name": "3",
+        "level": 1,
+        "center": [
+          1033.0,
+          971.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-filled"
+        ],
+        "diseases": [],
+        "siblings": [
+          "4"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1000,
+          940,
+          1066,
+          1003
+        ],
+        "display_name": "Anil"
+      },
+      {
+        "sex": "M",
+        "name": "4",
+        "level": 1,
+        "center": [
+          1192.0,
+          980.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "status": 1,
+        "siblings": [
+          "3"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1157,
+          945,
+          1227,
+          1015
+        ]
+      },
+      {
+        "age": null,
+        "dob": "28-09-1969",
+        "sex": "M",
+        "name": "5",
+        "level": 1,
+        "center": [
+          1377.5,
+          984.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "noparents": true,
+        "coordinates": [
+          1346,
+          955,
+          1409,
+          1013
+        ],
+        "display_name": "Vikas"
+      },
+      {
+        "age": null,
+        "dob": "04-01-1986",
+        "sex": "M",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1548.5,
+          992.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "noparents": true,
+        "coordinates": [
+          1521,
+          965,
+          1576,
+          1020
+        ],
+        "display_name": "Daniel Mohan"
+      },
+      {
+        "age": null,
+        "dob": "21-09-1981",
+        "sex": "M",
+        "name": "7",
+        "level": 2,
+        "center": [
+          732.0,
+          1252.5
+        ],
+        "father": null,
+        "mother": null,
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "divorced": [
+          "8"
+        ],
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          695,
+          1220,
+          769,
+          1285
+        ],
+        "display_name": "Dinesh"
+      },
+      {
+        "age": null,
+        "dob": "04/02/1981",
+        "sex": "F",
+        "name": "8",
+        "level": 2,
+        "center": [
+          890.5,
+          1249.0
+        ],
+        "father": "3",
+        "diseases": [],
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "9",
+          "11"
+        ],
+        "coordinates": [
+          855,
+          1215,
+          926,
+          1283
+        ],
+        "display_name": "Sia Diabek"
+      },
+      {
+        "sex": "M",
+        "name": "9",
+        "level": 2,
+        "center": [
+          1014.5,
+          1246.0
+        ],
+        "father": "3",
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "8",
+          "11"
+        ],
+        "coordinates": [
+          980,
+          1210,
+          1049,
+          1282
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "10",
+        "level": 2,
+        "center": [
+          1117.5,
+          1245.5
+        ],
+        "father": null,
+        "mother": null,
+        "partners": [
+          "9"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1094,
+          1220,
+          1141,
+          1271
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "11",
+        "level": 2,
+        "center": [
+          1209.5,
+          1238.0
+        ],
+        "father": "3",
+        "diseases": [],
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "8",
+          "9"
+        ],
+        "coordinates": [
+          1183,
+          1211,
+          1236,
+          1265
+        ],
+        "display_name": "Nishan"
+      },
+      {
+        "age": null,
+        "dob": "01-04-1979",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          1325.0,
+          1243.5
+        ],
+        "father": null,
+        "mother": null,
+        "diseases": [],
+        "partners": [
+          "11"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1289,
+          1213,
+          1361,
+          1274
+        ],
+        "display_name": "Abhay"
+      },
+      {
+        "sex": "M",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1482.0,
+          1266.0
+        ],
+        "father": "6",
+        "mztwin": 1,
+        "siblings": [
+          "14"
+        ],
+        "coordinates": [
+          1446,
+          1232,
+          1518,
+          1300
+        ]
+      },
+      {
+        "age": null,
+        "dob": "03-05-1972",
+        "sex": "F",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1608.5,
+          1266.0
+        ],
+        "father": "6",
+        "mztwin": 1,
+        "shading": [
+          "cross-filled female"
+        ],
+        "diseases": [],
+        "siblings": [
+          "13"
+        ],
+        "coordinates": [
+          1573,
+          1234,
+          1644,
+          1298
+        ],
+        "display_name": "Sneha"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 3,
+        "center": [
+          1050.0,
+          1448.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "diseases": [],
+        "coordinates": [
+          1022,
+          1417,
+          1078,
+          1479
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "F",
+        "name": "16",
+        "level": 3,
+        "center": [
+          1172.5,
+          1516.5
+        ],
+        "dztwin": 1,
+        "father": "12",
+        "mother": "11",
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          1143,
+          1485,
+          1202,
+          1548
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "17",
+        "level": 3,
+        "center": [
+          1286.5,
+          1520.5
+        ],
+        "dztwin": 1,
+        "father": "12",
+        "mother": "11",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "siblings": [
+          "16"
+        ],
+        "coordinates": [
+          1253,
+          1491,
+          1320,
+          1550
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "18",
+        "level": 3,
+        "center": [
+          1547.0,
+          1503.5
+        ],
+        "father": "12",
+        "mother": "11",
+        "mztwin": 2,
+        "siblings": [
+          "19"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1517,
+          1476,
+          1577,
+          1531
+        ],
+        "display_name": "Neha"
+      },
+      {
+        "age": null,
+        "dob": "05-03-1999",
+        "sex": "M",
+        "name": "19",
+        "level": 3,
+        "center": [
+          1672.5,
+          1522.0
+        ],
+        "father": "12",
+        "mother": "11",
+        "mztwin": 2,
+        "shading": [
+          "top-half-filled"
+        ],
+        "diseases": [],
+        "siblings": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1637,
+          1490,
+          1708,
+          1554
+        ],
+        "display_name": "Swiegh"
+      }
+    ],
+    "metdata": {
+      "MGNo": "99302 49522",
+      "date": "1976-03-12",
+      "dateAmended": "1986-04-02",
+      "consanguinity": "Yes",
+      "consultantName": "Mason Parker",
+      "pedigreeTakenBy": "Mason Parker",
+      "pedigreeAmendedBy": "Daniel Mohan",
+      "informationProvidedBy": "Daniel Mohan",
+      "pedigreeInfoProvidedBy": "Elizabeth"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/8a9e5994-e5b6-404e-b01b-74401d3d24ef/detectron_image_23.jpg"
+}

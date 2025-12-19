@@ -1,0 +1,703 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "1",
+          "level": 0,
+          "center": [
+              889.5,
+              682
+          ],
+          "status": 1,
+          "diseases": [],
+          "divorced": [
+              "2"
+          ],
+          "partners": [
+              "2"
+          ],
+          "position": {
+              "x": 918.75,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              849,
+              638,
+              930,
+              726
+          ],
+          "display_name": "Eric Hill"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "2",
+          "level": 0,
+          "center": [
+              1060,
+              676
+          ],
+          "divorced": [
+              "1"
+          ],
+          "partners": [
+              "3",
+              "1"
+          ],
+          "position": {
+              "x": 1181.25,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              1017,
+              629,
+              1103,
+              723
+          ],
+          "display_name": "Sachin"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "3",
+          "level": 0,
+          "center": [
+              1266,
+              680
+          ],
+          "partners": [
+              "2"
+          ],
+          "position": {
+              "x": 1443.75,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              1227,
+              628,
+              1305,
+              732
+          ],
+          "display_name": "Anjali"
+      },
+      {
+          "age": "",
+          "dob": "19/10/1998",
+          "sex": "F",
+          "name": "4",
+          "level": 1,
+          "center": [
+              707.5,
+              907.5
+          ],
+          "shading": [
+              "filled female"
+          ],
+          "diseases": [
+              ""
+          ],
+          "partners": [
+              "5"
+          ],
+          "position": {
+              "x": 262.5,
+              "y": 312.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "stillbirth": false,
+          "coordinates": [
+              669,
+              863,
+              746,
+              952
+          ],
+          "termination": false,
+          "display_name": "Riya",
+          "ongoing_pregnancy": false
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              872,
+              896.5
+          ],
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "partners": [
+              "4"
+          ],
+          "position": {
+              "x": 787.5,
+              "y": 312.5
+          },
+          "siblings": [
+              "6",
+              "7"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              827,
+              853,
+              917,
+              940
+          ],
+          "display_name": ""
+      },
+      {
+          "sex": "F",
+          "name": "6",
+          "level": 1,
+          "center": [
+              1092,
+              952.5
+          ],
+          "father": "2",
+          "mother": "1",
+          "proband": true,
+          "divorced": [
+              "7"
+          ],
+          "position": {
+              "x": 1050,
+              "y": 312.5
+          },
+          "siblings": [
+              "5",
+              "7"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1055,
+              907,
+              1129,
+              998
+          ]
+      },
+      {
+          "age": "",
+          "dob": "03-06-1981",
+          "sex": "M",
+          "name": "7",
+          "level": 1,
+          "center": [
+              1230.5,
+              948
+          ],
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "top-half-strokes"
+          ],
+          "divorced": [
+              "6"
+          ],
+          "partners": [
+              "8"
+          ],
+          "position": {
+              "x": 1312.5,
+              "y": 312.5
+          },
+          "siblings": [
+              "5",
+              "6"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1179,
+              910,
+              1282,
+              986
+          ],
+          "display_name": "Sonale Ajay"
+      },
+      {
+          "age": "",
+          "dob": "08-11-1999",
+          "sex": "F",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1431,
+              951
+          ],
+          "status": 1,
+          "partners": [
+              "7"
+          ],
+          "position": {
+              "x": 1837.5,
+              "y": 312.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1389,
+              905,
+              1473,
+              997
+          ],
+          "display_name": "Paul Kent"
+      },
+      {
+          "age": "",
+          "dob": "24-01-1988",
+          "sex": "M",
+          "name": "9",
+          "level": 2,
+          "center": [
+              481,
+              1183
+          ],
+          "shading": [
+              "top-half-strokes"
+          ],
+          "partners": [
+              "10"
+          ],
+          "position": {
+              "x": 0,
+              "y": 587.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              435,
+              1143,
+              527,
+              1223
+          ],
+          "display_name": "Dinesh Daniel Ca"
+      },
+      {
+          "sex": "F",
+          "name": "10",
+          "level": 2,
+          "center": [
+              685.5,
+              1183
+          ],
+          "father": "5",
+          "mother": "4",
+          "partners": [
+              "9"
+          ],
+          "position": {
+              "x": 262.5,
+              "y": 587.5
+          },
+          "siblings": [
+              "11"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              645,
+              1143,
+              726,
+              1223
+          ]
+      },
+      {
+          "age": "",
+          "dob": "21-10-1989",
+          "sex": "F",
+          "name": "11",
+          "level": 2,
+          "center": [
+              898.5,
+              1176
+          ],
+          "father": "5",
+          "mother": "4",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "partners": [
+              "12"
+          ],
+          "position": {
+              "x": 787.5,
+              "y": 587.5
+          },
+          "siblings": [
+              "10"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              853,
+              1136,
+              944,
+              1216
+          ],
+          "display_name": "Riya"
+      },
+      {
+          "sex": "M",
+          "name": "12",
+          "level": 2,
+          "center": [
+              1069,
+              1179
+          ],
+          "partners": [
+              "11"
+          ],
+          "position": {
+              "x": 525,
+              "y": 587.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1020,
+              1136,
+              1118,
+              1222
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "13",
+          "level": 2,
+          "center": [
+              1273.5,
+              1254
+          ],
+          "father": "7",
+          "mother": "8",
+          "mztwin": 1,
+          "shading": [
+              "bottom-half-filled female"
+          ],
+          "position": {
+              "x": 1312.5,
+              "y": 587.5
+          },
+          "siblings": [
+              "14"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              1230,
+              1212,
+              1317,
+              1296
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              1430.5,
+              1252.5
+          ],
+          "father": "7",
+          "mother": "8",
+          "mztwin": 1,
+          "shading": [
+              "top-half-filled female"
+          ],
+          "partners": [
+              "15"
+          ],
+          "position": {
+              "x": 1837.5,
+              "y": 587.5
+          },
+          "siblings": [
+              "13"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              1384,
+              1208,
+              1477,
+              1297
+          ],
+          "display_name": "Sandy"
+      },
+      {
+          "sex": "M",
+          "name": "15",
+          "level": 2,
+          "center": [
+              1623.5,
+              1254
+          ],
+          "partners": [
+              "14"
+          ],
+          "position": {
+              "x": 1575,
+              "y": 587.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1575,
+              1206,
+              1672,
+              1302
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "16",
+          "level": 3,
+          "center": [
+              503,
+              1471
+          ],
+          "father": "9",
+          "mother": "10",
+          "position": {
+              "x": 0,
+              "y": 862.5
+          },
+          "siblings": [
+              "17"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              459,
+              1426,
+              547,
+              1516
+          ],
+          "display_name": "Gauri"
+      },
+      {
+          "sex": "M",
+          "name": "17",
+          "level": 3,
+          "center": [
+              710,
+              1477
+          ],
+          "father": "9",
+          "mother": "10",
+          "position": {
+              "x": 262.5,
+              "y": 862.5
+          },
+          "siblings": [
+              "16"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "adopted_out": true,
+          "coordinates": [
+              672,
+              1440,
+              748,
+              1514
+          ]
+      },
+      {
+          "sex": "F",
+          "name": "18",
+          "level": 3,
+          "center": [
+              926,
+              1515
+          ],
+          "father": "12",
+          "mother": "11",
+          "position": {
+              "x": 525,
+              "y": 862.5
+          },
+          "siblings": [
+              "19"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "adopted_in": true,
+          "coordinates": [
+              886,
+              1476,
+              966,
+              1554
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "19",
+          "level": 3,
+          "center": [
+              1128.5,
+              1474.5
+          ],
+          "father": "12",
+          "mother": "11",
+          "diseases": [],
+          "position": {
+              "x": 787.5,
+              "y": 862.5
+          },
+          "siblings": [
+              "18"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1082,
+              1429,
+              1175,
+              1520
+          ],
+          "display_name": "Maya"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "20",
+          "level": 3,
+          "center": [
+              1390.5,
+              1479.5
+          ],
+          "father": "15",
+          "mother": "14",
+          "position": {
+              "x": 1575,
+              "y": 862.5
+          },
+          "siblings": [
+              "21"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1347,
+              1435,
+              1434,
+              1524
+          ],
+          "display_name": ""
+      },
+      {
+          "sex": "M",
+          "name": "21",
+          "level": 3,
+          "center": [
+              1661,
+              1486
+          ],
+          "father": "15",
+          "mother": "14",
+          "position": {
+              "x": 1837.5,
+              "y": 862.5
+          },
+          "siblings": [
+              "20"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1605,
+              1440,
+              1717,
+              1532
+          ]
+      }
+  ],
+  "metdata": {
+      "MGNo": "45679 97899",
+      "date": "15/06/1988",
+      "dateAmended": "08/11/1999",
+      "consanguinity": "Yes",
+      "consultantName": "Eric Hill",
+      "pedigreeTakenBy": "Eric Hill",
+      "pedigreeAmendedBy": "Paul Kent",
+      "informationProvidedBy": "Paul Kent",
+      "pedigreeInfoProvidedBy": "Ivan Fox"
+  }
+}
+}

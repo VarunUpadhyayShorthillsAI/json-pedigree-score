@@ -1,0 +1,545 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          889.5,
+          682.0
+        ],
+        "status": 1,
+        "diseases": [],
+        "divorced": [
+          "2"
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          849,
+          638,
+          930,
+          726
+        ],
+        "display_name": "Eric Hill"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1060.0,
+          676.0
+        ],
+        "divorced": [
+          "1"
+        ],
+        "partners": [
+          "3",
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1017,
+          629,
+          1103,
+          723
+        ],
+        "display_name": "Sachin"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          1266.0,
+          680.0
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1227,
+          628,
+          1305,
+          732
+        ],
+        "display_name": "Anjali"
+      },
+      {
+        "age": null,
+        "dob": "19/10/1998",
+        "sex": "F",
+        "name": "4",
+        "level": 1,
+        "center": [
+          707.5,
+          907.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "5"
+        ],
+        "noparents": true,
+        "coordinates": [
+          669,
+          863,
+          746,
+          952
+        ],
+        "display_name": "Riya"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "5",
+        "level": 1,
+        "center": [
+          872.0,
+          896.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "partners": [
+          "4"
+        ],
+        "siblings": [
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          827,
+          853,
+          917,
+          940
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1092.0,
+          952.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "proband": true,
+        "divorced": [
+          "7"
+        ],
+        "siblings": [
+          "5",
+          "7"
+        ],
+        "coordinates": [
+          1055,
+          907,
+          1129,
+          998
+        ]
+      },
+      {
+        "age": null,
+        "dob": "03-06-1981",
+        "sex": "M",
+        "name": "7",
+        "level": 1,
+        "center": [
+          1230.5,
+          948.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "divorced": [
+          "6"
+        ],
+        "partners": [
+          "8"
+        ],
+        "siblings": [
+          "5",
+          "6"
+        ],
+        "coordinates": [
+          1179,
+          910,
+          1282,
+          986
+        ],
+        "display_name": "Sonale Ajay"
+      },
+      {
+        "age": null,
+        "dob": "08-11-1999",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          1431.0,
+          951.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "status": 1,
+        "partners": [
+          "7"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1389,
+          905,
+          1473,
+          997
+        ],
+        "display_name": "Paul Kent"
+      },
+      {
+        "age": null,
+        "dob": "24-01-1988",
+        "sex": "M",
+        "name": "9",
+        "level": 2,
+        "center": [
+          481.0,
+          1183.0
+        ],
+        "father": "5",
+        "mother": "4",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "partners": [
+          "10"
+        ],
+        "noparents": true,
+        "coordinates": [
+          435,
+          1143,
+          527,
+          1223
+        ],
+        "display_name": "Dinesh Daniel Ca"
+      },
+      {
+        "sex": "F",
+        "name": "10",
+        "level": 2,
+        "center": [
+          685.5,
+          1183.0
+        ],
+        "father": "5",
+        "mother": "4",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "11"
+        ],
+        "coordinates": [
+          645,
+          1143,
+          726,
+          1223
+        ]
+      },
+      {
+        "age": null,
+        "dob": "21-10-1989",
+        "sex": "F",
+        "name": "11",
+        "level": 2,
+        "center": [
+          898.5,
+          1176.0
+        ],
+        "father": "5",
+        "mother": "4",
+        "shading": [
+          "right-half-filled female"
+        ],
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "10"
+        ],
+        "coordinates": [
+          853,
+          1136,
+          944,
+          1216
+        ],
+        "display_name": "Riya"
+      },
+      {
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          1069.0,
+          1179.0
+        ],
+        "father": "5",
+        "mother": "4",
+        "partners": [
+          "11"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1020,
+          1136,
+          1118,
+          1222
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1273.5,
+          1254.0
+        ],
+        "father": "7",
+        "mother": "8",
+        "mztwin": 1,
+        "shading": [
+          "bottom-half-filled female"
+        ],
+        "siblings": [
+          "14"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1230,
+          1212,
+          1317,
+          1296
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1430.5,
+          1252.5
+        ],
+        "father": "7",
+        "mother": "8",
+        "mztwin": 1,
+        "shading": [
+          "top-half-filled female"
+        ],
+        "partners": [
+          "15"
+        ],
+        "siblings": [
+          "13"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1384,
+          1208,
+          1477,
+          1297
+        ],
+        "display_name": "Sandy"
+      },
+      {
+        "sex": "M",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1623.5,
+          1254.0
+        ],
+        "father": "7",
+        "mother": "8",
+        "partners": [
+          "14"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1575,
+          1206,
+          1672,
+          1302
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "16",
+        "level": 3,
+        "center": [
+          503.0,
+          1471.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          459,
+          1426,
+          547,
+          1516
+        ],
+        "display_name": "Gauri"
+      },
+      {
+        "sex": "M",
+        "name": "17",
+        "level": 3,
+        "center": [
+          710.0,
+          1477.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "16"
+        ],
+        "adopted_out": true,
+        "coordinates": [
+          672,
+          1440,
+          748,
+          1514
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "18",
+        "level": 3,
+        "center": [
+          926.0,
+          1515.0
+        ],
+        "father": "12",
+        "mother": "11",
+        "siblings": [
+          "19"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          886,
+          1476,
+          966,
+          1554
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "19",
+        "level": 3,
+        "center": [
+          1128.5,
+          1474.5
+        ],
+        "father": "12",
+        "mother": "11",
+        "diseases": [],
+        "siblings": [
+          "18"
+        ],
+        "coordinates": [
+          1082,
+          1429,
+          1175,
+          1520
+        ],
+        "display_name": "Maya"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "20",
+        "level": 3,
+        "center": [
+          1390.5,
+          1479.5
+        ],
+        "father": "15",
+        "mother": "14",
+        "siblings": [
+          "21"
+        ],
+        "coordinates": [
+          1347,
+          1435,
+          1434,
+          1524
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "21",
+        "level": 3,
+        "center": [
+          1661.0,
+          1486.0
+        ],
+        "father": "15",
+        "mother": "14",
+        "siblings": [
+          "20"
+        ],
+        "coordinates": [
+          1605,
+          1440,
+          1717,
+          1532
+        ]
+      }
+    ],
+    "metdata": {
+      "MGNo": "45679 97899",
+      "date": "15/06/1988",
+      "dateAmended": "08/11/1999",
+      "consanguinity": "Yes",
+      "consultantName": "Eric Hill",
+      "pedigreeTakenBy": "Eric Hill",
+      "pedigreeAmendedBy": "Paul Kent",
+      "informationProvidedBy": "Paul Kent",
+      "pedigreeInfoProvidedBy": "Ivan Fox"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/f233f7e1-7369-4dff-8b8e-43789c1f638d/detectron_image_6.jpg"
+}

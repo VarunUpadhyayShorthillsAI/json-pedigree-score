@@ -1,0 +1,572 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "1",
+        "level": 0,
+        "center": [
+          576.0,
+          659.5
+        ],
+        "shading": [
+          "top-half-strokes"
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          534,
+          624,
+          618,
+          695
+        ],
+        "display_name": "Sachin Pawel"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "2",
+        "level": 0,
+        "center": [
+          834.0,
+          657.0
+        ],
+        "shading": [
+          "filled female"
+        ],
+        "diseases": [],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          801,
+          621,
+          867,
+          693
+        ],
+        "display_name": "Mark Ian Wood"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          1412.0,
+          663.0
+        ],
+        "status": 1,
+        "diseases": [],
+        "divorced": [
+          "4"
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1375,
+          624,
+          1449,
+          702
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          1593.0,
+          655.5
+        ],
+        "divorced": [
+          "3"
+        ],
+        "partners": [
+          "5",
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1539,
+          611,
+          1647,
+          700
+        ]
+      },
+      {
+        "age": null,
+        "dob": "1997-01-01",
+        "sex": "F",
+        "name": "5",
+        "level": 0,
+        "center": [
+          1794.0,
+          653.5
+        ],
+        "shading": [
+          "filled female"
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1755,
+          614,
+          1833,
+          693
+        ],
+        "display_name": "Smiti Bhatko"
+      },
+      {
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          576.5,
+          912.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "siblings": [
+          "8",
+          "9",
+          "10",
+          "7"
+        ],
+        "coordinates": [
+          537,
+          874,
+          616,
+          951
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "7",
+        "level": 1,
+        "center": [
+          712.5,
+          904.0
+        ],
+        "father": "1",
+        "mother": "2",
+        "status": 1,
+        "siblings": [
+          "8",
+          "9",
+          "10",
+          "6"
+        ],
+        "coordinates": [
+          668,
+          868,
+          757,
+          940
+        ]
+      },
+      {
+        "age": null,
+        "dob": "03-11-1988",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          842.0,
+          926.0
+        ],
+        "father": "1",
+        "mother": "2",
+        "mztwin": 1,
+        "shading": [
+          "filled female"
+        ],
+        "siblings": [
+          "6",
+          "7",
+          "9",
+          "10"
+        ],
+        "coordinates": [
+          811,
+          895,
+          873,
+          957
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          924.5,
+          925.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "mztwin": 1,
+        "proband": true,
+        "siblings": [
+          "6",
+          "7",
+          "8",
+          "10"
+        ],
+        "coordinates": [
+          894,
+          894,
+          955,
+          957
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "10",
+        "level": 1,
+        "center": [
+          1058.5,
+          894.0
+        ],
+        "father": "1",
+        "mother": "2",
+        "partners": [
+          "11"
+        ],
+        "siblings": [
+          "8",
+          "9",
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          1012,
+          851,
+          1105,
+          937
+        ]
+      },
+      {
+        "age": null,
+        "dob": "23-10-1956",
+        "sex": "F",
+        "name": "11",
+        "level": 1,
+        "center": [
+          1332.5,
+          903.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "shading": [
+          "top-half-filled female"
+        ],
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "12",
+          "13"
+        ],
+        "coordinates": [
+          1299,
+          868,
+          1366,
+          938
+        ],
+        "display_name": "Shivani"
+      },
+      {
+        "sex": "F",
+        "name": "12",
+        "level": 1,
+        "center": [
+          1518.0,
+          900.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "carrier": true,
+        "siblings": [
+          "11",
+          "13"
+        ],
+        "coordinates": [
+          1487,
+          866,
+          1549,
+          934
+        ]
+      },
+      {
+        "name": "13",
+        "level": 1,
+        "center": [
+          1721.5,
+          888.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          1680,
+          856,
+          1763,
+          921
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "06-09-1996",
+        "sex": "M",
+        "name": "14",
+        "level": 2,
+        "center": [
+          936.0,
+          1178.0
+        ],
+        "father": "10",
+        "mother": "11",
+        "partners": [
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          893,
+          1138,
+          979,
+          1218
+        ],
+        "display_name": "Rishabh"
+      },
+      {
+        "age": null,
+        "dob": "21-10-1989",
+        "sex": "F",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1143.5,
+          1175.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "shading": [
+          "filled female"
+        ],
+        "partners": [
+          "14"
+        ],
+        "siblings": [
+          "16",
+          "17"
+        ],
+        "coordinates": [
+          1107,
+          1141,
+          1180,
+          1210
+        ],
+        "display_name": "Isa"
+      },
+      {
+        "sex": "F",
+        "name": "16",
+        "level": 2,
+        "center": [
+          1349.0,
+          1197.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "siblings": [
+          "17",
+          "15"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          1318,
+          1167,
+          1380,
+          1228
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "17",
+        "level": 2,
+        "center": [
+          1577.5,
+          1171.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "partners": [
+          "18"
+        ],
+        "siblings": [
+          "16",
+          "15"
+        ],
+        "coordinates": [
+          1537,
+          1134,
+          1618,
+          1209
+        ],
+        "display_name": "Piyush"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "18",
+        "level": 2,
+        "center": [
+          1782.0,
+          1174.0
+        ],
+        "father": "10",
+        "mother": "11",
+        "partners": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1746,
+          1131,
+          1818,
+          1217
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "19",
+        "level": 3,
+        "center": [
+          935.5,
+          1464.5
+        ],
+        "father": "14",
+        "mother": "15",
+        "mztwin": 2,
+        "siblings": [
+          "20"
+        ],
+        "coordinates": [
+          894,
+          1422,
+          977,
+          1507
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "20",
+        "level": 3,
+        "center": [
+          1113.0,
+          1445.5
+        ],
+        "father": "14",
+        "mother": "15",
+        "mztwin": 2,
+        "shading": [
+          "right-half-filled female"
+        ],
+        "diseases": [],
+        "siblings": [
+          "19"
+        ],
+        "coordinates": [
+          1076,
+          1408,
+          1150,
+          1483
+        ],
+        "display_name": "Palak"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "21",
+        "level": 3,
+        "center": [
+          1624.5,
+          1451.0
+        ],
+        "father": "17",
+        "mother": "18",
+        "diseases": [],
+        "siblings": [
+          "22"
+        ],
+        "coordinates": [
+          1589,
+          1412,
+          1660,
+          1490
+        ],
+        "display_name": "Gaurika"
+      },
+      {
+        "sex": "M",
+        "name": "22",
+        "level": 3,
+        "center": [
+          1818.0,
+          1463.5
+        ],
+        "father": "17",
+        "mother": "18",
+        "siblings": [
+          "21"
+        ],
+        "adopted_out": true,
+        "coordinates": [
+          1784,
+          1427,
+          1852,
+          1500
+        ]
+      }
+    ],
+    "metdata": {
+      "MGNo": "44833 S6279",
+      "date": "10/03/1997",
+      "dateAmended": "27/09/2006",
+      "consanguinity": "Yes",
+      "consultantName": "Jake wood",
+      "pedigreeTakenBy": "Jake wood",
+      "pedigreeAmendedBy": "Anne Reed",
+      "informationProvidedBy": "Anne Reed",
+      "pedigreeInfoProvidedBy": "Mark law"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/d9023047-0487-4956-8e74-2162742a3c6e/detectron_image_7.jpg"
+}

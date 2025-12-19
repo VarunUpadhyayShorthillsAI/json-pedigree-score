@@ -1,0 +1,546 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          1179.5,
+          809.0
+        ],
+        "shading": [
+          "left-half-filled female"
+        ],
+        "diseases": [],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1138,
+          765,
+          1221,
+          853
+        ],
+        "display_name": "Rumi"
+      },
+      {
+        "age": null,
+        "dob": "01-06-2024",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1539.0,
+          792.5
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1483,
+          753,
+          1595,
+          832
+        ],
+        "display_name": "Amar"
+      },
+      {
+        "age": null,
+        "dob": "29/03/1969",
+        "sex": "M",
+        "name": "3",
+        "level": 1,
+        "center": [
+          641.0,
+          1054.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "carrier": true,
+        "diseases": [],
+        "partners": [
+          "4"
+        ],
+        "noparents": true,
+        "coordinates": [
+          591,
+          1007,
+          691,
+          1101
+        ],
+        "display_name": "Vipul"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "4",
+        "level": 1,
+        "center": [
+          970.0,
+          1049.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-strokes female"
+        ],
+        "partners": [
+          "3"
+        ],
+        "siblings": [
+          "5",
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          935,
+          1016,
+          1005,
+          1082
+        ],
+        "display_name": "Palak Powell"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "5",
+        "level": 1,
+        "center": [
+          1190.0,
+          1036.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "left-half-filled female"
+        ],
+        "diseases": [],
+        "siblings": [
+          "4",
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          1159,
+          1004,
+          1221,
+          1069
+        ],
+        "display_name": "Rio"
+      },
+      {
+        "sex": "M",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1410.0,
+          1038.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "siblings": [
+          "4",
+          "5",
+          "7"
+        ],
+        "coordinates": [
+          1368,
+          1002,
+          1452,
+          1074
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          1669.5,
+          1097.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "status": 1,
+        "divorced": [
+          "8"
+        ],
+        "partners": [
+          "8"
+        ],
+        "siblings": [
+          "4",
+          "5",
+          "6"
+        ],
+        "coordinates": [
+          1628,
+          1061,
+          1711,
+          1133
+        ]
+      },
+      {
+        "age": null,
+        "dob": "21-01-1972",
+        "sex": "M",
+        "name": "8",
+        "level": 1,
+        "center": [
+          1970.5,
+          1088.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-filled"
+        ],
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "9",
+          "7"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1926,
+          1049,
+          2015,
+          1127
+        ],
+        "display_name": "Rohit Bower Ca"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          2252.0,
+          1085.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          2213,
+          1048,
+          2291,
+          1123
+        ],
+        "display_name": "Diksha Arma"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "10",
+        "level": 2,
+        "center": [
+          402.5,
+          1439.0
+        ],
+        "father": "3",
+        "mother": "4",
+        "diseases": [],
+        "partners": [
+          "11"
+        ],
+        "noparents": true,
+        "coordinates": [
+          353,
+          1395,
+          452,
+          1483
+        ],
+        "display_name": "Ansh"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "11",
+        "level": 2,
+        "center": [
+          674.0,
+          1445.0
+        ],
+        "father": "3",
+        "mother": "4",
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "12",
+          "13"
+        ],
+        "coordinates": [
+          641,
+          1413,
+          707,
+          1477
+        ],
+        "display_name": "Bhumi"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          900.0,
+          1443.5
+        ],
+        "father": "3",
+        "mother": "4",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "siblings": [
+          "11",
+          "13"
+        ],
+        "coordinates": [
+          859,
+          1409,
+          941,
+          1478
+        ],
+        "display_name": "Vipin"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "U",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1067.5,
+          1439.5
+        ],
+        "father": "3",
+        "mother": "4",
+        "siblings": [
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          1033,
+          1403,
+          1102,
+          1476
+        ],
+        "display_name": "Ryan"
+      },
+      {
+        "name": "14",
+        "level": 2,
+        "center": [
+          1805.0,
+          1322.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "coordinates": [
+          1763,
+          1290,
+          1847,
+          1355
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1977.5,
+          1467.5
+        ],
+        "father": "8",
+        "mother": "9",
+        "siblings": [
+          "16"
+        ],
+        "coordinates": [
+          1947,
+          1439,
+          2008,
+          1496
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "16",
+        "level": 2,
+        "center": [
+          2227.5,
+          1470.0
+        ],
+        "father": "8",
+        "mother": "9",
+        "siblings": [
+          "15"
+        ],
+        "coordinates": [
+          2187,
+          1438,
+          2268,
+          1502
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "17",
+        "level": 3,
+        "center": [
+          1925.0,
+          1639.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "diseases": [],
+        "siblings": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1891,
+          1610,
+          1959,
+          1669
+        ],
+        "display_name": "Minael"
+      },
+      {
+        "age": null,
+        "dob": "15/08/2001",
+        "sex": "M",
+        "name": "18",
+        "level": 3,
+        "center": [
+          2192.5,
+          1646.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "proband": true,
+        "siblings": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          2153,
+          1607,
+          2232,
+          1686
+        ],
+        "display_name": "Yash"
+      },
+      {
+        "sex": "M",
+        "name": "19",
+        "level": 4,
+        "center": [
+          414.0,
+          1652.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "siblings": [
+          "20",
+          "21"
+        ],
+        "coordinates": [
+          376,
+          1610,
+          452,
+          1695
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "20",
+        "level": 4,
+        "center": [
+          683.0,
+          1642.0
+        ],
+        "father": "10",
+        "mother": "11",
+        "diseases": [],
+        "siblings": [
+          "19",
+          "21"
+        ],
+        "coordinates": [
+          642,
+          1605,
+          724,
+          1679
+        ],
+        "display_name": "Gauri"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "21",
+        "level": 4,
+        "center": [
+          931.5,
+          1681.5
+        ],
+        "father": "10",
+        "mother": "11",
+        "diseases": [],
+        "siblings": [
+          "19",
+          "20"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          906,
+          1650,
+          957,
+          1713
+        ],
+        "display_name": "Jay"
+      }
+    ],
+    "metdata": {
+      "MGNo": "49435 46315",
+      "date": "2024-05-17",
+      "dateAmended": "2024-06-18",
+      "consanguinity": "No",
+      "consultantName": "Aria Flores",
+      "pedigreeTakenBy": "Aria Flores",
+      "pedigreeAmendedBy": "Grace",
+      "informationProvidedBy": "Grace",
+      "pedigreeInfoProvidedBy": "LWI"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/7570617c-872d-4c8b-a1c1-f83dc3f7e381/detectron_image_18.jpg"
+}

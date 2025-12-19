@@ -1,0 +1,661 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "1",
+          "level": 0,
+          "center": [
+              997.5,
+              782
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "2"
+          ],
+          "position": {
+              "x": 131.25,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              942,
+              729,
+              1053,
+              835
+          ],
+          "display_name": "Paksham"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "2",
+          "level": 0,
+          "center": [
+              1284,
+              774.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "1"
+          ],
+          "position": {
+              "x": 393.75,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              1240,
+              727,
+              1328,
+              822
+          ],
+          "display_name": "Ruth"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "3",
+          "level": 0,
+          "center": [
+              1797,
+              767.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "4"
+          ],
+          "position": {
+              "x": 1443.75,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              1756,
+              723,
+              1838,
+              812
+          ],
+          "display_name": "Rosey"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "4",
+          "level": 0,
+          "center": [
+              2102.5,
+              757.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "3"
+          ],
+          "position": {
+              "x": 1181.25,
+              "y": 37.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "top_level": true,
+          "coordinates": [
+              2045,
+              704,
+              2160,
+              811
+          ],
+          "display_name": "Adam Buttiler"
+      },
+      {
+          "age": "",
+          "dob": "21-02-1984",
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              736,
+              1077.5
+          ],
+          "father": "1",
+          "mother": "2",
+          "status": 1,
+          "diseases": [],
+          "position": {
+              "x": 0,
+              "y": 312.5
+          },
+          "siblings": [
+              "8",
+              "6",
+              "7"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              694,
+              1039,
+              778,
+              1116
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "6",
+          "level": 1,
+          "center": [
+              948.5,
+              1070.5
+          ],
+          "father": "1",
+          "mother": "2",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "diseases": [],
+          "position": {
+              "x": 262.5,
+              "y": 312.5
+          },
+          "siblings": [
+              "8",
+              "5",
+              "7"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              905,
+              1032,
+              992,
+              1109
+          ],
+          "display_name": "Ritik"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "7",
+          "level": 1,
+          "center": [
+              1208.5,
+              1088.5
+          ],
+          "father": "1",
+          "mother": "2",
+          "carrier": true,
+          "diseases": [],
+          "partners": [
+              "8"
+          ],
+          "position": {
+              "x": 525,
+              "y": 312.5
+          },
+          "siblings": [
+              "8",
+              "5",
+              "6"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1160,
+              1051,
+              1257,
+              1126
+          ],
+          "display_name": "Priya"
+      },
+      {
+          "sex": "M",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1541.5,
+              1065.5
+          ],
+          "father": "4",
+          "mother": "3",
+          "divorced": [
+              "9"
+          ],
+          "partners": [
+              "9",
+              "7"
+          ],
+          "position": {
+              "x": 787.5,
+              "y": 312.5
+          },
+          "siblings": [
+              "5",
+              "6",
+              "7",
+              "10",
+              "11"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1480,
+              1015,
+              1603,
+              1116
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "9",
+          "level": 1,
+          "center": [
+              1696,
+              1061
+          ],
+          "shading": [
+              "filled female"
+          ],
+          "diseases": [],
+          "divorced": [
+              "8"
+          ],
+          "partners": [
+              "8"
+          ],
+          "position": {
+              "x": 1050,
+              "y": 312.5
+          },
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1658,
+              1019,
+              1734,
+              1103
+          ],
+          "display_name": "Segal"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "10",
+          "level": 1,
+          "center": [
+              1821.5,
+              1071.5
+          ],
+          "father": "4",
+          "mother": "3",
+          "position": {
+              "x": 1312.5,
+              "y": 312.5
+          },
+          "siblings": [
+              "8",
+              "11"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "coordinates": [
+              1767,
+              1023,
+              1876,
+              1120
+          ],
+          "display_name": "Roshni"
+      },
+      {
+          "age": "",
+          "dob": "15/08/1985",
+          "sex": "F",
+          "name": "11",
+          "level": 1,
+          "center": [
+              2037,
+              1040.5
+          ],
+          "father": "4",
+          "mother": "3",
+          "shading": [
+              "bottom-half-filled female"
+          ],
+          "diseases": [
+              ""
+          ],
+          "position": {
+              "x": 1575,
+              "y": 312.5
+          },
+          "siblings": [
+              "8",
+              "10"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "stillbirth": false,
+          "coordinates": [
+              2000,
+              999,
+              2074,
+              1082
+          ],
+          "termination": false,
+          "display_name": "Monika Ovajianca",
+          "ongoing_pregnancy": false
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "12",
+          "level": 2,
+          "center": [
+              837.5,
+              1344
+          ],
+          "father": "8",
+          "mother": "7",
+          "shading": [
+              "top-half-strokes"
+          ],
+          "diseases": [],
+          "partners": [
+              "13"
+          ],
+          "position": {
+              "x": 131.25,
+              "y": 587.5
+          },
+          "siblings": [
+              "16",
+              "13",
+              "14",
+              "15"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              796,
+              1304,
+              879,
+              1384
+          ],
+          "display_name": "Mayank"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "13",
+          "level": 2,
+          "center": [
+              1015.5,
+              1365.5
+          ],
+          "father": "8",
+          "mother": "7",
+          "diseases": [],
+          "partners": [
+              "12"
+          ],
+          "position": {
+              "x": 393.75,
+              "y": 587.5
+          },
+          "siblings": [
+              "16",
+              "12",
+              "14",
+              "15"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              976,
+              1326,
+              1055,
+              1405
+          ],
+          "display_name": "Chetna"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              1209.5,
+              1361.5
+          ],
+          "father": "8",
+          "mother": "7",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "position": {
+              "x": 656.25,
+              "y": 587.5
+          },
+          "siblings": [
+              "16",
+              "12",
+              "13",
+              "15"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              1167,
+              1320,
+              1252,
+              1403
+          ],
+          "display_name": "Chehak Breasca"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "15",
+          "level": 2,
+          "center": [
+              1381,
+              1359.5
+          ],
+          "father": "8",
+          "mother": "7",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "position": {
+              "x": 918.75,
+              "y": 587.5
+          },
+          "siblings": [
+              "16",
+              "12",
+              "13",
+              "14"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              1322,
+              1317,
+              1440,
+              1402
+          ],
+          "display_name": "Sanyan"
+      },
+      {
+          "sex": "F",
+          "name": "16",
+          "level": 2,
+          "center": [
+              1602.5,
+              1364.5
+          ],
+          "father": "8",
+          "mother": "7",
+          "position": {
+              "x": 1181.25,
+              "y": 587.5
+          },
+          "siblings": [
+              "12",
+              "13",
+              "14",
+              "15"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "adopted_out": true,
+          "coordinates": [
+              1569,
+              1330,
+              1636,
+              1399
+          ]
+      },
+      {
+          "age": "",
+          "dob": "08-09-2002",
+          "sex": "M",
+          "name": "17",
+          "level": 3,
+          "center": [
+              712.5,
+              1617.5
+          ],
+          "father": "12",
+          "mother": "13",
+          "status": 1,
+          "diseases": [],
+          "position": {
+              "x": 131.25,
+              "y": 862.5
+          },
+          "siblings": [
+              "18"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              664,
+              1574,
+              761,
+              1661
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "18",
+          "level": 3,
+          "center": [
+              1130.5,
+              1606.5
+          ],
+          "father": "12",
+          "mother": "13",
+          "proband": true,
+          "diseases": [],
+          "position": {
+              "x": 393.75,
+              "y": 862.5
+          },
+          "siblings": [
+              "17"
+          ],
+          "imageData": {
+              "userId": "anteater97861@pixoledge.net",
+              "currentImageId": "3699"
+          },
+          "noparents": false,
+          "coordinates": [
+              1089,
+              1567,
+              1172,
+              1646
+          ],
+          "display_name": "Gauri"
+      }
+  ],
+  "metdata": {
+      "MGNo": "99483 2'S321.",
+      "date": "1973-11-23",
+      "dateAmended": "2023-06-10",
+      "consanguinity": "Yes",
+      "consultantName": "Dylan Stew",
+      "pedigreeTakenBy": "Dylan Stew",
+      "pedigreeAmendedBy": "Adam Butties",
+      "informationProvidedBy": "Adam Butties",
+      "pedigreeInfoProvidedBy": "Madison Torus"
+  }
+}
+}

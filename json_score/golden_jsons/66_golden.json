@@ -1,0 +1,597 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "1",
+          "level": 0,
+          "center": [
+              667,
+              682
+          ],
+          "diseases": [],
+          "divorced": [
+              "2"
+          ],
+          "partners": [
+              "2"
+          ],
+          "top_level": true,
+          "coordinates": [
+              625,
+              634,
+              709,
+              730
+          ],
+          "display_name": "Alice"
+      },
+      {
+          "age": "",
+          "dob": "05-12-1942",
+          "sex": "M",
+          "name": "2",
+          "level": 0,
+          "center": [
+              879.5,
+              684
+          ],
+          "divorced": [
+              "1"
+          ],
+          "partners": [
+              "1"
+          ],
+          "top_level": true,
+          "coordinates": [
+              834,
+              631,
+              925,
+              737
+          ],
+          "display_name": "Vivek"
+      },
+      {
+          "age": "",
+          "dob": "31-10-1949",
+          "sex": "M",
+          "name": "3",
+          "level": 0,
+          "center": [
+              1269.5,
+              688
+          ],
+          "status": 1,
+          "partners": [
+              "4"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1212,
+              638,
+              1327,
+              738
+          ],
+          "display_name": "Yogesh Chokre"
+      },
+      {
+          "age": "",
+          "dob": "24-06-1951",
+          "sex": "F",
+          "name": "4",
+          "level": 0,
+          "center": [
+              1484.5,
+              689.5
+          ],
+          "diseases": [],
+          "partners": [
+              "3"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1437,
+              636,
+              1532,
+              743
+          ],
+          "display_name": "Jay Davis"
+      },
+      {
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              538.5,
+              954
+          ],
+          "partners": [
+              "6"
+          ],
+          "coordinates": [
+              493,
+              903,
+              584,
+              1005
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "6",
+          "level": 1,
+          "center": [
+              713.5,
+              944
+          ],
+          "dztwin": 1,
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "top-left-quarter-filled female"
+          ],
+          "divorced": [
+              "7"
+          ],
+          "partners": [
+              "5"
+          ],
+          "siblings": [
+              "7"
+          ],
+          "coordinates": [
+              676,
+              902,
+              751,
+              986
+          ],
+          "display_name": "Priya"
+      },
+      {
+          "age": "",
+          "dob": "28/08/1976",
+          "sex": "M",
+          "name": "7",
+          "level": 1,
+          "center": [
+              847,
+              954
+          ],
+          "dztwin": 1,
+          "father": "2",
+          "mother": "1",
+          "diseases": [],
+          "divorced": [
+              "6"
+          ],
+          "partners": [
+              "8"
+          ],
+          "siblings": [
+              "6"
+          ],
+          "coordinates": [
+              792,
+              908,
+              902,
+              1000
+          ],
+          "display_name": "Rohit"
+      },
+      {
+          "sex": "F",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1127.5,
+              952
+          ],
+          "father": "3",
+          "mother": "4",
+          "proband": true,
+          "partners": [
+              "7"
+          ],
+          "siblings": [
+              "9",
+              "10",
+              "11"
+          ],
+          "coordinates": [
+              1086,
+              912,
+              1169,
+              992
+          ]
+      },
+      {
+          "age": "",
+          "dob": "06/03/1971",
+          "sex": "F",
+          "name": "9",
+          "level": 1,
+          "center": [
+              1266.5,
+              952
+          ],
+          "father": "3",
+          "mother": "4",
+          "siblings": [
+              "8",
+              "10",
+              "11"
+          ],
+          "coordinates": [
+              1225,
+              912,
+              1308,
+              992
+          ],
+          "display_name": "Maya"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "10",
+          "level": 1,
+          "center": [
+              1448,
+              949
+          ],
+          "father": "3",
+          "mother": "4",
+          "diseases": [],
+          "siblings": [
+              "8",
+              "9",
+              "11"
+          ],
+          "coordinates": [
+              1397,
+              907,
+              1499,
+              991
+          ],
+          "display_name": "Abhay"
+      },
+      {
+          "sex": "F",
+          "name": "11",
+          "level": 1,
+          "center": [
+              1584.5,
+              969.5
+          ],
+          "father": "3",
+          "mother": "4",
+          "siblings": [
+              "8",
+              "9",
+              "10"
+          ],
+          "adopted_in": true,
+          "coordinates": [
+              1550,
+              930,
+              1619,
+              1009
+          ]
+      },
+      {
+          "sex": "F",
+          "name": "12",
+          "level": 2,
+          "center": [
+              374,
+              1220.5
+          ],
+          "father": "5",
+          "mother": "6",
+          "status": 1,
+          "partners": [
+              "13"
+          ],
+          "noparents": false,
+          "coordinates": [
+              332,
+              1169,
+              416,
+              1272
+          ]
+      },
+      {
+          "age": "",
+          "dob": "03-01-1981",
+          "sex": "M",
+          "name": "13",
+          "level": 2,
+          "center": [
+              558.5,
+              1209.5
+          ],
+          "father": "5",
+          "mother": "6",
+          "shading": [
+              "top-half-filled"
+          ],
+          "partners": [
+              "12"
+          ],
+          "siblings": [
+              "14",
+              "15"
+          ],
+          "noparents": false,
+          "coordinates": [
+              506,
+              1168,
+              611,
+              1251
+          ],
+          "display_name": "Pitik"
+      },
+      {
+          "age": "",
+          "dob": "21-06-1969",
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              724,
+              1213.5
+          ],
+          "father": "5",
+          "mother": "6",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "diseases": [],
+          "siblings": [
+              "13",
+              "15"
+          ],
+          "noparents": false,
+          "coordinates": [
+              682,
+              1172,
+              766,
+              1255
+          ],
+          "display_name": "Ritika"
+      },
+      {
+          "sex": "U",
+          "name": "15",
+          "level": 2,
+          "center": [
+              886.5,
+              1214
+          ],
+          "father": "5",
+          "mother": "6",
+          "siblings": [
+              "13",
+              "14"
+          ],
+          "noparents": false,
+          "coordinates": [
+              839,
+              1168,
+              934,
+              1260
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "16",
+          "level": 2,
+          "center": [
+              1006,
+              1275
+          ],
+          "father": "7",
+          "mother": "8",
+          "mztwin": 1,
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "siblings": [
+              "17"
+          ],
+          "coordinates": [
+              965,
+              1235,
+              1047,
+              1315
+          ],
+          "display_name": "Uday"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "17",
+          "level": 2,
+          "center": [
+              1178,
+              1274
+          ],
+          "father": "7",
+          "mother": "8",
+          "mztwin": 1,
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "partners": [
+              "18"
+          ],
+          "siblings": [
+              "16"
+          ],
+          "coordinates": [
+              1115,
+              1231,
+              1241,
+              1317
+          ],
+          "display_name": "Ajay"
+      },
+      {
+          "age": "",
+          "dob": "04-08-1981",
+          "sex": "F",
+          "name": "18",
+          "level": 2,
+          "center": [
+              1375.5,
+              1279.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "17"
+          ],
+          "coordinates": [
+              1332,
+              1230,
+              1419,
+              1329
+          ],
+          "display_name": "Rivaan"
+      },
+      {
+          "sex": "M",
+          "name": "19",
+          "level": 3,
+          "center": [
+              408.5,
+              1533
+          ],
+          "dztwin": 2,
+          "father": "13",
+          "mother": "12",
+          "siblings": [
+              "20"
+          ],
+          "coordinates": [
+              359,
+              1482,
+              458,
+              1584
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "20",
+          "level": 3,
+          "center": [
+              548,
+              1521.5
+          ],
+          "dztwin": 2,
+          "father": "13",
+          "mother": "12",
+          "diseases": [],
+          "siblings": [
+              "19"
+          ],
+          "coordinates": [
+              495,
+              1474,
+              601,
+              1569
+          ],
+          "display_name": "Rohan"
+      },
+      {
+          "sex": "F",
+          "name": "21",
+          "level": 3,
+          "center": [
+              1219.5,
+              1522.5
+          ],
+          "father": "17",
+          "mother": "18",
+          "siblings": [
+              "22",
+              "23"
+          ],
+          "coordinates": [
+              1172,
+              1480,
+              1267,
+              1565
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "22",
+          "level": 3,
+          "center": [
+              1361,
+              1521
+          ],
+          "father": "17",
+          "mother": "18",
+          "shading": [
+              "filled female"
+          ],
+          "diseases": [],
+          "siblings": [
+              "21",
+              "23"
+          ],
+          "coordinates": [
+              1319,
+              1477,
+              1403,
+              1565
+          ],
+          "display_name": "Anushka Riya"
+      },
+      {
+          "sex": "M",
+          "name": "23",
+          "level": 3,
+          "center": [
+              1525,
+              1545.5
+          ],
+          "father": "17",
+          "mother": "18",
+          "siblings": [
+              "21",
+              "22"
+          ],
+          "adopted_in": true,
+          "coordinates": [
+              1470,
+              1496,
+              1580,
+              1595
+          ]
+      }
+  ],
+  "metdata": {
+      "MGNo": "4732567896",
+      "date": "03/05/1985",
+      "dateAmended": "07/02/2022",
+      "consanguinity": "yes",
+      "consultantName": "Alice Johnson",
+      "pedigreeTakenBy": "Alice Johnson",
+      "pedigreeAmendedBy": "Emily Davis",
+      "informationProvidedBy": "Emily Davis",
+      "pedigreeInfoProvidedBy": "Robert Smith"
+  }
+}
+}

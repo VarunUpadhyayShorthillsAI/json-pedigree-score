@@ -1,0 +1,478 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          1006.5,
+          637.0
+        ],
+        "shading": [
+          "bottom-half-filled female"
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          961,
+          591,
+          1052,
+          683
+        ],
+        "display_name": "Tina Ryan"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1529.5,
+          627.0
+        ],
+        "carrier": true,
+        "diseases": [],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1486,
+          577,
+          1573,
+          677
+        ],
+        "display_name": "Rishab"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "3",
+        "level": 1,
+        "center": [
+          752.0,
+          945.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "partners": [
+          "4"
+        ],
+        "noparents": true,
+        "coordinates": [
+          706,
+          902,
+          798,
+          988
+        ],
+        "display_name": "Dhruv"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "4",
+        "level": 1,
+        "center": [
+          1033.5,
+          942.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "diagonal-checkered female"
+        ],
+        "diseases": [],
+        "partners": [
+          "3"
+        ],
+        "siblings": [
+          "5"
+        ],
+        "coordinates": [
+          1000,
+          901,
+          1067,
+          984
+        ],
+        "display_name": "Naina"
+      },
+      {
+        "age": null,
+        "dob": "23-10-1989",
+        "sex": "M",
+        "name": "5",
+        "level": 1,
+        "center": [
+          1446.5,
+          919.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "carrier": true,
+        "diseases": [],
+        "divorced": [
+          "6"
+        ],
+        "partners": [
+          "6"
+        ],
+        "siblings": [
+          "4"
+        ],
+        "coordinates": [
+          1406,
+          876,
+          1487,
+          963
+        ],
+        "display_name": "Ahsnat"
+      },
+      {
+        "age": null,
+        "dob": "21-11-1986",
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1811.5,
+          908.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "status": 1,
+        "diseases": [],
+        "divorced": [
+          "5"
+        ],
+        "partners": [
+          "5"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1776,
+          871,
+          1847,
+          946
+        ],
+        "display_name": "Sushi"
+      },
+      {
+        "age": null,
+        "dob": "09-04-1934",
+        "sex": "M",
+        "name": "7",
+        "level": 2,
+        "center": [
+          505.5,
+          1191.5
+        ],
+        "father": "3",
+        "mother": "4",
+        "status": 1,
+        "divorced": [
+          "8"
+        ],
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          449,
+          1146,
+          562,
+          1237
+        ],
+        "display_name": "Keshav"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "8",
+        "level": 2,
+        "center": [
+          826.5,
+          1195.5
+        ],
+        "dztwin": 1,
+        "father": "3",
+        "mother": "4",
+        "shading": [
+          "cross-filled female"
+        ],
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "9"
+        ],
+        "coordinates": [
+          793,
+          1157,
+          860,
+          1234
+        ],
+        "display_name": "Kusha Ovavaca"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "9",
+        "level": 2,
+        "center": [
+          1022.0,
+          1195.0
+        ],
+        "dztwin": 1,
+        "father": "3",
+        "mother": "4",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "8"
+        ],
+        "coordinates": [
+          973,
+          1156,
+          1071,
+          1234
+        ],
+        "display_name": "Kunal"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "10",
+        "level": 2,
+        "center": [
+          1505.0,
+          1205.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          1466,
+          1161,
+          1544,
+          1249
+        ],
+        "display_name": "Nina Bianca"
+      },
+      {
+        "name": "11",
+        "level": 2,
+        "center": [
+          1651.5,
+          1194.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "siblings": [
+          "10",
+          "12"
+        ],
+        "coordinates": [
+          1600,
+          1150,
+          1703,
+          1238
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          1861.0,
+          1164.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "status": 1,
+        "siblings": [
+          "10",
+          "11"
+        ],
+        "coordinates": [
+          1814,
+          1124,
+          1908,
+          1204
+        ],
+        "display_name": "Keshav"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "13",
+        "level": 3,
+        "center": [
+          680.0,
+          1450.0
+        ],
+        "father": "7",
+        "mother": "8",
+        "proband": true,
+        "diseases": [],
+        "partners": [
+          "14"
+        ],
+        "siblings": [
+          "16",
+          "14",
+          "15"
+        ],
+        "coordinates": [
+          621,
+          1397,
+          739,
+          1503
+        ],
+        "display_name": "Kapil"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "14",
+        "level": 3,
+        "center": [
+          1115.0,
+          1499.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "shading": [
+          "left-half-filled female"
+        ],
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "16",
+          "13",
+          "15"
+        ],
+        "coordinates": [
+          1078,
+          1457,
+          1152,
+          1541
+        ],
+        "display_name": "Kusha Breata"
+      },
+      {
+        "sex": "M",
+        "name": "15",
+        "level": 3,
+        "center": [
+          1284.0,
+          1484.5
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "16",
+          "13",
+          "14"
+        ],
+        "coordinates": [
+          1237,
+          1434,
+          1331,
+          1535
+        ]
+      },
+      {
+        "name": "16",
+        "level": 3,
+        "center": [
+          1463.5,
+          1473.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "13",
+          "14",
+          "15"
+        ],
+        "coordinates": [
+          1417,
+          1434,
+          1510,
+          1512
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "U",
+        "name": "17",
+        "level": 3,
+        "center": [
+          1606.0,
+          1465.5
+        ],
+        "father": "9",
+        "mother": "10",
+        "noparents": true,
+        "coordinates": [
+          1563,
+          1424,
+          1649,
+          1507
+        ],
+        "display_name": ""
+      }
+    ],
+    "metdata": {
+      "MGNo": "43367 76210",
+      "date": "29/02/15",
+      "dateAmended": "28/01/1993",
+      "consanguinity": "No",
+      "consultantName": "Mia Ford",
+      "pedigreeTakenBy": "Mia Ford",
+      "pedigreeAmendedBy": "Ella Nash",
+      "informationProvidedBy": "Ella Nash",
+      "pedigreeInfoProvidedBy": "Ryan Page"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/4e863057-8dc9-4d8d-9eaa-7b0892d7a05e/detectron_image_8.jpg"
+}

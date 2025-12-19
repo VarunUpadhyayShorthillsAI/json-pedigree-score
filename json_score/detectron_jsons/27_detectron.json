@@ -1,0 +1,586 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          218.0,
+          276.0
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          205,
+          259,
+          231,
+          293
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          305.5,
+          276.5
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          291,
+          258,
+          320,
+          295
+        ],
+        "display_name": "Akram"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          395.5,
+          287.0
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          383,
+          270,
+          408,
+          304
+        ],
+        "display_name": "Farida"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          479.0,
+          287.0
+        ],
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          464,
+          266,
+          494,
+          308
+        ],
+        "display_name": "Faroog"
+      },
+      {
+        "sex": "M",
+        "name": "5",
+        "level": 0,
+        "center": [
+          552.0,
+          289.0
+        ],
+        "partners": [
+          "6"
+        ],
+        "top_level": true,
+        "coordinates": [
+          538,
+          271,
+          566,
+          307
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "6",
+        "level": 0,
+        "center": [
+          626.5,
+          286.5
+        ],
+        "partners": [
+          "5"
+        ],
+        "top_level": true,
+        "coordinates": [
+          612,
+          268,
+          641,
+          305
+        ],
+        "display_name": "Shahida"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          154.5,
+          407.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          141,
+          390,
+          168,
+          424
+        ],
+        "display_name": "Fatima"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "8",
+        "level": 1,
+        "center": [
+          229.5,
+          405.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "9"
+        ],
+        "coordinates": [
+          215,
+          388,
+          244,
+          423
+        ],
+        "display_name": "Zubeen"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          328.0,
+          403.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          316,
+          388,
+          340,
+          418
+        ],
+        "display_name": "Rubina"
+      },
+      {
+        "sex": "M",
+        "name": "10",
+        "level": 1,
+        "center": [
+          398.0,
+          410.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "9",
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          385,
+          394,
+          411,
+          426
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "11",
+        "level": 1,
+        "center": [
+          443.0,
+          413.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "9",
+          "10",
+          "12"
+        ],
+        "coordinates": [
+          431,
+          398,
+          455,
+          429
+        ],
+        "display_name": "Katrina"
+      },
+      {
+        "sex": "M",
+        "name": "12",
+        "level": 1,
+        "center": [
+          476.5,
+          415.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "9",
+          "10",
+          "11"
+        ],
+        "coordinates": [
+          462,
+          398,
+          491,
+          433
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "13",
+        "level": 1,
+        "center": [
+          548.5,
+          420.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "14"
+        ],
+        "coordinates": [
+          534,
+          403,
+          563,
+          437
+        ],
+        "display_name": "Aarfa"
+      },
+      {
+        "sex": "M",
+        "name": "14",
+        "level": 1,
+        "center": [
+          627.5,
+          416.0
+        ],
+        "father": "5",
+        "mother": "6",
+        "siblings": [
+          "13"
+        ],
+        "coordinates": [
+          612,
+          397,
+          643,
+          435
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "15",
+        "level": 2,
+        "center": [
+          155.0,
+          550.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "siblings": [
+          "16"
+        ],
+        "coordinates": [
+          140,
+          531,
+          170,
+          570
+        ],
+        "display_name": "Junaid"
+      },
+      {
+        "sex": "F",
+        "name": "16",
+        "level": 2,
+        "center": [
+          232.0,
+          546.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "siblings": [
+          "15"
+        ],
+        "coordinates": [
+          218,
+          530,
+          246,
+          563
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "17",
+        "level": 2,
+        "center": [
+          276.0,
+          552.5
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "18",
+          "19",
+          "20"
+        ],
+        "coordinates": [
+          264,
+          536,
+          288,
+          569
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "18",
+        "level": 2,
+        "center": [
+          321.5,
+          552.0
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "17",
+          "19",
+          "20"
+        ],
+        "coordinates": [
+          307,
+          533,
+          336,
+          571
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "19",
+        "level": 2,
+        "center": [
+          390.5,
+          548.5
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "17",
+          "18",
+          "20"
+        ],
+        "coordinates": [
+          378,
+          531,
+          403,
+          566
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "20",
+        "level": 2,
+        "center": [
+          455.5,
+          558.0
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "17",
+          "18",
+          "19"
+        ],
+        "coordinates": [
+          440,
+          540,
+          471,
+          576
+        ],
+        "display_name": "Salman"
+      },
+      {
+        "sex": "M",
+        "name": "21",
+        "level": 2,
+        "center": [
+          547.0,
+          556.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "siblings": [
+          "22"
+        ],
+        "coordinates": [
+          533,
+          538,
+          561,
+          575
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "22",
+        "level": 2,
+        "center": [
+          591.0,
+          562.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "siblings": [
+          "21"
+        ],
+        "coordinates": [
+          579,
+          545,
+          603,
+          580
+        ],
+        "display_name": "Zeenat"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "23",
+        "level": 3,
+        "center": [
+          299.5,
+          678.5
+        ],
+        "father": null,
+        "mother": null,
+        "noparents": true,
+        "coordinates": [
+          284,
+          658,
+          315,
+          699
+        ],
+        "display_name": "Kareena"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "24",
+        "level": 3,
+        "center": [
+          389.5,
+          695.5
+        ],
+        "father": null,
+        "mother": null,
+        "siblings": [
+          "25"
+        ],
+        "noparents": true,
+        "coordinates": [
+          372,
+          674,
+          407,
+          717
+        ],
+        "display_name": "Wasay"
+      },
+      {
+        "sex": "F",
+        "name": "25",
+        "level": 3,
+        "center": [
+          469.5,
+          696.0
+        ],
+        "father": null,
+        "mother": null,
+        "siblings": [
+          "24"
+        ],
+        "noparents": true,
+        "coordinates": [
+          454,
+          676,
+          485,
+          716
+        ]
+      }
+    ],
+    "metdata": {
+      "MGNo": "",
+      "date": "",
+      "dateAmended": "",
+      "consanguinity": "No",
+      "consultantName": "",
+      "pedigreeTakenBy": "",
+      "pedigreeAmendedBy": "",
+      "informationProvidedBy": "",
+      "pedigreeInfoProvidedBy": ""
+    }
+  }
+}

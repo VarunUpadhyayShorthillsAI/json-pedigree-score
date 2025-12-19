@@ -1,0 +1,507 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "1",
+          "level": 0,
+          "center": [
+              742.5,
+              613
+          ],
+          "diseases": [],
+          "partners": [
+              "2"
+          ],
+          "top_level": true,
+          "coordinates": [
+              705,
+              569,
+              780,
+              657
+          ],
+          "display_name": "Ria Cox"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "2",
+          "level": 0,
+          "center": [
+              944.5,
+              605.5
+          ],
+          "partners": [
+              "1"
+          ],
+          "top_level": true,
+          "coordinates": [
+              899,
+              555,
+              990,
+              656
+          ],
+          "display_name": "Rahul"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "3",
+          "level": 0,
+          "center": [
+              1418,
+              605
+          ],
+          "status": 1,
+          "diseases": [],
+          "divorced": [
+              "4"
+          ],
+          "partners": [
+              "4"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1381,
+              566,
+              1455,
+              644
+          ],
+          "display_name": "Anjali"
+      },
+      {
+          "age": "",
+          "dob": "01-08-1999",
+          "sex": "M",
+          "name": "4",
+          "level": 0,
+          "center": [
+              1601,
+              600
+          ],
+          "status": 1,
+          "divorced": [
+              "3"
+          ],
+          "partners": [
+              "3"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1550,
+              556,
+              1652,
+              644
+          ],
+          "display_name": "Jaki Hart"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "5",
+          "level": 1,
+          "center": [
+              564,
+              849.5
+          ],
+          "partners": [
+              "6"
+          ],
+          "coordinates": [
+              513,
+              805,
+              615,
+              894
+          ],
+          "display_name": "Rohit"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "6",
+          "level": 1,
+          "center": [
+              757.5,
+              849
+          ],
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "right-half-filled female"
+          ],
+          "partners": [
+              "5"
+          ],
+          "siblings": [
+              "8",
+              "9",
+              "7"
+          ],
+          "coordinates": [
+              718,
+              813,
+              797,
+              885
+          ],
+          "display_name": ""
+      },
+      {
+          "sex": "U",
+          "name": "7",
+          "level": 1,
+          "center": [
+              919,
+              845
+          ],
+          "father": "2",
+          "mother": "1",
+          "siblings": [
+              "8",
+              "9",
+              "6"
+          ],
+          "coordinates": [
+              866,
+              813,
+              972,
+              877
+          ],
+          "miscarriage": true
+      },
+      {
+          "sex": "U",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1083,
+              848
+          ],
+          "father": "2",
+          "mother": "1",
+          "siblings": [
+              "9",
+              "6",
+              "7"
+          ],
+          "coordinates": [
+              1044,
+              812,
+              1122,
+              884
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "9",
+          "level": 1,
+          "center": [
+              1223.5,
+              845.5
+          ],
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "partners": [
+              "10"
+          ],
+          "siblings": [
+              "8",
+              "6",
+              "7"
+          ],
+          "coordinates": [
+              1178,
+              812,
+              1269,
+              879
+          ],
+          "display_name": "Rish"
+      },
+      {
+          "age": "",
+          "dob": "28-06-1986",
+          "sex": "F",
+          "name": "10",
+          "level": 1,
+          "center": [
+              1439,
+              852.5
+          ],
+          "father": "4",
+          "mother": "3",
+          "status": 1,
+          "partners": [
+              "9"
+          ],
+          "noparents": false,
+          "coordinates": [
+              1406,
+              816,
+              1472,
+              889
+          ],
+          "display_name": "Priya"
+      },
+      {
+          "sex": "F",
+          "name": "11",
+          "level": 1,
+          "center": [
+              1668,
+              851
+          ],
+          "father": "4",
+          "mother": "3",
+          "status": 1,
+          "noparents": false,
+          "coordinates": [
+              1627,
+              815,
+              1709,
+              887
+          ]
+      },
+      {
+          "sex": "F",
+          "name": "12",
+          "level": 2,
+          "center": [
+              557,
+              1152
+          ],
+          "father": "5",
+          "mother": "6",
+          "mztwin": 1,
+          "siblings": [
+              "13",
+              "14"
+          ],
+          "coordinates": [
+              519,
+              1111,
+              595,
+              1193
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "13",
+          "level": 2,
+          "center": [
+              661.5,
+              1158.5
+          ],
+          "father": "5",
+          "mother": "6",
+          "mztwin": 1,
+          "shading": [
+              "bottom-half-filled female"
+          ],
+          "siblings": [
+              "12",
+              "14"
+          ],
+          "coordinates": [
+              618,
+              1122,
+              705,
+              1195
+          ],
+          "display_name": "Amy Ovance"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "14",
+          "level": 2,
+          "center": [
+              899.5,
+              1106.5
+          ],
+          "father": "5",
+          "mother": "6",
+          "shading": [
+              "top-half-strokes"
+          ],
+          "partners": [
+              "15"
+          ],
+          "siblings": [
+              "12",
+              "13"
+          ],
+          "coordinates": [
+              866,
+              1073,
+              933,
+              1140
+          ],
+          "display_name": "Rahul"
+      },
+      {
+          "age": "",
+          "dob": "01-01-1989",
+          "sex": "F",
+          "name": "15",
+          "level": 2,
+          "center": [
+              1183,
+              1132.5
+          ],
+          "father": "9",
+          "mother": "10",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "partners": [
+              "14"
+          ],
+          "siblings": [
+              "16",
+              "17"
+          ],
+          "coordinates": [
+              1142,
+              1095,
+              1224,
+              1170
+          ],
+          "display_name": "Sonali Bawelca"
+      },
+      {
+          "sex": "M",
+          "name": "16",
+          "level": 2,
+          "center": [
+              1332.5,
+              1125.5
+          ],
+          "father": "9",
+          "mother": "10",
+          "siblings": [
+              "17",
+              "15"
+          ],
+          "coordinates": [
+              1284,
+              1086,
+              1381,
+              1165
+          ]
+      },
+      {
+          "sex": "U",
+          "name": "17",
+          "level": 2,
+          "center": [
+              1514.5,
+              1119
+          ],
+          "father": "9",
+          "mother": "10",
+          "siblings": [
+              "16",
+              "15"
+          ],
+          "coordinates": [
+              1469,
+              1085,
+              1560,
+              1153
+          ],
+          "miscarriage": true
+      },
+      {
+          "age": "",
+          "dob": "05-10-1999",
+          "sex": "M",
+          "name": "18",
+          "level": 3,
+          "center": [
+              926.5,
+              1412.5
+          ],
+          "father": "14",
+          "mother": "15",
+          "diseases": [],
+          "siblings": [
+              "19",
+              "20"
+          ],
+          "coordinates": [
+              885,
+              1372,
+              968,
+              1453
+          ],
+          "display_name": "Raj"
+      },
+      {
+          "sex": "F",
+          "name": "19",
+          "level": 3,
+          "center": [
+              1039,
+              1415
+          ],
+          "father": "14",
+          "mother": "15",
+          "siblings": [
+              "18",
+              "20"
+          ],
+          "coordinates": [
+              998,
+              1375,
+              1080,
+              1455
+          ]
+      },
+      {
+          "sex": "F",
+          "name": "20",
+          "level": 3,
+          "center": [
+              1186.5,
+              1433
+          ],
+          "father": "14",
+          "mother": "15",
+          "siblings": [
+              "18",
+              "19"
+          ],
+          "adopted_out": true,
+          "coordinates": [
+              1152,
+              1397,
+              1221,
+              1469
+          ]
+      }
+  ],
+  "metdata": {
+      "MGNo": "93367 76219",
+      "date": "1989-11-25",
+      "dateAmended": "1999-08-04",
+      "consanguinity": "No",
+      "consultantName": "Emma Cox",
+      "pedigreeTakenBy": "Emma Cox",
+      "pedigreeAmendedBy": "Jaki Hart",
+      "informationProvidedBy": "Jaki Hart",
+      "pedigreeInfoProvidedBy": "John Kira"
+  }
+}}

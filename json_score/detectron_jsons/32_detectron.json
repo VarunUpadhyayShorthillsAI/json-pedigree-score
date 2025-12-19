@@ -1,0 +1,613 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "sex": "M",
+        "name": "1",
+        "level": 0,
+        "center": [
+          307.5,
+          268.0
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          295,
+          249,
+          320,
+          287
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "2",
+        "level": 0,
+        "center": [
+          365.0,
+          268.5
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          351,
+          253,
+          379,
+          284
+        ],
+        "display_name": "Aarohi"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "3",
+        "level": 0,
+        "center": [
+          448.0,
+          274.0
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          434,
+          257,
+          462,
+          291
+        ],
+        "display_name": "Amit"
+      },
+      {
+        "sex": "F",
+        "name": "4",
+        "level": 0,
+        "center": [
+          501.0,
+          274.0
+        ],
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          487,
+          257,
+          515,
+          291
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "5",
+        "level": 0,
+        "center": [
+          567.5,
+          283.5
+        ],
+        "partners": [
+          "6"
+        ],
+        "top_level": true,
+        "coordinates": [
+          551,
+          264,
+          584,
+          303
+        ],
+        "display_name": "Priyanshu"
+      },
+      {
+        "sex": "F",
+        "name": "6",
+        "level": 0,
+        "center": [
+          684.5,
+          282.5
+        ],
+        "partners": [
+          "5"
+        ],
+        "top_level": true,
+        "coordinates": [
+          669,
+          263,
+          700,
+          302
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "7",
+        "level": 1,
+        "center": [
+          211.0,
+          423.0
+        ],
+        "father": "1",
+        "mother": "2",
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          194,
+          404,
+          228,
+          442
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          316.5,
+          420.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "9"
+        ],
+        "coordinates": [
+          303,
+          403,
+          330,
+          438
+        ],
+        "display_name": "Aarti"
+      },
+      {
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          390.0,
+          415.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "partners": [
+          "10"
+        ],
+        "siblings": [
+          "8"
+        ],
+        "coordinates": [
+          377,
+          400,
+          403,
+          431
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "10",
+        "level": 1,
+        "center": [
+          446.5,
+          422.5
+        ],
+        "father": "3",
+        "mother": "4",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "11"
+        ],
+        "coordinates": [
+          431,
+          405,
+          462,
+          440
+        ],
+        "display_name": "Rohan"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "11",
+        "level": 1,
+        "center": [
+          499.5,
+          430.5
+        ],
+        "father": "3",
+        "mother": "4",
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "10"
+        ],
+        "coordinates": [
+          485,
+          411,
+          514,
+          450
+        ],
+        "display_name": "Ashish"
+      },
+      {
+        "sex": "F",
+        "name": "12",
+        "level": 1,
+        "center": [
+          611.0,
+          432.5
+        ],
+        "father": "5",
+        "mother": "6",
+        "partners": [
+          "11"
+        ],
+        "coordinates": [
+          597,
+          416,
+          625,
+          449
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "13",
+        "level": 2,
+        "center": [
+          165.0,
+          548.5
+        ],
+        "father": "7",
+        "mother": "8",
+        "partners": [
+          "14"
+        ],
+        "noparents": true,
+        "coordinates": [
+          149,
+          527,
+          181,
+          570
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "14",
+        "level": 2,
+        "center": [
+          230.5,
+          550.5
+        ],
+        "father": "7",
+        "mother": "8",
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "15"
+        ],
+        "coordinates": [
+          219,
+          535,
+          242,
+          566
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "15",
+        "level": 2,
+        "center": [
+          286.5,
+          553.5
+        ],
+        "father": "7",
+        "mother": "8",
+        "siblings": [
+          "14"
+        ],
+        "coordinates": [
+          271,
+          536,
+          302,
+          571
+        ],
+        "display_name": "Zohair Puncet"
+      },
+      {
+        "sex": "M",
+        "name": "16",
+        "level": 2,
+        "center": [
+          337.0,
+          561.0
+        ],
+        "father": "10",
+        "mother": "9",
+        "partners": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          321,
+          540,
+          353,
+          582
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "17",
+        "level": 2,
+        "center": [
+          397.5,
+          565.0
+        ],
+        "father": "10",
+        "mother": "9",
+        "partners": [
+          "16"
+        ],
+        "siblings": [
+          "18"
+        ],
+        "coordinates": [
+          383,
+          547,
+          412,
+          583
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "18",
+        "level": 2,
+        "center": [
+          470.0,
+          562.5
+        ],
+        "father": "10",
+        "mother": "9",
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          458,
+          547,
+          482,
+          578
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "19",
+        "level": 2,
+        "center": [
+          536.5,
+          561.0
+        ],
+        "father": "11",
+        "mother": "12",
+        "siblings": [
+          "20"
+        ],
+        "coordinates": [
+          521,
+          545,
+          552,
+          577
+        ],
+        "display_name": "Rohit"
+      },
+      {
+        "sex": "M",
+        "name": "20",
+        "level": 2,
+        "center": [
+          597.0,
+          561.5
+        ],
+        "father": "11",
+        "mother": "12",
+        "proband": true,
+        "partners": [
+          "21"
+        ],
+        "siblings": [
+          "19"
+        ],
+        "coordinates": [
+          582,
+          544,
+          612,
+          579
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "21",
+        "level": 2,
+        "center": [
+          661.0,
+          564.0
+        ],
+        "father": "11",
+        "mother": "12",
+        "partners": [
+          "20"
+        ],
+        "noparents": true,
+        "coordinates": [
+          649,
+          550,
+          673,
+          578
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "22",
+        "level": 3,
+        "center": [
+          186.0,
+          694.5
+        ],
+        "father": "13",
+        "mother": "14",
+        "siblings": [
+          "23"
+        ],
+        "coordinates": [
+          174,
+          679,
+          198,
+          710
+        ],
+        "display_name": "Yamini"
+      },
+      {
+        "sex": "M",
+        "name": "23",
+        "level": 3,
+        "center": [
+          245.5,
+          700.5
+        ],
+        "father": "13",
+        "mother": "14",
+        "siblings": [
+          "22"
+        ],
+        "coordinates": [
+          229,
+          681,
+          262,
+          720
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "24",
+        "level": 3,
+        "center": [
+          332.0,
+          696.0
+        ],
+        "father": "16",
+        "mother": "17",
+        "siblings": [
+          "25"
+        ],
+        "coordinates": [
+          317,
+          678,
+          347,
+          714
+        ],
+        "display_name": "Zubair"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "25",
+        "level": 3,
+        "center": [
+          408.5,
+          693.5
+        ],
+        "father": "16",
+        "mother": "17",
+        "siblings": [
+          "24"
+        ],
+        "coordinates": [
+          395,
+          676,
+          422,
+          711
+        ],
+        "display_name": "Zainat"
+      },
+      {
+        "sex": "F",
+        "name": "26",
+        "level": 3,
+        "center": [
+          599.5,
+          703.5
+        ],
+        "father": "20",
+        "mother": "21",
+        "siblings": [
+          "27"
+        ],
+        "coordinates": [
+          586,
+          687,
+          613,
+          720
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "27",
+        "level": 3,
+        "center": [
+          678.5,
+          705.0
+        ],
+        "father": "20",
+        "mother": "21",
+        "siblings": [
+          "26"
+        ],
+        "coordinates": [
+          664,
+          688,
+          693,
+          722
+        ],
+        "display_name": "Zubeey"
+      }
+    ],
+    "metdata": {
+      "MGNo": "",
+      "date": "",
+      "dateAmended": "",
+      "consanguinity": "No",
+      "consultantName": "",
+      "pedigreeTakenBy": "",
+      "pedigreeAmendedBy": "",
+      "informationProvidedBy": "",
+      "pedigreeInfoProvidedBy": ""
+    }
+  }
+}

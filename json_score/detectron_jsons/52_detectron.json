@@ -1,0 +1,444 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          665.0,
+          772.5
+        ],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          633,
+          736,
+          697,
+          809
+        ],
+        "display_name": "Daniel Stewart"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          853.0,
+          773.5
+        ],
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          822,
+          735,
+          884,
+          812
+        ],
+        "display_name": "Rohan"
+      },
+      {
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          1003.0,
+          809.0
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          969,
+          772,
+          1037,
+          846
+        ]
+      },
+      {
+        "age": null,
+        "dob": "28/05/1932",
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          1298.0,
+          802.5
+        ],
+        "shading": [
+          "top-half-strokes"
+        ],
+        "divorced": [
+          "5"
+        ],
+        "partners": [
+          "5",
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1261,
+          766,
+          1335,
+          839
+        ],
+        "display_name": "Kunal"
+      },
+      {
+        "age": null,
+        "dob": "31/08/1939",
+        "sex": "F",
+        "name": "5",
+        "level": 0,
+        "center": [
+          1469.0,
+          797.0
+        ],
+        "divorced": [
+          "4"
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1428,
+          758,
+          1510,
+          836
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "6",
+        "level": 1,
+        "center": [
+          660.5,
+          927.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "bottom-half-filled female"
+        ],
+        "diseases": [],
+        "noparents": true,
+        "coordinates": [
+          632,
+          897,
+          689,
+          957
+        ],
+        "display_name": "Leela"
+      },
+      {
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          735.0,
+          932.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "coordinates": [
+          708,
+          902,
+          762,
+          963
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "8",
+        "level": 1,
+        "center": [
+          835.0,
+          939.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "partners": [
+          "9"
+        ],
+        "noparents": true,
+        "coordinates": [
+          791,
+          903,
+          879,
+          976
+        ]
+      },
+      {
+        "age": null,
+        "dob": "21-08-1951",
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          1045.5,
+          945.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "carrier": true,
+        "partners": [
+          "8"
+        ],
+        "coordinates": [
+          1016,
+          911,
+          1075,
+          979
+        ],
+        "display_name": "Swati"
+      },
+      {
+        "age": null,
+        "dob": "26/11/1969",
+        "sex": "M",
+        "name": "10",
+        "level": 1,
+        "center": [
+          1375.0,
+          979.0
+        ],
+        "father": "4",
+        "mother": "5",
+        "diseases": [],
+        "noparents": true,
+        "adopted_out": true,
+        "coordinates": [
+          1336,
+          940,
+          1414,
+          1018
+        ],
+        "display_name": "Cawcav"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "11",
+        "level": 2,
+        "center": [
+          807.0,
+          1231.5
+        ],
+        "father": "8",
+        "mother": "9",
+        "diseases": [],
+        "siblings": [
+          "12",
+          "13"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          780,
+          1202,
+          834,
+          1261
+        ],
+        "display_name": "Radha"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          947.5,
+          1233.5
+        ],
+        "father": "8",
+        "mother": "9",
+        "siblings": [
+          "11",
+          "13"
+        ],
+        "coordinates": [
+          912,
+          1198,
+          983,
+          1269
+        ],
+        "display_name": "Nitin"
+      },
+      {
+        "age": null,
+        "dob": "31-03-1975",
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1080.5,
+          1220.0
+        ],
+        "father": "8",
+        "mother": "9",
+        "shading": [
+          "top-half-strokes female"
+        ],
+        "diseases": [],
+        "partners": [
+          "14"
+        ],
+        "siblings": [
+          "11",
+          "12"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          1042,
+          1188,
+          1119,
+          1252
+        ],
+        "display_name": "Sneha"
+      },
+      {
+        "sex": "M",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1288.0,
+          1233.5
+        ],
+        "father": "8",
+        "mother": "9",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "partners": [
+          "13"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1256,
+          1198,
+          1320,
+          1269
+        ]
+      },
+      {
+        "age": null,
+        "dob": "21-08-1969",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1377.0,
+          1290.5
+        ],
+        "father": "10",
+        "coordinates": [
+          1340,
+          1257,
+          1414,
+          1324
+        ],
+        "miscarriage": true,
+        "display_name": "Harsh"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "16",
+        "level": 3,
+        "center": [
+          925.5,
+          1474.5
+        ],
+        "father": "12",
+        "proband": true,
+        "shading": [
+          "left-half-filled female"
+        ],
+        "diseases": [],
+        "coordinates": [
+          886,
+          1434,
+          965,
+          1515
+        ],
+        "display_name": "Priya"
+      },
+      {
+        "sex": "U",
+        "name": "17",
+        "level": 3,
+        "center": [
+          1118.5,
+          1505.0
+        ],
+        "father": "14",
+        "mother": "13",
+        "siblings": [
+          "18"
+        ],
+        "coordinates": [
+          1080,
+          1465,
+          1157,
+          1545
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "U",
+        "name": "18",
+        "level": 3,
+        "center": [
+          1235.0,
+          1508.0
+        ],
+        "father": "14",
+        "mother": "13",
+        "siblings": [
+          "17"
+        ],
+        "coordinates": [
+          1198,
+          1468,
+          1272,
+          1548
+        ],
+        "display_name": ""
+      }
+    ],
+    "metdata": {
+      "MGNo": "48393 45673",
+      "date": "1956-11-03",
+      "dateAmended": "1999-02-10",
+      "consanguinity": "Yes",
+      "consultantName": "Daniel Stewart",
+      "pedigreeTakenBy": "Daniel Stewart",
+      "pedigreeAmendedBy": "Ella Reed",
+      "informationProvidedBy": "Ella Reed",
+      "pedigreeInfoProvidedBy": "Sophia Morris"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/8f3a3e24-9c3f-4cc1-913c-909fa27c9b85/detectron_image_22.jpg"
+}

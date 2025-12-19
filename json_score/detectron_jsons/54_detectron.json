@@ -1,0 +1,515 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "1",
+        "level": 0,
+        "center": [
+          997.5,
+          782.0
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          942,
+          729,
+          1053,
+          835
+        ],
+        "display_name": "Paksham"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1284.0,
+          774.5
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1240,
+          727,
+          1328,
+          822
+        ],
+        "display_name": "Ruth"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          1797.0,
+          767.5
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1756,
+          723,
+          1838,
+          812
+        ],
+        "display_name": "Rosey"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          2102.5,
+          757.5
+        ],
+        "status": 1,
+        "diseases": [],
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          2045,
+          704,
+          2160,
+          811
+        ],
+        "display_name": "Adam Buttiler"
+      },
+      {
+        "age": null,
+        "dob": "21-02-1984",
+        "sex": "M",
+        "name": "5",
+        "level": 1,
+        "center": [
+          736.0,
+          1077.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "status": 1,
+        "diseases": [],
+        "siblings": [
+          "8",
+          "6",
+          "7"
+        ],
+        "coordinates": [
+          694,
+          1039,
+          778,
+          1116
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "6",
+        "level": 1,
+        "center": [
+          948.5,
+          1070.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "siblings": [
+          "8",
+          "5",
+          "7"
+        ],
+        "coordinates": [
+          905,
+          1032,
+          992,
+          1109
+        ],
+        "display_name": "Ritik"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          1208.5,
+          1088.5
+        ],
+        "father": "1",
+        "mother": "2",
+        "carrier": true,
+        "diseases": [],
+        "partners": [
+          "8"
+        ],
+        "siblings": [
+          "8",
+          "5",
+          "6"
+        ],
+        "coordinates": [
+          1160,
+          1051,
+          1257,
+          1126
+        ],
+        "display_name": "Priya"
+      },
+      {
+        "sex": "M",
+        "name": "8",
+        "level": 1,
+        "center": [
+          1541.5,
+          1065.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "divorced": [
+          "9"
+        ],
+        "partners": [
+          "9",
+          "7"
+        ],
+        "siblings": [
+          "5",
+          "6",
+          "7",
+          "10",
+          "11"
+        ],
+        "coordinates": [
+          1480,
+          1015,
+          1603,
+          1116
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "9",
+        "level": 1,
+        "center": [
+          1696.0,
+          1061.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "shading": [
+          "filled female"
+        ],
+        "diseases": [],
+        "divorced": [
+          "8"
+        ],
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1658,
+          1019,
+          1734,
+          1103
+        ],
+        "display_name": "Segal"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "10",
+        "level": 1,
+        "center": [
+          1821.5,
+          1071.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "8",
+          "11"
+        ],
+        "coordinates": [
+          1767,
+          1023,
+          1876,
+          1120
+        ],
+        "display_name": "Roshni"
+      },
+      {
+        "age": null,
+        "dob": "15/08/1985",
+        "sex": "F",
+        "name": "11",
+        "level": 1,
+        "center": [
+          2037.0,
+          1040.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "8",
+          "10"
+        ],
+        "coordinates": [
+          2000,
+          999,
+          2074,
+          1082
+        ],
+        "display_name": "Monika Ovajianca"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          837.5,
+          1344.0
+        ],
+        "father": "8",
+        "mother": "7",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "diseases": [],
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "16",
+          "13",
+          "14",
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          796,
+          1304,
+          879,
+          1384
+        ],
+        "display_name": "Mayank"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1015.5,
+          1365.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "diseases": [],
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "16",
+          "12",
+          "14",
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          976,
+          1326,
+          1055,
+          1405
+        ],
+        "display_name": "Chetna"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1209.5,
+          1361.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "shading": [
+          "right-half-filled female"
+        ],
+        "siblings": [
+          "16",
+          "12",
+          "13",
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1167,
+          1320,
+          1252,
+          1403
+        ],
+        "display_name": "Chehak Breasca"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1381.0,
+          1359.5
+        ],
+        "father": "8",
+        "mother": "7",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "siblings": [
+          "16",
+          "12",
+          "13",
+          "14"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1322,
+          1317,
+          1440,
+          1402
+        ],
+        "display_name": "Sanyan"
+      },
+      {
+        "sex": "F",
+        "name": "16",
+        "level": 2,
+        "center": [
+          1602.5,
+          1364.5
+        ],
+        "father": "8",
+        "mother": "9",
+        "siblings": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "noparents": true,
+        "adopted_out": true,
+        "coordinates": [
+          1569,
+          1330,
+          1636,
+          1399
+        ]
+      },
+      {
+        "age": null,
+        "dob": "08-09-2002",
+        "sex": "M",
+        "name": "17",
+        "level": 3,
+        "center": [
+          712.5,
+          1617.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "status": 1,
+        "diseases": [],
+        "siblings": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          664,
+          1574,
+          761,
+          1661
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "18",
+        "level": 3,
+        "center": [
+          1130.5,
+          1606.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "proband": true,
+        "diseases": [],
+        "siblings": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1089,
+          1567,
+          1172,
+          1646
+        ],
+        "display_name": "Gauri"
+      }
+    ],
+    "metdata": {
+      "MGNo": "99483 2'S321.",
+      "date": "1973-11-23",
+      "dateAmended": "2023-06-10",
+      "consanguinity": "Yes",
+      "consultantName": "Dylan Stew",
+      "pedigreeTakenBy": "Dylan Stew",
+      "pedigreeAmendedBy": "Adam Butties",
+      "informationProvidedBy": "Adam Butties",
+      "pedigreeInfoProvidedBy": "Madison Torus"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/502e906d-5c28-492a-a103-53df63546ccf/detectron_image_19.jpg"
+}

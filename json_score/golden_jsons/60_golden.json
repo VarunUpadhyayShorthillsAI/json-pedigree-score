@@ -1,0 +1,613 @@
+{
+"updated_json": {
+  "json": [
+      {
+          "age": "",
+          "dob": "19/08/1959",
+          "sex": "F",
+          "name": "1",
+          "level": 0,
+          "center": [
+              497.5,
+              739
+          ],
+          "diseases": [],
+          "partners": [
+              "2"
+          ],
+          "top_level": true,
+          "coordinates": [
+              459,
+              701,
+              536,
+              777
+          ],
+          "display_name": "Avery"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "2",
+          "level": 0,
+          "center": [
+              686,
+              740
+          ],
+          "partners": [
+              "1"
+          ],
+          "top_level": true,
+          "coordinates": [
+              645,
+              702,
+              727,
+              778
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "18-10-1942",
+          "sex": "M",
+          "name": "3",
+          "level": 0,
+          "center": [
+              914,
+              734.5
+          ],
+          "carrier": true,
+          "proband": false,
+          "diseases": [],
+          "partners": [
+              "4"
+          ],
+          "top_level": true,
+          "coordinates": [
+              865,
+              690,
+              963,
+              779
+          ],
+          "display_name": "Chris Simmons"
+      },
+      {
+          "age": "",
+          "dob": "21-04-1985",
+          "sex": "F",
+          "name": "4",
+          "level": 0,
+          "center": [
+              1275,
+              730.5
+          ],
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "partners": [
+              "5",
+              "3"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1242,
+              695,
+              1308,
+              766
+          ],
+          "display_name": "Biley Bower"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "5",
+          "level": 0,
+          "center": [
+              1587,
+              724.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "4"
+          ],
+          "top_level": true,
+          "coordinates": [
+              1532,
+              683,
+              1642,
+              766
+          ],
+          "display_name": "Henry"
+      },
+      {
+          "age": "",
+          "dob": "13/01/1979",
+          "sex": "F",
+          "name": "6",
+          "level": 1,
+          "center": [
+              587.5,
+              882.5
+          ],
+          "father": "2",
+          "mother": "1",
+          "shading": [
+              "filled female"
+          ],
+          "diseases": [
+              ""
+          ],
+          "partners": [
+              "7"
+          ],
+          "coordinates": [
+              558,
+              847,
+              617,
+              918
+          ],
+          "display_name": "Lily"
+      },
+      {
+          "age": "",
+          "dob": "25/11/1972",
+          "sex": "M",
+          "name": "7",
+          "level": 1,
+          "center": [
+              1053.5,
+              891
+          ],
+          "father": "3",
+          "mother": "4",
+          "shading": [
+              "top-half-strokes"
+          ],
+          "partners": [
+              "8",
+              "6"
+          ],
+          "coordinates": [
+              999,
+              858,
+              1108,
+              924
+          ],
+          "display_name": "Harper Bowel Ca"
+      },
+      {
+          "age": "",
+          "dob": "21/10/1973",
+          "sex": "F",
+          "name": "8",
+          "level": 1,
+          "center": [
+              1256,
+              902
+          ],
+          "father": "5",
+          "mother": "4",
+          "diseases": [],
+          "partners": [
+              "7"
+          ],
+          "siblings": [
+              "9"
+          ],
+          "coordinates": [
+              1222,
+              868,
+              1290,
+              936
+          ],
+          "display_name": "Zoe"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "9",
+          "level": 1,
+          "center": [
+              1458.5,
+              892
+          ],
+          "father": "5",
+          "mother": "4",
+          "shading": [
+              "bottom-half-filled female"
+          ],
+          "siblings": [
+              "8"
+          ],
+          "coordinates": [
+              1421,
+              857,
+              1496,
+              927
+          ],
+          "display_name": "Ilya Bivayla"
+      },
+      {
+          "sex": "M",
+          "name": "10",
+          "level": 1,
+          "center": [
+              1617.5,
+              913.5
+          ],
+          "father": "5",
+          "mother": "4",
+          "noparents": false,
+          "adopted_in": true,
+          "coordinates": [
+              1574,
+              880,
+              1661,
+              947
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "11",
+          "level": 1,
+          "center": [
+              1792,
+              902.5
+          ],
+          "father": "5",
+          "mother": "4",
+          "status": 1,
+          "diseases": [],
+          "noparents": false,
+          "coordinates": [
+              1745,
+              869,
+              1839,
+              936
+          ],
+          "display_name": "Jack"
+      },
+      {
+          "age": "",
+          "dob": "05-01-2004",
+          "sex": "F",
+          "name": "12",
+          "level": 1,
+          "center": [
+              1931,
+              898.5
+          ],
+          "father": "5",
+          "mother": "4",
+          "diseases": [],
+          "noparents": false,
+          "coordinates": [
+              1888,
+              863,
+              1974,
+              934
+          ],
+          "display_name": "Hazel Parker"
+      },
+      {
+          "sex": "M",
+          "name": "13",
+          "level": 2,
+          "center": [
+              758.5,
+              1134.5
+          ],
+          "mother": "6",
+          "partners": [
+              "14"
+          ],
+          "siblings": [
+              "14"
+          ],
+          "coordinates": [
+              718,
+              1095,
+              799,
+              1174
+          ]
+      },
+      {
+          "age": "",
+          "dob": "24-03-1999",
+          "sex": "F",
+          "name": "14",
+          "level": 2,
+          "center": [
+              920,
+              1132
+          ],
+          "father": "7",
+          "mother": "6",
+          "proband": true,
+          "partners": [
+              "13"
+          ],
+          "siblings": [
+              "16",
+              "17",
+              "18",
+              "13",
+              "15"
+          ],
+          "coordinates": [
+              887,
+              1096,
+              953,
+              1168
+          ],
+          "display_name": ""
+      },
+      {
+          "age": "",
+          "dob": "27-03-1999",
+          "sex": "M",
+          "name": "15",
+          "level": 2,
+          "center": [
+              1089,
+              1135.5
+          ],
+          "father": "7",
+          "mother": "8",
+          "diseases": [],
+          "siblings": [
+              "16",
+              "17",
+              "18",
+              "14"
+          ],
+          "coordinates": [
+              1048,
+              1102,
+              1130,
+              1169
+          ],
+          "display_name": "Alex"
+      },
+      {
+          "sex": "M",
+          "name": "16",
+          "level": 2,
+          "center": [
+              1256.5,
+              1155.5
+          ],
+          "father": "7",
+          "mother": "8",
+          "siblings": [
+              "17",
+              "18",
+              "14",
+              "15"
+          ],
+          "adopted_out": true,
+          "coordinates": [
+              1220,
+              1122,
+              1293,
+              1189
+          ]
+      },
+      {
+          "sex": "U",
+          "name": "17",
+          "level": 2,
+          "center": [
+              1412,
+              1141.5
+          ],
+          "father": "7",
+          "mother": "8",
+          "siblings": [
+              "16",
+              "18",
+              "14",
+              "15"
+          ],
+          "coordinates": [
+              1370,
+              1109,
+              1454,
+              1174
+          ],
+          "miscarriage": true
+      },
+      {
+          "sex": "F",
+          "name": "18",
+          "label": "Kayla",
+          "level": 2,
+          "center": [
+              1548,
+              1138.5
+          ],
+          "father": "7",
+          "mother": "8",
+          "partners": [
+              "19"
+          ],
+          "siblings": [
+              "16",
+              "17",
+              "14",
+              "15"
+          ],
+          "coordinates": [
+              1518,
+              1108,
+              1578,
+              1169
+          ],
+          "display_name": "Kayla"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "M",
+          "name": "19",
+          "level": 2,
+          "center": [
+              1709,
+              1141.5
+          ],
+          "status": 1,
+          "diseases": [],
+          "partners": [
+              "18"
+          ],
+          "coordinates": [
+              1664,
+              1107,
+              1754,
+              1176
+          ],
+          "display_name": "Henry"
+      },
+      {
+          "sex": "F",
+          "name": "20",
+          "level": 2,
+          "center": [
+              1922.5,
+              1124
+          ],
+          "mother": "12",
+          "adopted_in": true,
+          "coordinates": [
+              1898,
+              1099,
+              1947,
+              1149
+          ]
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "21",
+          "level": 3,
+          "center": [
+              754,
+              1300.5
+          ],
+          "dztwin": 1,
+          "father": "13",
+          "mother": "14",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "diseases": [],
+          "siblings": [
+              "22"
+          ],
+          "coordinates": [
+              719,
+              1266,
+              789,
+              1335
+          ],
+          "display_name": "Lila Bowella"
+      },
+      {
+          "age": "",
+          "dob": "",
+          "sex": "F",
+          "name": "22",
+          "level": 3,
+          "center": [
+              927.5,
+              1308.5
+          ],
+          "dztwin": 1,
+          "father": "13",
+          "mother": "14",
+          "shading": [
+              "top-half-strokes female"
+          ],
+          "diseases": [],
+          "siblings": [
+              "21"
+          ],
+          "coordinates": [
+              896,
+              1277,
+              959,
+              1340
+          ],
+          "display_name": "Peyton"
+      },
+      {
+          "age": "",
+          "dob": "06-02-2002",
+          "sex": "M",
+          "name": "23",
+          "level": 3,
+          "center": [
+              1526,
+              1285
+          ],
+          "father": "19",
+          "mother": "18",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "diseases": [
+              ""
+          ],
+          "noparents": false,
+          "coordinates": [
+              1491,
+              1253,
+              1561,
+              1317
+          ],
+          "display_name": "Joshua"
+      },
+      {
+          "age": "",
+          "dob": "3/12/2001",
+          "sex": "M",
+          "name": "24",
+          "level": 3,
+          "center": [
+              1717,
+              1294.5
+          ],
+          "father": "19",
+          "mother": "18",
+          "shading": [
+              "top-right-quarter-filled"
+          ],
+          "noparents": false,
+          "coordinates": [
+              1668,
+              1260,
+              1766,
+              1329
+          ],
+          "display_name": "Jack"
+      }
+  ],
+  "metdata": {
+      "MGNo": "47678 62216",
+      "date": "1997-02-28",
+      "dateAmended": "2004-05-18",
+      "consanguinity": "No",
+      "consultantName": "Grayson Simmons",
+      "pedigreeTakenBy": "Grayson Simmons",
+      "pedigreeAmendedBy": "Hazel Parker",
+      "informationProvidedBy": "Hazel Parker",
+      "pedigreeInfoProvidedBy": "Eli Elliot"
+  }
+}
+}

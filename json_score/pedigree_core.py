@@ -29,12 +29,18 @@ def load_json_file(file_path: str) -> Dict:
 
 def extract_nodes(json_data: Dict) -> List[Dict[str, Any]]:
     """Extract pedigree nodes from various JSON structures"""
-    if isinstance(json_data, dict) and "original_json" in json_data and "json" in json_data["original_json"]:
-        return json_data["original_json"]["json"]
+    if isinstance(json_data, dict):
+        # Handle original_json
+        if "original_json" in json_data and "json" in json_data["original_json"]:
+            return json_data["original_json"]["json"]
+        # Handle updated_json
+        if "updated_json" in json_data and "json" in json_data["updated_json"]:
+            return json_data["updated_json"]["json"]
+        # Handle direct json key
+        if "json" in json_data:
+            return json_data["json"]
     if isinstance(json_data, list):
         return json_data
-    if isinstance(json_data, dict) and "json" in json_data:
-        return json_data["json"]
     raise ValueError("Unable to extract pedigree nodes from JSON structure")
 
 

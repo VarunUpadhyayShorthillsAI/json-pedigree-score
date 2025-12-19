@@ -1,0 +1,577 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          250.0,
+          298.0
+        ],
+        "status": 1,
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          236,
+          280,
+          264,
+          316
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          329.5,
+          296.5
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          314,
+          275,
+          345,
+          318
+        ],
+        "display_name": "Abhishek"
+      },
+      {
+        "sex": "F",
+        "name": "3",
+        "level": 0,
+        "center": [
+          448.5,
+          301.5
+        ],
+        "partners": [
+          "4"
+        ],
+        "top_level": true,
+        "coordinates": [
+          434,
+          282,
+          463,
+          321
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "4",
+        "level": 0,
+        "center": [
+          516.5,
+          300.5
+        ],
+        "status": 1,
+        "partners": [
+          "3"
+        ],
+        "top_level": true,
+        "coordinates": [
+          499,
+          281,
+          534,
+          320
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "5",
+        "level": 1,
+        "center": [
+          273.0,
+          370.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "siblings": [
+          "6"
+        ],
+        "coordinates": [
+          261,
+          354,
+          285,
+          386
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "6",
+        "level": 1,
+        "center": [
+          359.5,
+          369.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "divorced": [
+          "7"
+        ],
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "5"
+        ],
+        "coordinates": [
+          345,
+          354,
+          374,
+          384
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          428.5,
+          370.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "divorced": [
+          "6"
+        ],
+        "partners": [
+          "6"
+        ],
+        "siblings": [
+          "8"
+        ],
+        "coordinates": [
+          416,
+          354,
+          441,
+          387
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "8",
+        "level": 1,
+        "center": [
+          539.0,
+          364.5
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "7"
+        ],
+        "coordinates": [
+          526,
+          350,
+          552,
+          379
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "9",
+        "level": 2,
+        "center": [
+          280.0,
+          453.5
+        ],
+        "father": "6",
+        "mother": "7",
+        "partners": [
+          "10"
+        ],
+        "noparents": true,
+        "coordinates": [
+          264,
+          435,
+          296,
+          472
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "10",
+        "level": 2,
+        "center": [
+          354.0,
+          452.0
+        ],
+        "father": "6",
+        "mother": "7",
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "11",
+          "12",
+          "13"
+        ],
+        "coordinates": [
+          342,
+          437,
+          366,
+          467
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "11",
+        "level": 2,
+        "center": [
+          408.5,
+          447.0
+        ],
+        "father": "6",
+        "mother": "7",
+        "siblings": [
+          "10",
+          "12",
+          "13"
+        ],
+        "coordinates": [
+          395,
+          431,
+          422,
+          463
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "12",
+        "level": 2,
+        "center": [
+          463.5,
+          443.5
+        ],
+        "father": "6",
+        "mother": "7",
+        "siblings": [
+          "10",
+          "11",
+          "13"
+        ],
+        "coordinates": [
+          451,
+          428,
+          476,
+          459
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "13",
+        "level": 2,
+        "center": [
+          514.5,
+          444.5
+        ],
+        "father": "6",
+        "mother": "7",
+        "status": 1,
+        "siblings": [
+          "10",
+          "11",
+          "12"
+        ],
+        "coordinates": [
+          501,
+          427,
+          528,
+          462
+        ],
+        "display_name": "Raj"
+      },
+      {
+        "sex": "M",
+        "name": "14",
+        "level": 3,
+        "center": [
+          217.0,
+          575.5
+        ],
+        "father": "9",
+        "mother": "10",
+        "partners": [
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          201,
+          558,
+          233,
+          593
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 3,
+        "center": [
+          290.5,
+          576.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "partners": [
+          "14"
+        ],
+        "siblings": [
+          "16",
+          "17",
+          "18"
+        ],
+        "coordinates": [
+          277,
+          559,
+          304,
+          593
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "M",
+        "name": "16",
+        "level": 3,
+        "center": [
+          343.0,
+          571.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "17",
+          "18",
+          "15"
+        ],
+        "coordinates": [
+          329,
+          555,
+          357,
+          587
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "17",
+        "level": 3,
+        "center": [
+          400.0,
+          571.5
+        ],
+        "father": "9",
+        "mother": "10",
+        "siblings": [
+          "16",
+          "18",
+          "15"
+        ],
+        "coordinates": [
+          387,
+          555,
+          413,
+          588
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "18",
+        "level": 3,
+        "center": [
+          458.5,
+          573.5
+        ],
+        "father": "9",
+        "mother": "10",
+        "proband": true,
+        "partners": [
+          "19"
+        ],
+        "siblings": [
+          "16",
+          "17",
+          "15"
+        ],
+        "coordinates": [
+          444,
+          556,
+          473,
+          591
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "19",
+        "level": 3,
+        "center": [
+          525.0,
+          572.0
+        ],
+        "father": "9",
+        "mother": "10",
+        "partners": [
+          "18"
+        ],
+        "noparents": true,
+        "coordinates": [
+          512,
+          554,
+          538,
+          590
+        ],
+        "display_name": "Anisha"
+      },
+      {
+        "sex": "F",
+        "name": "20",
+        "level": 4,
+        "center": [
+          233.0,
+          729.5
+        ],
+        "father": "14",
+        "mother": "15",
+        "mztwin": 1,
+        "siblings": [
+          "21"
+        ],
+        "coordinates": [
+          218,
+          711,
+          248,
+          748
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "21",
+        "level": 4,
+        "center": [
+          280.5,
+          732.0
+        ],
+        "father": "14",
+        "mother": "15",
+        "mztwin": 1,
+        "siblings": [
+          "20"
+        ],
+        "coordinates": [
+          265,
+          715,
+          296,
+          749
+        ]
+      },
+      {
+        "sex": "F",
+        "name": "22",
+        "level": 4,
+        "center": [
+          464.5,
+          708.5
+        ],
+        "father": "18",
+        "mother": "19",
+        "noparents": true,
+        "coordinates": [
+          452,
+          693,
+          477,
+          724
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "23",
+        "level": 4,
+        "center": [
+          514.0,
+          708.0
+        ],
+        "father": "18",
+        "mother": "19",
+        "noparents": true,
+        "coordinates": [
+          500,
+          693,
+          528,
+          723
+        ],
+        "display_name": "Piyush"
+      },
+      {
+        "sex": "F",
+        "name": "24",
+        "level": 4,
+        "center": [
+          561.5,
+          707.5
+        ],
+        "father": "18",
+        "mother": "19",
+        "noparents": true,
+        "coordinates": [
+          549,
+          694,
+          574,
+          721
+        ]
+      },
+      {
+        "sex": "M",
+        "name": "25",
+        "level": 4,
+        "center": [
+          602.5,
+          707.5
+        ],
+        "father": "18",
+        "mother": "19",
+        "status": 1,
+        "noparents": true,
+        "coordinates": [
+          589,
+          692,
+          616,
+          723
+        ]
+      }
+    ],
+    "metdata": {
+      "MGNo": "",
+      "date": "",
+      "dateAmended": "",
+      "consanguinity": "No",
+      "consultantName": "",
+      "pedigreeTakenBy": "",
+      "pedigreeAmendedBy": "",
+      "informationProvidedBy": "",
+      "pedigreeInfoProvidedBy": ""
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/843b6965-ff39-4aab-b436-06dad9b22051/image_58.jpg"
+}

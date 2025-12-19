@@ -1,0 +1,607 @@
+{
+  "original_json": {
+    "json": [
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "1",
+        "level": 0,
+        "center": [
+          1126.0,
+          767.5
+        ],
+        "carrier": true,
+        "diseases": [],
+        "partners": [
+          "2"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1092,
+          729,
+          1160,
+          806
+        ],
+        "display_name": "Amanda"
+      },
+      {
+        "sex": "M",
+        "name": "2",
+        "level": 0,
+        "center": [
+          1440.5,
+          771.5
+        ],
+        "partners": [
+          "1"
+        ],
+        "top_level": true,
+        "coordinates": [
+          1394,
+          728,
+          1487,
+          815
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "3",
+        "level": 1,
+        "center": [
+          712.5,
+          922.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-half-filled female"
+        ],
+        "diseases": [],
+        "partners": [
+          "4"
+        ],
+        "noparents": true,
+        "coordinates": [
+          673,
+          885,
+          752,
+          959
+        ],
+        "display_name": "Rohini"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "4",
+        "level": 1,
+        "center": [
+          871.5,
+          922.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "diseases": [],
+        "partners": [
+          "3"
+        ],
+        "siblings": [
+          "6"
+        ],
+        "coordinates": [
+          821,
+          882,
+          922,
+          962
+        ],
+        "display_name": "Henry"
+      },
+      {
+        "age": null,
+        "dob": "21/08/1951",
+        "sex": "F",
+        "name": "5",
+        "level": 1,
+        "center": [
+          1073.0,
+          914.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "shading": [
+          "filled female"
+        ],
+        "diseases": [],
+        "noparents": true,
+        "coordinates": [
+          1034,
+          875,
+          1112,
+          953
+        ],
+        "display_name": "Sabshi"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "6",
+        "level": 1,
+        "center": [
+          1262.0,
+          919.5
+        ],
+        "father": "2",
+        "mother": "1",
+        "diseases": [],
+        "partners": [
+          "7"
+        ],
+        "siblings": [
+          "4"
+        ],
+        "coordinates": [
+          1219,
+          876,
+          1305,
+          963
+        ],
+        "display_name": "Sam"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "7",
+        "level": 1,
+        "center": [
+          1435.5,
+          924.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "diseases": [],
+        "partners": [
+          "6"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1405,
+          889,
+          1466,
+          959
+        ],
+        "display_name": "Riya"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "8",
+        "level": 1,
+        "center": [
+          1592.0,
+          926.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "diseases": [],
+        "partners": [
+          "9"
+        ],
+        "siblings": [
+          "10"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1558,
+          888,
+          1626,
+          964
+        ],
+        "display_name": "Ella"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "9",
+        "level": 1,
+        "center": [
+          1740.5,
+          926.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "status": 1,
+        "partners": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1704,
+          889,
+          1777,
+          963
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "U",
+        "name": "10",
+        "level": 1,
+        "center": [
+          1885.5,
+          929.0
+        ],
+        "father": "2",
+        "mother": "1",
+        "proband": true,
+        "siblings": [
+          "8"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1834,
+          886,
+          1937,
+          972
+        ],
+        "display_name": "Anthony"
+      },
+      {
+        "name": "11",
+        "level": 2,
+        "center": [
+          671.5,
+          1198.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "siblings": [
+          "12"
+        ],
+        "coordinates": [
+          625,
+          1166,
+          718,
+          1230
+        ],
+        "miscarriage": true
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "12",
+        "level": 2,
+        "center": [
+          890.0,
+          1205.0
+        ],
+        "father": "4",
+        "mother": "3",
+        "proband": true,
+        "diseases": [],
+        "partners": [
+          "13"
+        ],
+        "siblings": [
+          "11"
+        ],
+        "coordinates": [
+          853,
+          1165,
+          927,
+          1245
+        ],
+        "display_name": "Anthony"
+      },
+      {
+        "age": null,
+        "dob": "21-08-1981",
+        "sex": "F",
+        "name": "13",
+        "level": 2,
+        "center": [
+          1182.5,
+          1201.5
+        ],
+        "dztwin": 1,
+        "father": "6",
+        "mother": "7",
+        "shading": [
+          "left-half-filled female"
+        ],
+        "diseases": [],
+        "partners": [
+          "12"
+        ],
+        "siblings": [
+          "14",
+          "15"
+        ],
+        "coordinates": [
+          1152,
+          1169,
+          1213,
+          1234
+        ],
+        "display_name": "Zoe"
+      },
+      {
+        "sex": "M",
+        "name": "14",
+        "level": 2,
+        "center": [
+          1410.0,
+          1211.0
+        ],
+        "dztwin": 1,
+        "father": "6",
+        "mother": "7",
+        "status": 1,
+        "siblings": [
+          "13",
+          "15"
+        ],
+        "coordinates": [
+          1366,
+          1175,
+          1454,
+          1247
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "15",
+        "level": 2,
+        "center": [
+          1635.5,
+          1198.0
+        ],
+        "father": "6",
+        "mother": "7",
+        "diseases": [],
+        "divorced": [
+          "16"
+        ],
+        "partners": [
+          "16"
+        ],
+        "siblings": [
+          "13",
+          "14"
+        ],
+        "coordinates": [
+          1599,
+          1163,
+          1672,
+          1233
+        ],
+        "display_name": "Joseph"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "16",
+        "level": 2,
+        "center": [
+          1886.0,
+          1209.5
+        ],
+        "father": "6",
+        "mother": "7",
+        "shading": [
+          "top-right-quarter-filled"
+        ],
+        "divorced": [
+          "15"
+        ],
+        "partners": [
+          "15"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1842,
+          1168,
+          1930,
+          1251
+        ],
+        "display_name": "Ajay"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "17",
+        "level": 3,
+        "center": [
+          818.0,
+          1509.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "diseases": [],
+        "partners": [
+          "18"
+        ],
+        "siblings": [
+          "19"
+        ],
+        "coordinates": [
+          772,
+          1468,
+          864,
+          1551
+        ],
+        "display_name": ""
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "18",
+        "level": 3,
+        "center": [
+          967.0,
+          1509.0
+        ],
+        "father": "12",
+        "mother": "13",
+        "partners": [
+          "17"
+        ],
+        "noparents": true,
+        "coordinates": [
+          933,
+          1473,
+          1001,
+          1545
+        ],
+        "display_name": ""
+      },
+      {
+        "sex": "F",
+        "name": "19",
+        "level": 3,
+        "center": [
+          1141.5,
+          1518.5
+        ],
+        "father": "12",
+        "mother": "13",
+        "siblings": [
+          "17"
+        ],
+        "adopted_in": true,
+        "coordinates": [
+          1109,
+          1482,
+          1174,
+          1555
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "20",
+        "level": 3,
+        "center": [
+          1414.5,
+          1496.5
+        ],
+        "father": "16",
+        "mother": "15",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "diseases": [],
+        "siblings": [
+          "21"
+        ],
+        "noparents": true,
+        "coordinates": [
+          1368,
+          1456,
+          1461,
+          1537
+        ],
+        "display_name": "Oyama"
+      },
+      {
+        "sex": "F",
+        "name": "21",
+        "level": 3,
+        "center": [
+          1634.5,
+          1511.0
+        ],
+        "father": "16",
+        "mother": "15",
+        "siblings": [
+          "20"
+        ],
+        "noparents": true,
+        "adopted_out": true,
+        "coordinates": [
+          1604,
+          1479,
+          1665,
+          1543
+        ]
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "F",
+        "name": "22",
+        "level": 3,
+        "center": [
+          1795.0,
+          1482.0
+        ],
+        "father": "16",
+        "mother": "15",
+        "diseases": [],
+        "coordinates": [
+          1756,
+          1443,
+          1834,
+          1521
+        ],
+        "display_name": "Ridhima"
+      },
+      {
+        "age": null,
+        "dob": "",
+        "sex": "M",
+        "name": "23",
+        "level": 4,
+        "center": [
+          892.5,
+          1683.5
+        ],
+        "father": "17",
+        "mother": "18",
+        "shading": [
+          "top-half-strokes"
+        ],
+        "coordinates": [
+          844,
+          1641,
+          941,
+          1726
+        ],
+        "display_name": "Amar"
+      }
+    ],
+    "metdata": {
+      "MGNo": "4321050203",
+      "date": "1992-12-05",
+      "dateAmended": "1997-07-06",
+      "consanguinity": "Yes",
+      "consultantName": "Stella James",
+      "pedigreeTakenBy": "Stella James",
+      "pedigreeAmendedBy": "Anthony",
+      "informationProvidedBy": "Anthony",
+      "pedigreeInfoProvidedBy": "Victoria"
+    }
+  },
+  "updated_json": null,
+  "image_status": "completed",
+  "source_type": "upload",
+  "s3_url": "https://d35q6xank26gdf.cloudfront.net/47672b20-9d26-433c-b68b-256a628bb8bb/detectron_image_15.jpg"
+}
